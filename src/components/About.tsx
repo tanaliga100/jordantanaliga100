@@ -8,7 +8,7 @@ const About = (props: Props) => {
   return (
     <div className="w-full md:h-full flex items-center bg-black">
       <div className=" m-auto md:grid grid-cols-3 gap-8 items-center justify-between">
-        <div className="col-span-2 text-center m-1">
+        <div className="col-span-2 text-center p-10 ">
           <h1 className="text-6xl font-thin py-10">Who Am I</h1>
           <p className="text-gray-400 font-thin">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
@@ -27,8 +27,8 @@ const About = (props: Props) => {
             Perspiciatis sunt ea consectetur quo sed temporibus aperiam id.
           </p>
         </div>
-        <div className=" grayscale brightness-50 px-10 py-1 text-center ">
-          <Image src={img} width="1200px" height="1200px" />
+        <div className=" grayscale brightness-50  p-10 text-center">
+          <Image src={img} className=" min-w-min" />
         </div>
       </div>
     </div>

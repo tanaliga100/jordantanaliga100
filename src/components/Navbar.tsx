@@ -113,7 +113,7 @@ const Navbar = (props: any) => {
                   <li className="py-4 text-sm">Contact</li>
                 </Link>
               </ul>
-              <div className="pt-20 font-mono items-center w-full">
+              <div className="pt-20 font-mono items-center w-auto">
                 <p className="uppercase items-center w-full tracking-widest py-2 shadow-lg">
                   {" "}
                   Connect with Me
