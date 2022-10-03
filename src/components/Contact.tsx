@@ -17,7 +17,7 @@ type Props = {
 
 const Contact = (props: Props) => {
   return (
-    <div className="h-full text-center items-center w-auto ">
+    <div id="contact" className="h-full text-center items-center w-auto ">
       <div className=" py-10  text-center ">
         <h2 className=" tracking-widest text-5xl font-thin py-5 mx-auto text-center">
           Get in touch

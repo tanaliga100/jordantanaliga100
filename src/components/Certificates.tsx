@@ -16,7 +16,7 @@ const Certificates = (props: Props) => {
   ];
 
   return (
-    <div className="w-full ">
+    <div id="certificates" className="w-full ">
       <div className="mx-auto px-2 py-5">
         <h1 className="text-xl font-thin pt-3 md:py-5 mx-auto text-center font-serif tracking-widest uppercase">
           Licenses and Certification

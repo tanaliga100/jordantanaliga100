@@ -15,19 +15,16 @@ type Props = {
 const Layout: React.FC<Props> = ({ children }) => {
   return (
     <React.Fragment>
-      <div className="">
-        <Header />
-        <Navbar />
-        <Main />
-        <About />
-        <TechStack />
-        <Projects />
-        <Certificates />
-        <Contact />
-        <Footer />
-      </div>
+      {/* <Navbar />
+      <Header />
+      <Main />
+      <About />
+      <TechStack />
+      <Projects />
+      <Certificates />
+      <Contact />
+      <Footer /> */}
     </React.Fragment>
   );
 };
-
 export default Layout;

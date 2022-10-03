@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
+import { AiFillMail, AiFillUpSquare, AiOutlineMenu } from "react-icons/ai";
 import {
   FaFacebook,
   FaFacebookSquare,
@@ -14,7 +14,10 @@ type Props = {};
 
 const Main = (props: Props) => {
   return (
-    <div className="w-full h-screen text-center items-center bg-hero-pattern bg-cover bg-left-bottom">
+    <div
+      id="home"
+      className="w-full h-screen text-center items-center bg-hero-pattern bg-cover bg-left-bottom"
+    >
       <div className=" h-screen m-auto w-full p-2 flex justify-center items-center">
         <div className="text-center items-center w-full  brightness-200 ">
           <div className=" hover:border-b-gray-800 ">

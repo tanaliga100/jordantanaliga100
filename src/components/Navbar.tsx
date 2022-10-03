@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -19,6 +19,18 @@ type Props = {};
 
 const Navbar = (props: any) => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 0) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
 
   // toggler
   const handleToggleNav = () => {
@@ -26,31 +38,44 @@ const Navbar = (props: any) => {
   };
   return (
     <>
-      <div className="fixed w-full h-20 shadow-xl z-[100] bg-black  tracking-widest">
+      <div
+        className={
+          shadow
+            ? "fixed w-full h-20   bg-black shadow-2xl z-[100]  tracking-widest"
+            : "fixed w-full h-20  bg-black  tracking-widest"
+        }
+      >
         <div className="flex justify-between items-center w-full h-full px-2">
-          <Image src={img} alt="logo" width="60" height="50" />
+          <Link href="/">
+            <Image src={img} alt="logo" width="60" height="50" />
+          </Link>
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 font-thin text-sm uppercase hover:border-b">
                 Home
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 font-thin text-sm uppercase hover:border-b">
                 About
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#techstack">
               <li className="ml-10 font-thin text-sm uppercase hover:border-b">
                 Tech Stack
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
+              <li className="ml-10 font-thin text-sm uppercase hover:border-b">
+                Projects
+              </li>
+            </Link>
+            <Link href="/#certificates">
               <li className="ml-10 font-thin text-sm uppercase hover:border-b">
                 Certificates
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 font-thin text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -98,19 +123,34 @@ const Navbar = (props: any) => {
             <div className="uppercase font-sans flex flex-col">
               <ul className="">
                 <Link href="/">
-                  <li className="py-4 text-sm">Home</li>
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Home
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">About</li>
+                <Link href="/#about">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    About
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Tech Stack </li>
+                <Link href="/#techstack">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Tech Stack{" "}
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Certificates</li>
+                <Link href="/#projects">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Projects
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Contact</li>
+                <Link href="/#certificates">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Certificates
+                  </li>
+                </Link>
+                <Link href="/#contact">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Contact
+                  </li>
                 </Link>
               </ul>
               <div className="pt-20 font-mono items-center w-auto">

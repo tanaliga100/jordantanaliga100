@@ -20,7 +20,7 @@ type Props = {};
 const TechStack = (props: Props) => {
   return (
     <>
-      <div className="w-full md:h-full flex items-center">
+      <div id="techstack" className="w-full md:h-full flex items-center">
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full pt-10">
           <h1 className="text-xl font-thin pt-3 md:py-5 mx-auto text-center font-serif tracking-widest uppercase border-b">
             Tech-Stack

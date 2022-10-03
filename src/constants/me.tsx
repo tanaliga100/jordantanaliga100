@@ -39,11 +39,31 @@ export const projects = [
     visit: "/pages/NotFound.js",
     id: 3,
   },
+  {
+    title: "Covid19 - Tracker",
+    description:
+      "This app introduce me to learn RESTful API. How it works and be done. I use the public API for this app. This doesn't do alot of functionalities as compared to others but I gain more knowledge by building this app. This as a experimental app for me that measures my creativity.",
+    image: "/images/covid tracker.jpg",
+    tags: ["React", "Tailwind Css"],
+    source: "https://github.com/tanaliga100/covid-tracker",
+    visit: "/pages/NotFound.js",
+    id: 4,
+  },
+  {
+    title: "Covid19 - Tracker",
+    description:
+      "This app introduce me to learn RESTful API. How it works and be done. I use the public API for this app. This doesn't do alot of functionalities as compared to others but I gain more knowledge by building this app. This as a experimental app for me that measures my creativity.",
+    image: "/images/covid tracker.jpg",
+    tags: ["React", "Tailwind Css"],
+    source: "https://github.com/tanaliga100/covid-tracker",
+    visit: "/pages/NotFound.js",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
   {
-    year: 2016,
+    year: "2016",
     text: "Started my journey as an IT Student at STI College-Munoz",
   },
   {
@@ -51,7 +71,7 @@ export const TimeLineData = [
     text: "Started to learn coding by myself. Applied for an Online Courses. Ventured to JavaScript World and specialized React.js framework as my main stack",
   },
   {
-    year: 2021,
+    year: "2021",
     text: "Graduated from college and finally land my very first job as a Jr. React Developer",
   },
 ];
