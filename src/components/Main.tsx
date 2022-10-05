@@ -27,11 +27,10 @@ const Main = (props: Props) => {
           </div>
           <span className="sm:text-3xl md:text-4xl w-4/5 md:w-full">
             <span className="text-amber-800 font-bold py-28 text-3xl md:text-7xl md:font-extrabold ">
-              {" "}
-              I'm Jordan{" "}
+              I'm Jordan
             </span>
             <h1 className=" text-md font-thin pt-4 brightness-200 tracking-widest">
-              A Front-End Web Developer{" "}
+              A Front-End Web Developer
             </h1>
             <p className="md:hidden p-5 md:px-40 text-md md:text-2xl font-thin tracking-widest contrast-0 ">
               ...based in the Philippines. I started to learn coding by myself.
@@ -41,7 +40,6 @@ const Main = (props: Props) => {
           </span>
           <div className="hidden md:grid md:justify-center hover:cursor-pointer w-full  animate-pulse duration-75">
             <p className="uppercase items-center w-full tracking-widest shadow-lg  pt-10">
-              {" "}
               Connect with Me
             </p>
             <div className="flex text-center w-auto py-5">

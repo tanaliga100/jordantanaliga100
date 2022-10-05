@@ -18,6 +18,7 @@ const Projectoverview = (props: Props) => {
           layout="fill"
           objectFit="cover"
           src={img}
+          alt="/"
         />
 
         <div className="absolute top-[60%] min-w-auto text-4l sm:last:px-5 text-white z-10 md:last:p-10 px-5">
