@@ -41,42 +41,37 @@ const Navbar = (props: any) => {
       <div
         className={
           shadow
-            ? "fixed w-full h-20   bg-black shadow-2xl z-[100]  tracking-widest"
-            : "fixed w-full h-20  bg-black  tracking-widest"
+            ? "fixed w-full h-20  dark: bg-black dark:text-amber-500 shadow-2xl z-[100]  tracking-widest"
+            : "fixed w-full h-20 dark: bg-black dark:text-white-500 tracking-widest"
         }
       >
-        <div className="flex justify-between items-center w-full h-full px-2">
+        <div className="flex justify-between items-center p-10 w-full h-full px-2">
           <Link href="/">
             <Image src={img} alt="logo" width="60" height="50" />
           </Link>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex gap-8 p-7">
             <Link href="/">
-              <li className="ml-10 font-thin text-sm uppercase hover:border-b">
+              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Home
               </li>
             </Link>
-            <Link href="/#about">
-              <li className="ml-10 font-thin text-sm uppercase hover:border-b">
-                About
-              </li>
-            </Link>
             <Link href="/#techstack">
-              <li className="ml-10 font-thin text-sm uppercase hover:border-b">
+              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Tech Stack
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 font-thin text-sm uppercase hover:border-b">
+              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/#certificates">
-              <li className="ml-10 font-thin text-sm uppercase hover:border-b">
+              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Certificates
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 font-thin text-sm uppercase hover:border-b">
+              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Contact
               </li>
             </Link>
@@ -97,8 +92,8 @@ const Navbar = (props: any) => {
           <div
             className={
               nav
-                ? "fixed left-0 top-0 w-[85%] sm:w-[70%] md:w-[60%] h-screen bg-slate-900 p-10 ease-in duration-500"
-                : "fixed left-[-100%] top-0 w-[75%] sm:w-[85%] md:w-[60%] h-screen bg-slate-800 p-10 ease-in duration-500"
+                ? "fixed left-0 top-0 w-[85%] sm:w-[70%] md:w-[60%] h-screen bg-black p-10 ease-in duration-500"
+                : "fixed left-[-100%] top-0 w-[75%] sm:w-[85%] md:w-[60%] h-screen bg-amber-900 p-10 ease-in duration-500"
             }
           >
             <div>
@@ -120,16 +115,11 @@ const Navbar = (props: any) => {
               </div>
             </div>
             {/* List-Items */}
-            <div className="uppercase font-sans flex flex-col">
+            <div className="uppercase font-mono flex flex-col">
               <ul className="">
                 <Link href="/">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Home
-                  </li>
-                </Link>
-                <Link href="/#about">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    About
                   </li>
                 </Link>
                 <Link href="/#techstack">
@@ -153,7 +143,7 @@ const Navbar = (props: any) => {
                   </li>
                 </Link>
               </ul>
-              <div className="pt-20 font-mono items-center w-auto">
+              <div className="pt-10 font-mono items-center w-auto">
                 <p className="uppercase items-center w-full tracking-widest py-2 shadow-lg">
                   {" "}
                   Connect with Me

@@ -25,14 +25,12 @@ const Home: NextPage<Props> = ({ children }) => {
     <div>
       <React.Fragment>
         <Header />
-        <Navbar />
         <Main />
-        <About />
+        {/* <About /> */}
         <TechStack />
         <Projects />
         <Certificates />
         <Contact />
-        <Footer />
       </React.Fragment>
     </div>
   );

@@ -11,12 +11,12 @@ const Skills = (props: Props) => {
   return (
     <>
       {/* Items  */}
-      <div className="p-6 rounded-xl hover:scale-105 ease-in duration-500  bg-stone-700 contrast-200">
+      <div className="p-6 rounded-xl hover:scale-105 ease-in duration-500 ">
         <div className="grid md:grid-cols-3 gap-4 justify-center items-center">
           <div className="m-auto">
             <Image src={props.img} alt="stack" width="64x" height="64px" />
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="">
             <h3 className="uppercase font-thin">{props.children}</h3>
           </div>
         </div>

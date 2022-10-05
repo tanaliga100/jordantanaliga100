@@ -34,11 +34,10 @@ const Contact = (props: Props) => {
                 height={300}
               />
               <div>
-                <h2 className="py-2 text-2xl">Jordan P. Tanaliga </h2>
-                <p>Front-End Developer</p>
+                <h2 className="py-2 ">Jordan P. Tanaliga </h2>
+                <p className="font-thin tracking-widest">Front-End Developer</p>
                 <p className="font-thin">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Quam, commodi!
+                  Lets create cool things together !
                 </p>
               </div>
               <div className="py-10">
@@ -68,7 +67,7 @@ const Contact = (props: Props) => {
               <form action="">
                 <div className="grid md:grid-cols-2 gap-4  py-2 ">
                   <div className="flex flex-col">
-                    <label htmlFor="" className="uppercase text-sm">
+                    <label htmlFor="" className="uppercase text-sm md:p-4">
                       Name
                     </label>
                     <input
@@ -77,7 +76,7 @@ const Contact = (props: Props) => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label htmlFor="" className="uppercase text-sm">
+                    <label htmlFor="" className="uppercase text-sm md:p-4">
                       Phone Number
                     </label>
                     <input
@@ -87,7 +86,7 @@ const Contact = (props: Props) => {
                   </div>
                 </div>
                 <div className="w-auto flex flex-col py-2">
-                  <label htmlFor="" className="uppercase text-sm">
+                  <label htmlFor="" className="uppercase text-sm md:p-4">
                     Email
                   </label>
                   <input
@@ -96,7 +95,7 @@ const Contact = (props: Props) => {
                   />
                 </div>
                 <div className="w-auto flex flex-col py-2">
-                  <label htmlFor="" className="uppercase text-sm">
+                  <label htmlFor="" className="uppercase text-sm md:p-4">
                     Subject
                   </label>
                   <input
@@ -105,7 +104,7 @@ const Contact = (props: Props) => {
                   />
                 </div>
                 <div className="w-auto flex flex-col py-2">
-                  <label htmlFor="" className="uppercase text-sm">
+                  <label htmlFor="" className="uppercase text-sm md:p-4">
                     Message
                   </label>
                   <textarea

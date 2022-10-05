@@ -23,26 +23,29 @@ const ProjecList = (props: IProjects) => {
         return (
           <div
             key={project.id}
-            className=" w-full md:flex md:flex-row items-center justify-center h-min p-1 rounded-xl group"
+            className=" md:w-[100vw] md:flex items-center justify-center h-min p-1 rounded-xl group"
           >
-            <div className="text-center drop-shadow-2xl">
-              <Image
-                className="rounded-xl hover:translate-x-6 duration-1000"
-                src={img}
-                alt="projects"
-                width={1000}
-                height={600}
-              />
-              <div className="flex text-center items-center justify-center w-full ">
-                <button className="bg-orange-800 p-3 my-4 rounded-md text-white font-thin shadow-md w-full brightness-200">
-                  <Link href="/project-overview">Overview</Link>
-                </button>
-              </div>
-              <h2 className="font-bold">{project.title}</h2>
-              <p className="font-thin border-b rounded-xl p-3">
-                {project.description}
-              </p>
-            </div>
+            <Link href="/project-overview">
+              <a>
+                <div className="md:flex md:text-xl  md:tracking-widest hover:grayscale duration-500">
+                  <div className="text-center drop-shadow-4xl">
+                    <Image
+                      className="rounded-xl"
+                      src={img}
+                      alt="projects"
+                      width={900}
+                      height={600}
+                    />
+                  </div>
+                  <div className="md:grid md:p-10">
+                    <h2 className="font-bold text-center">{project.title}</h2>
+                    <p className="font-thin border-b rounded-xl p-3">
+                      {project.description}
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </Link>
           </div>
         );
       })}

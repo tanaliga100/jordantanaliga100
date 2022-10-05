@@ -12,7 +12,7 @@ body {
 
 @layer base {
   body {
-    @apply bg-stone-900 tracking-wide text-orange-400;
+    @apply bg-black  tracking-wide text-orange-400 md:text-3xl;
   }
   h1,
   h2,
@@ -30,8 +30,5 @@ body {
   }
   li {
     @apply cursor-pointer;
-  }
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-orange-500 to-orange-300 text-white;
   }
 }
