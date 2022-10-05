@@ -48,7 +48,7 @@ const ProjecList = (props: IProjects) => {
                     </p>
                     <div className="flex justify-around items-center gap-4  border-amber-200 py-5">
                       {project.tags.map((tag) => {
-                        return <span className="font-thin p-2">{tag}</span>;
+                        return <span  key={tag} className="font-thin p-2">{tag}</span>;
                       })}
                     </div>
                   </div>
