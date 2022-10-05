@@ -13,7 +13,7 @@ import {
 import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
 import { VscSmiley } from "react-icons/vsc";
 
-const img = require("../../assets/img/piame-modified.png");
+import img from "/public/assets/img/piame-modified.png";
 
 type Props = {};
 
@@ -53,6 +53,11 @@ const Navbar = (props: any) => {
             <Link href="/">
               <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Home
+              </li>
+            </Link>
+            <Link href="/#about">
+              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
+                About
               </li>
             </Link>
             <Link href="/#techstack">
@@ -120,6 +125,11 @@ const Navbar = (props: any) => {
                 <Link href="/">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Home
+                  </li>
+                </Link>
+                <Link href="/#about">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Tech Stack{" "}
                   </li>
                 </Link>
                 <Link href="/#techstack">

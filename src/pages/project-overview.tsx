@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Navbar from "../components/Navbar";
-import img from "../../assets/img/projects.jpeg";
+import img from "/public/assets/img/projects.jpeg";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import Link from "next/link";
 import { IoIosArrowRoundBack } from "react-icons/io";

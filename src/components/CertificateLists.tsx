@@ -27,7 +27,6 @@ const CertificateLists: NextPage<Props> = (props: Props) => {
               />
               <div className="text-center">
                 <h2 className="font-bold ">{title}</h2>
-                <p className="font-thin">{description}</p>
               </div>
             </div>
           </div>

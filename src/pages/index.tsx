@@ -26,9 +26,9 @@ const Home: NextPage<Props> = ({ children }) => {
       <React.Fragment>
         <Header />
         <Main />
-        {/* <About /> */}
-        <TechStack />
+        <About />
         <Projects />
+        <TechStack />
         <Certificates />
         <Contact />
       </React.Fragment>

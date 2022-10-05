@@ -7,7 +7,8 @@ const Header = (props: Props) => {
   return (
     <div>
       <Head>
-        <title>Jordan Tanaliga</title>
+        <title>jordantanaliga100</title>
+        
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
     </div>

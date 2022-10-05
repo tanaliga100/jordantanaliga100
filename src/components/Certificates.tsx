@@ -1,9 +1,9 @@
 import React from "react";
 import CertificateLists from "./CertificateLists";
-import img1 from "../../assets/certificates/javascript.jpg";
-import img2 from "../../assets/certificates/react.jpg";
-import img3 from "../../assets/certificates/ui-ux.jpg";
-import img4 from "../../assets/certificates/typescript.jpg";
+import img1 from "/public/assets/certificates/javascript.jpg";
+import img2 from "/public/assets/certificates/react.jpg";
+import img3 from "/public/assets/certificates/ui-ux.jpg";
+import img4 from "/public/assets/certificates/typescript.jpg";
 
 type Props = {};
 
@@ -21,7 +21,7 @@ const Certificates = (props: Props) => {
         <h1 className="text-xl md:text-5xl py-10  md:py-5 mx-auto text-center font-mono tracking-widest uppercase">
           Licenses and Certification
         </h1>
-        <div className="grid md:grid-cols-2 gap-8 md:p-10 lg:px-60 contrast-200">
+        <div className="grid md:grid-cols-2 gap-8 md:p-10 lg:px-60 contrast-50">
           {/* Items */}
           <CertificateLists data={data} />
         </div>

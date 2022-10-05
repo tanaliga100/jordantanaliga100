@@ -1,6 +1,6 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
-import img from "../../assets/img/me-modified.png";
+import img from "/public/assets/img/me-modified.png";
 import { AiFillMail } from "react-icons/ai";
 import {
   FaFacebook,
@@ -17,7 +17,7 @@ type Props = {
 
 const Contact = (props: Props) => {
   return (
-    <div id="contact" className="h-full text-center items-center w-auto ">
+    <div id="contact" className="h-full text-center items-center w-auto">
       <div className=" py-10  text-center ">
         <h2 className=" tracking-widest text-5xl font-thin py-5 mx-auto text-center">
           Get in touch
@@ -35,8 +35,10 @@ const Contact = (props: Props) => {
               />
               <div>
                 <h2 className="py-2 ">Jordan P. Tanaliga </h2>
-                <p className="font-thin tracking-widest">Front-End Developer</p>
-                <p className="font-thin">
+                <p className="font-thin tracking-widest  text-white/40 ">
+                  Front-End Developer
+                </p>
+                <p className="font-thin  text-white/40 ">
                   Lets create cool things together !
                 </p>
               </div>
@@ -56,7 +58,7 @@ const Contact = (props: Props) => {
                   </div>
                 </div>
               </div>
-              <p className="uppercase font-thin text-2xl tracking-widest ">
+              <p className="uppercase font-thin text-2xl tracking-widest text-white/60 ">
                 Connect with me
               </p>
             </div>
@@ -113,7 +115,7 @@ const Contact = (props: Props) => {
                   />
                 </div>
                 <div className="w-auto flex flex-col py-2">
-                  <button className="bg-orange-800 px-5 m-2 py-4 rounded-md text-white font-thin shadow-md">
+                  <button className="bg-orange-800 contrast-100 px-5 m-2 py-4 rounded-md text-white font-thin shadow-md">
                     Send Message
                   </button>
                 </div>

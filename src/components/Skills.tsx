@@ -11,7 +11,7 @@ const Skills = (props: Props) => {
   return (
     <>
       {/* Items  */}
-      <div className="p-6 rounded-xl hover:scale-105 ease-in duration-500 ">
+      <div className="p-6 rounded-xl hover:scale-105 ease-in duration-500  contrast-150">
         <div className="grid md:grid-cols-3 gap-4 justify-center items-center">
           <div className="m-auto">
             <Image src={props.img} alt="stack" width="64x" height="64px" />
