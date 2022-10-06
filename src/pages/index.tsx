@@ -16,6 +16,7 @@ import Contact from "../components/Contact";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import TopUp from "../components/TopUp";
 
 type Props = {
   children?: React.ReactNode;
@@ -31,6 +32,7 @@ const Home: NextPage<Props> = ({ children }) => {
         <TechStack />
         <Certificates />
         <Contact />
+        <TopUp />
       </React.Fragment>
     </div>
   );

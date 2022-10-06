@@ -14,12 +14,27 @@ import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
 import { VscSmiley } from "react-icons/vsc";
 
 import img from "/public/assets/img/piame-modified.png";
+import { useRouter } from "next/router";
 
 type Props = {};
 
 const Navbar = (props: any) => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("black");
+  const [linkColor, setLinkColor] = useState("white");
+
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.asPath === "/project-overview") {
+      setNavBg("rgb(0 0 0 / 0.1");
+      setLinkColor("orange");
+    } else {
+      setNavBg("black");
+      setLinkColor("white");
+    }
+  }, [router]);
 
   useEffect(() => {
     const handleShadow = () => {
@@ -39,17 +54,24 @@ const Navbar = (props: any) => {
   return (
     <>
       <div
+        style={{ backgroundColor: `${navBg}` }}
         className={
           shadow
-            ? "fixed w-full h-20  dark: bg-black dark:text-amber-500 shadow-2xl z-[100]  tracking-widest"
-            : "fixed w-full h-20 dark: bg-black dark:text-white-500 tracking-widest"
+            ? "fixed w-full h-20 shadow-white z-[100]  tracking-widest"
+            : "fixed w-full h-20   tracking-widest"
         }
       >
         <div className="flex justify-between items-center p-10 w-full h-full px-2">
           <Link href="/">
-            <Image src={img} alt="logo" width="60" height="50" />
+            {/* <Image src={img} alt="logo" width="60" height="50" /> */}
+            <h1 className="hover:cursor-pointer  text-amber/10 text-xs">
+              jordantanaliga<span className="text-white">100</span>
+            </h1>
           </Link>
-          <ul className="hidden md:flex gap-8 p-7">
+          <ul
+            className="hidden md:flex gap-8 p-7"
+            style={{ color: `${linkColor}` }}
+          >
             <Link href="/">
               <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Home

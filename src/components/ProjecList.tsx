@@ -25,11 +25,11 @@ const ProjecList = (props: IProjects) => {
         return (
           <div
             key={project.id}
-            className=" w-full md:flex md:px-20 items-center justify-center h-min rounded-xl group hover:contrast-200 md:hover:border-l duration-100 contrast-200"
+            className=" w-full md:flex md:px-20 items-center justify-center h-min rounded-xl group hover:contrast-100 duration-100 "
           >
             <Link href="/project-overview">
               <a>
-                <div className="md:flex md:text-xl md:tracking-widest ">
+                <div className="md:flex md:text-xl w-full md:tracking-widest  ">
                   <div className="text-center drop-shadow-4xl">
                     <Image
                       className="rounded-xl"
@@ -43,12 +43,16 @@ const ProjecList = (props: IProjects) => {
                     <h2 className="font-bold text-center contrast-50">
                       {project.title}
                     </h2>
-                    <p className="font-thin  rounded-xl tracking-widest text-sm text-white contrast-50">
+                    <p className="font-thin rounded-xl tracking-widest text-xs md:text-xl md:p-2 text-white/50 md:text-white/40 contrast-50">
                       {project.description}
                     </p>
-                    <div className="flex justify-around items-center gap-4  border-amber-200 py-5">
+                    <div className="flex justify-around items-center gap-4  border-amber-200 py-2 md:py-5">
                       {project.tags.map((tag) => {
-                        return <span  key={tag} className="font-thin p-2">{tag}</span>;
+                        return (
+                          <span key={tag} className="font-thin ">
+                            {tag}
+                          </span>
+                        );
                       })}
                     </div>
                   </div>

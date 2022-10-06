@@ -38,7 +38,7 @@ const Projectoverview = (props: Props) => {
         <div className="grid md:grid-cols-2">
           <div>
             <h2 className="text-xl m-3">Project Overview</h2>
-            <p className="text-gray grayscale text-sm  p-5 tracking-widest">
+            <p className="text-white/40 text-sm  p-5 tracking-widest">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
               error fuga ut assumenda minus, quaerat dignissimos autem, veniam
               voluptatem fugiat sapiente reiciendis, tempora at nobis
@@ -48,7 +48,7 @@ const Projectoverview = (props: Props) => {
               quia asperiores officiis voluptatem aspernatur sapiente nam
               doloribus.
             </p>
-            <p className="text-gray grayscale text-sm p-5 tracking-widest">
+            <p className="text-white/40  text-sm p-5 tracking-widest">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
               error fuga ut assumenda minus, quaerat dignissimos autem, veniam
               voluptatem fugiat sapiente reiciendis, tempora at nobis

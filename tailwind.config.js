@@ -8,9 +8,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         // "hero-pattern": "url()",
-        "hero-pattern": "url('../../public/assets/img/onred.jpg')",
+        primary: "url('../../public/assets/img/gray.jpeg')",
 
-        "about-pattern": "url('../../public/assets/img/kid.jpeg')",
+        secondary: "url('../../public/assets/img/code.jpg')",
+        sub: "url('../../public/assets/img/onred.jpg')",
       },
     },
   },

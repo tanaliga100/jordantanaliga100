@@ -19,29 +19,27 @@ type Props = {};
 
 const TechStack = (props: Props) => {
   return (
-    <>
-      <div id="techstack" className="w-full md:h-full flex items-center">
-        <div className="mx-auto  py-10 ">
-          <h1 className="text-xl md:text-5xl pt-3  md:py-5 mx-auto text-center font-mono tracking-widest uppercase ">
-            Tech-Stack
-          </h1>
-          <div className="grid grid-cols-2 md:grid-cols-3 px-10 pt-10 md:p-10 lg:grid-cols-4 gap-8">
-            <Skills img={img1}>Html</Skills>
-            <Skills img={img2}>Css</Skills>
-            <Skills img={img3}>Javascript</Skills>
-            <Skills img={img11}>Typescript</Skills>
-            <Skills img={img9}>Github</Skills>
-            <Skills img={img4}>Tailwind</Skills>
-            <Skills img={img5}>Node</Skills>
-            <Skills img={img6}>NextJs</Skills>
-            <Skills img={img7}>mONGODB</Skills>
-            <Skills img={img8}>fIREBASE</Skills>
-            <Skills img={img10}>React</Skills>
-            <Skills img={img12}>Express</Skills>
-          </div>
+    <div id="techstack" className="w-full md:h-full flex items-center">
+      <div className="mx-auto  py-10 ">
+        <h1 className="text-xl md:text-5xl pt-3  md:py-5 mx-auto text-center font-mono tracking-widest uppercase ">
+          Tech-Stack
+        </h1>
+        <div className="grid grid-cols-2 md:grid-cols-3 px-10 pt-10 md:p-10 lg:grid-cols-4 gap-8">
+          <Skills img={img1}>Html</Skills>
+          <Skills img={img2}>Css</Skills>
+          <Skills img={img3}>Javascript</Skills>
+          <Skills img={img11}>Typescript</Skills>
+          <Skills img={img9}>Github</Skills>
+          <Skills img={img4}>Tailwind</Skills>
+          <Skills img={img5}>Node</Skills>
+          <Skills img={img6}>NextJs</Skills>
+          <Skills img={img7}>mONGODB</Skills>
+          <Skills img={img8}>fIREBASE</Skills>
+          <Skills img={img10}>React</Skills>
+          <Skills img={img12}>Express</Skills>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

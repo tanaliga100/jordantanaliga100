@@ -16,10 +16,10 @@ const Main = (props: Props) => {
   return (
     <div
       id="home"
-      className="w-full h-[65vh] text-center items-center font-sans bg-hero-pattern bg-left-bottom bg-cover contrast-200"
+      className="w-full h-[70vh] md:h-[100vh] text-center items-center font-sans"
     >
-      <div className=" h-full m-auto w-screen flex justify-center items-center">
-        <div className="text-center items-center w-full  brightness-200 ">
+      <div className=" h-full m-auto w-screen flex justify-center items-center pt-40 ">
+        <div className="text-center items-center w-full  contrast-100 ">
           <div className=" hover:border-b-gray-800 ">
             <p className="uppercase text-4xl text-center grayscale  md:text-4xl tracking-widest font-thin">
               Hello there !
@@ -29,16 +29,16 @@ const Main = (props: Props) => {
             <span className="text-amber-800 font-bold py-28 text-3xl md:text-7xl md:font-extrabold ">
               I'm Jordan
             </span>
-            <h1 className=" text-md font-thin pt-4 brightness-200 tracking-widest">
+            <h1 className=" text-md font-thin pt-4  tracking-widest">
               A Front-End Web Developer
             </h1>
-            <p className="md:hidden p-5 md:px-40 text-md md:text-2xl font-thin tracking-widest contrast-0 ">
+            <p className="md:hidden p-5 md:px-40 text-md md:text-2xl font-thin tracking-widest contrast-0 text-white/60 ">
               ...based in the Philippines. I started to learn coding by myself.
               Applied for an Online Courses. Ventured to javaScript world and
               specialized React.js framework as my main stack
             </p>
           </span>
-          <div className="hidden md:grid md:justify-center hover:cursor-pointer w-full  animate-pulse duration-75">
+          <div className="hidden md:grid md:justify-center hover:cursor-pointer w-full  animate-pulse duration-50">
             <p className="uppercase items-center w-full tracking-widest shadow-lg  pt-10">
               Connect with Me
             </p>
