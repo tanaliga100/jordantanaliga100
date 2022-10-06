@@ -17,7 +17,13 @@ const Skills = (props: Props) => {
       >
         <div className="grid md:grid-cols-2 gap-4 justify-center items-center  ">
           <div className="m-auto">
-            <Image src={props.img} alt="stack" width="64x" height="64px" />
+            <Image
+              src={props.img}
+              alt="stack"
+              width="64x"
+              height="64px"
+              priority
+            />
           </div>
           <div className="">
             <h3 className="uppercase font-thin text-base text-white/70">

@@ -24,6 +24,7 @@ const CertificateLists: NextPage<Props> = (props: Props) => {
                 alt="projects"
                 width={1000}
                 height={600}
+                priority
               />
               <div className="text-center">
                 <h2 className="font-bold text-white/30">{title}</h2>

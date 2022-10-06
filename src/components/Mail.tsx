@@ -9,8 +9,6 @@ type Props = {
 };
 
 const Mail = (props: Props) => {
-  console.log("props", props);
-
   return (
     <div>
       <a

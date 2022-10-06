@@ -25,40 +25,46 @@ const ProjecList = (props: IProjects) => {
         return (
           <div
             key={project.id}
-            className=" w-full md:flex md:px-20 items-center justify-center h-min rounded-xl group hover:contrast-100 duration-100 "
+            className=" w-full min-h-full md:py-5 md:flex m:dpx-10 items-center justify-center  rounded-xl group hover:contrast-100 duration-100 "
           >
-            <Link href="/project-overview">
+            <Link href="/project-overview" passHref>
               <a>
-                <div className="md:flex md:text-xl w-full md:tracking-widest  ">
-                  <div className="text-center drop-shadow-4xl">
-                    <Image
-                      className="rounded-xl"
-                      src={img}
-                      alt="projects"
-                      width={800}
-                      height={600}
-                    />
-                  </div>
-                  <div className="md:grid ">
-                    <h2 className="font-bold text-center contrast-50">
-                      {project.title}
-                    </h2>
-                    <p className="font-thin rounded-xl tracking-widest text-xs md:text-xl md:p-2 text-white/50 md:text-white/40 contrast-50">
-                      {project.description}
-                    </p>
-                    <div className="flex justify-around items-center gap-4  border-amber-200 py-2 md:py-5">
-                      {project.tags.map((tag) => {
-                        return (
-                          <span key={tag} className="font-thin ">
-                            {tag}
-                          </span>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </div>
+                <Image
+                  className=" rounded-lg md:rounded-l-lg hover:cursor-pointer w-auto h-auto"
+                  src={project.image}
+                  alt="projects"
+                  width={900}
+                  height={900}
+                  // layout="fill"
+                  // objectFit="fit"
+                />
               </a>
             </Link>
+            <div className="md:flex md:text-xl w-full md:tracking-widest "></div>
+            <div className="md:grid bg-secondary bg-auto bg-fixed ">
+              <div className="backdrop-blur-md">
+                <h2 className="font-bold text-center contrast-50 py-5">
+                  {project.title}
+                </h2>
+                <div className="md:m-10 flex flex-col items-center">
+                  <section className="font-thin rounded-xl tracking-widest text-xs md:text-xl  text-white/100 md:text-white/40 contrast-50">
+                    {project.description}
+                  </section>
+                  <section className="flex flex-nowrap py-3 md:gap-4 md:grid md:grid-flow-col w-full justify-center text-center items-center  border-amber-200  md:p-1">
+                    {project.tags.map((tag) => {
+                      return (
+                        <span
+                          key={tag}
+                          className="font-thin  w-full text-white/50 bg-slate-700 mx-1  md:px-5 cursor-default"
+                        >
+                          {tag}
+                        </span>
+                      );
+                    })}
+                  </section>
+                </div>
+              </div>
+            </div>
           </div>
         );
       })}

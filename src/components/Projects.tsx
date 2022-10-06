@@ -13,13 +13,15 @@ import { projects } from "../constants/me";
 type Props = {};
 
 const Projects = (props: Props) => {
+  console.log(projects);
+
   return (
     <div id="projects" className="w-full md:h-full md:pt-10 ">
       <div className="mx-auto px-2 py-5 ">
-        <h1 className="text-xl md:text-5xl   md:py-5 mx-auto text-center font-mono tracking-widest uppercase ">
+        <h1 className="text-xl md:text-5xl py-10 md:py-20 mx-auto text-center font-mono tracking-widest uppercase ">
           Projects
         </h1>
-        <div className="grid gap-8  text-sm tracking-widest ">
+        <div className="grid text-sm tracking-widest ">
           {/* Items */}
           <ProjectList projects={projects} />
         </div>
