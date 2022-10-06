@@ -14,7 +14,7 @@ const Mail = (props: Props) => {
   return (
     <div>
       <a
-        href={`mailto:${props.href}?subject=${props.subject || ""}&body=${
+        href={`${props.href}?subject=${props.subject || ""}&body=${
           props.body || ""
         }`}
       >
