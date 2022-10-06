@@ -151,7 +151,7 @@ const Navbar = (props: any) => {
                 </Link>
                 <Link href="/#about">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Tech Stack{" "}
+                    About{" "}
                   </li>
                 </Link>
                 <Link href="/#techstack">
