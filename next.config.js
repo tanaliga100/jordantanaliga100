@@ -4,6 +4,9 @@ const nextConfig = {
   swcMinify: true,
 
   eslint: {
+    dirs: ["pages", "src"], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
+  },
+  eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
     ignoreDuringBuilds: true,

@@ -57,7 +57,7 @@ const Navbar = (props: any) => {
         style={{ backgroundColor: `${navBg}` }}
         className={
           shadow
-            ? "fixed w-full h-20 shadow-white z-[100]  tracking-widest"
+            ? "fixed w-full h-20  z-[100]  tracking-widest"
             : "fixed w-full h-20   tracking-widest"
         }
       >
@@ -182,16 +182,40 @@ const Navbar = (props: any) => {
                 </p>
                 <div className="pt-5 cursor-pointer flex justify-around">
                   <div className="border-spacing-2">
-                    <FaLinkedin size={30} />
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/jordan-tanaliga-664b801a3/"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLinkedin size={30} />
+                    </a>
                   </div>
                   <div className="border-spacing-2">
-                    <FaFacebook size={30} />
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/tanaligajordanpascual/"
+                      rel="noopener noreferrer"
+                    >
+                      <FaFacebook size={30} />
+                    </a>
                   </div>
                   <div className="border-spacing-2">
-                    <AiFillMail size={30} />
+                    <a
+                      target="_blank"
+                      href="mailto:jordantanaliga@gmail.com"
+                      rel="noopener noreferrer"
+                    >
+                      <AiFillMail size={30} />
+                    </a>
                   </div>
                   <div className="border-spacing-2">
-                    <FaGithub size={30} />
+                    <a
+                      target="_blank"
+                      href="https://github.com/tanaliga100"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub size={30} />
+                    </a>
                   </div>
                 </div>
               </div>

@@ -1,0 +1,27 @@
+import React from "react";
+import Link from "next/link";
+
+type Props = {
+  label: string;
+  href?: string;
+  subject: string;
+  body: string;
+};
+
+const Mail = (props: Props) => {
+  console.log("props", props);
+
+  return (
+    <div>
+      <a
+        href={`mailto:${props.href}?subject=${props.subject || ""}&body=${
+          props.body || ""
+        }`}
+      >
+        {props.label}
+      </a>
+    </div>
+  );
+};
+
+export default Mail;

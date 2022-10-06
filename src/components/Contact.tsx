@@ -2,6 +2,7 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 import img from "/public/assets/img/me-modified.png";
 import { AiFillMail } from "react-icons/ai";
+import Mail from "./Mail";
 import {
   FaFacebook,
   FaFacebookSquare,
@@ -123,7 +124,12 @@ const Contact = (props: Props) => {
                 </div> */}
                 <div className="items-center text-center flex flex-col md:p-3 py-10 w-full">
                   <button className="bg-gradient-to-l from-amber-900 px-5 m-2 py-4 rounded text-white font-thin shadow-md tracking-widest w-1/2">
-                    Send Message
+                    <Mail
+                      href="mailto:jordantanaliga@gmail.com"
+                      subject="Hello"
+                      body="Hello, jordantanaliga100"
+                      label="Send me a message"
+                    />
                   </button>
                 </div>
               </form>
