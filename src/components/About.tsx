@@ -15,7 +15,7 @@ const About = (props: Props) => {
         <div className=" text-center p-10 ">
           <h1 className="text-xl md:text-6xl font-thin md:py-10">Who Am I</h1>
           <div className="  brightness-50  p-10 text-center">
-            <Image src={img} width={200} height={200} />
+            <Image src={img} width={200} height={200} alt="/" />
           </div>
           {TimeLineData?.map((val: any) => {
             return (
