@@ -28,6 +28,7 @@ const Navbar = (props: any) => {
 
   useEffect(() => {
     if (router.asPath === "/project-overview") {
+      //something code here
       setNavBg("rgb(0 0 0 / 0.1");
       setLinkColor("orange");
     } else {

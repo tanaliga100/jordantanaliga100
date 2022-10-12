@@ -21,7 +21,7 @@ const About = (props: Props) => {
             return (
               <div className="font-thin" key={val.text}>
                 <p className="text-xs md:text-2xl font-bold">{val.year}</p>
-                <p className="text-sm md:text-xl font-thin py-4 text-white/30">
+                <p className="text-sm md:text-xl font-thin py-4 text-white/80">
                   {val.text}
                 </p>
               </div>

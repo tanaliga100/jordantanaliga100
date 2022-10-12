@@ -16,9 +16,9 @@ const Main = (props: Props) => {
   return (
     <div
       id="home"
-      className="w-full h-[70vh] md:h-[100vh] text-center items-center font-sans"
+      className="w-full h-[100vh] md:h-[100vh] text-center items-center font-sans"
     >
-      <div className=" h-full m-auto w-screen flex justify-center items-center pt-40 ">
+      <div className=" h-full m-auto w-screen flex justify-center items-center pt-20 md:pt-40 ">
         <div className="text-center items-center w-full  contrast-100 ">
           <div className=" hover:border-b-gray-800 ">
             <p className="uppercase text-4xl text-center grayscale  md:text-4xl tracking-widest font-thin">
@@ -32,7 +32,7 @@ const Main = (props: Props) => {
             <h1 className=" text-md font-thin pt-4  tracking-widest">
               A Front-End Web Developer
             </h1>
-            <p className="md:hidden p-5 md:px-40 text-md md:text-2xl font-thin tracking-widest contrast-0 text-white/60 ">
+            <p className="md:hidden p-5 md:px-40 text-md md:text-2xl font-thin tracking-widest contrast-0 text-white/90 ">
               ...based in the Philippines. I started to learn coding by myself.
               Applied for an Online Courses. Ventured to javaScript world and
               specialized React.js framework as my main stack
