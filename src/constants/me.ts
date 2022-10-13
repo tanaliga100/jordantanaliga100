@@ -75,9 +75,9 @@ export const projects = [
     title: "React - Authentication",
     description:
       "This app is sends the access token to the local storage which act as a backend server and perform a fetching with each subsequent request every time the user creates a new account or login either. I used the RTK for managing the state",
-    image: "/assets/mockups/react-auth.png ",
+    image: "/assets/mockups/react-auth.png",
     tags: ["React", "Css Modules", "React-Redux", "RTK"],
-    source: "https://github.com/tanaliga100/react-auth.png",
+    source: "https://github.com/tanaliga100/redux-auth",
     visit: "/pages/404.tsx",
     id: 8,
   },
@@ -86,9 +86,9 @@ export const projects = [
     title: "Great - Quotes ",
     description:
       "This app lets you create a quotes with a author tag. Also you can put a comment under for whatever reason you might want to. I used firebase as a backend database which let data persist not just in the UI. Also I used the vite module bundler here for rapid instance of the projects.",
-    image: "/assets/mockups/great-quotes.png ",
+    image: "/assets/mockups/great-quotes.png",
     tags: ["React", "Css Modules", "Firebase"],
-    source: "https://github.com/tanaliga100/great-quotes.png",
+    source: "https://github.com/tanaliga100/react-quotes",
     visit: "/pages/404.tsx",
     id: 9,
   },
@@ -96,7 +96,7 @@ export const projects = [
 
 export const TimeLineData = [
   {
-    year: "2016",                                                               
+    year: "2016",
     text: "Started my journey as an IT Student at STI College-Munoz",
   },
   {
