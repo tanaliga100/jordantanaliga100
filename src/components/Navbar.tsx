@@ -58,7 +58,7 @@ const Navbar = (props: any) => {
         style={{ backgroundColor: `${navBg}` }}
         className={
           shadow
-            ? "fixed w-full h-20  z-[100]  tracking-widest"
+            ? "fixed w-full h-20  z-[20]  tracking-widest"
             : "fixed w-full h-20   tracking-widest"
         }
       >

@@ -13,8 +13,6 @@ import { projects } from "../constants/me";
 type Props = {};
 
 const Projects = (props: Props) => {
-  console.log(projects);
-
   return (
     <div id="projects" className="w-full md:h-full md:pt-5 ">
       <div className="mx-auto px-2  ">

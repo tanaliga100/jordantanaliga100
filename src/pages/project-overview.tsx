@@ -9,6 +9,8 @@ import { IoIosArrowRoundBack } from "react-icons/io";
 type Props = {};
 
 const Projectoverview = (props: Props) => {
+  console.log('overview', props);
+  
   return (
     <div className="w-full font-thin">
       <div className="w-screen h-[40vh] lg:h-[50vh] relative">
@@ -101,5 +103,8 @@ const Projectoverview = (props: Props) => {
     </div>
   );
 };
+
+
+const Projectoverview =
 
 export default Projectoverview;

@@ -12,7 +12,7 @@ const Header = (props: Props) => {
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/JORDANTANALIGA100.png"
+          href="/JORDANTANALIGA100-modified.png"
         ></link>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>

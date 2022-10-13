@@ -28,7 +28,7 @@ const ProjecList = (props: IProjects) => {
           >
             <section className=" md:grid grid-cols-2 md:mx-20 items-center justify-center bg-secondary bg-auto bg-fixed ">
               <section className="h-auto">
-                <Link href="/project-overview" passHref>
+                <Link href={`/project-overview/${project.id}/${project.title}`} passHref >
                   <a>
                     <Image
                       className=" rounded-lg md:rounded-l-lg hover:cursor-pointer w-auto h-auto"
