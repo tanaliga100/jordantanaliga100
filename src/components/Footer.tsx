@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
         </p>
       </div>
       <p className="text-xs font-bold py-2 text-white/30">
-        &copy; Copyright 2021{" "}
+        &copy; Copyright 2020{" "}
       </p>
       <div className="text-xs text-white/30 py-2">
         Powered with Next.js || TailwindCSS
