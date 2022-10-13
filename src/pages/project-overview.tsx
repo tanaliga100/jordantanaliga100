@@ -105,6 +105,5 @@ const Projectoverview = (props: Props) => {
 };
 
 
-const Projectoverview =
 
 export default Projectoverview;
