@@ -4,7 +4,6 @@ import type { NextPage } from "next";
 
 // COMPONENTS IMPORTS
 import Navbar from "../components/Navbar";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
 import About from "../components/About";
@@ -25,7 +24,6 @@ const Home: NextPage<Props> = ({ children }) => {
   return (
     <div>
       <React.Fragment>
-        <Header />
         <Main />
         <About />
         <Projects />

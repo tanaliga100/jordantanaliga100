@@ -14,9 +14,9 @@ const Header = (props: Props) => {
           sizes="32x32"
           href="/JORDANTANALIGA100-modified.png"
         ></link>
-        <meta name="viewport" content="Jordan Tanaliga Portfolio, A Front-End Web Developer. 
-        I use React.js as my main stack" 
-        width="device-width" />
+        <meta name="description" content="Jordan Pascual Tanaliga | Portfolio | A Front-End Web Developer |
+        I use React.js as my main stack in application development" 
+       />
       </Head>
     </div>
   );
