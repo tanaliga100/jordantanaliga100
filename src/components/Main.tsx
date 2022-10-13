@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { AiFillMail, AiFillUpSquare, AiOutlineMenu } from "react-icons/ai";
 import {
   FaFacebook,
@@ -9,19 +9,16 @@ import {
   FaRegWindowClose,
   FaSmileWink,
 } from "react-icons/fa";
-
 type Props = {};
 
 const Main = (props: Props) => {
+
   return (
-    <div
-      id="home"
-      className="w-full h-[100vh] md:h-[100vh] text-center items-center font-sans"
-    >
-      <div className=" h-full m-auto w-screen flex justify-center items-center pt-20 md:pt-40 ">
-        <div className="text-center items-center w-full  contrast-100 ">
-          <div className=" hover:border-b-gray-800 ">
-            <p className="uppercase text-4xl text-center grayscale  md:text-4xl tracking-widest font-thin">
+    <div id="home" className="w-full h-[100vh] md:h-[100vh] text-center items-center font-sans">
+      <div className=" h-full m-auto w-screen flex justify-center items-center pt-20 md:pt-30 ">
+        <div className="text-center items-center w-full  contrast-100 ">   
+          <div className=" hover:border-b-gray-800">
+            <p className="uppercase text-4xl text-center grayscale  md:text-4xl tracking-widest font-thin md:pb-10">
               Hello there !
             </p>
           </div>

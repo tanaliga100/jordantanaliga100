@@ -7,14 +7,16 @@ const Header = (props: Props) => {
   return (
     <div>
       <Head>
-        <title>jordantanaliga100</title>
+        <title>Jordan Tanaliga | Personal Portfolio</title>
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
           href="/JORDANTANALIGA100-modified.png"
         ></link>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="viewport" content="Jordan Tanaliga Portfolio, A Front-End Web Developer. 
+        I use React.js as my main stack" 
+        width="device-width" />
       </Head>
     </div>
   );
