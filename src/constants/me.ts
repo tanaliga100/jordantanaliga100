@@ -6,8 +6,18 @@ export const projects = [
     image: "/assets/mockups/react-meals.png",
     tags: ["Firebase", "React", "Node", "CSS Modules"],
     source: "https://github.com/tanaliga100/react-meals",
-    visit: "/pages/404.tsx",
+    visit: "https://react-meals-topaz.vercel.app/",
     id: 0,
+  },
+  {
+    title: "Expense - Tracker",
+    description:
+      "This app focused on expenditures. It keeps a daily record of your expenses by tracking the expenses per year,  and other outgoing expenses. I used a dummy data array for this to sort.  Nonetheless it shows the capability of tracking an expenses.",
+    image: "/assets/mockups/expense-tracker.png",
+    tags: ["React", "Css Modules"],
+    source: "https://github.com/tanaliga100/react-expense-tracker",
+    visit: "https://react-expense-tracker-steel.vercel.app/",
+    id: 1,
   },
   {
     title: "Task-Lister App",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["React", "Hooks", "Bootstrap"],
     source: "https://github.com/tanaliga100/react-101",
     visit: "/pages/404.tsx",
-    id: 1,
+    id: 2,
   },
   {
     title: "Todo Application",
@@ -26,8 +36,8 @@ export const projects = [
     image: "/assets/mockups/todo-app.png",
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/todo-app",
-    visit: "/pages/404.tsx",
-    id: 2,
+    visit: "https://todo-app-kohl-mu.vercel.app/",
+    id: 3,
   },
   {
     title: "Covid19 - Tracker",
@@ -36,8 +46,8 @@ export const projects = [
     image: "/assets/mockups/covid-tracker.png",
     tags: ["React", "Tailwind Css"],
     source: "https://github.com/tanaliga100/covid-tracker",
-    visit: "/pages/404.tsx",
-    id: 3,
+    visit: "https://covid-tracker-delta-pearl.vercel.app/",
+    id: 4,
   },
   {
     title: "Hangman Game",
@@ -47,17 +57,7 @@ export const projects = [
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/hangman",
     visit: "/pages/404.tsx",
-    id: 4,
-  },
-  {
-    title: "Expense - Tracker",
-    description:
-      "This app focused on expenditures. It keeps a daily record of your expenses by tracking the expenses per year,  and other outgoing expenses. I used a dummy data array for this to sort.  Nonetheless it shows the capability of tracking an expenses.",
-    image: "/assets/mockups/expense-tracker.png",
-    tags: ["React", "Css Modules"],
-    source: "https://github.com/tanaliga100/react-expense-tracker",
-    visit: "/pages/404.tsx",
-    id: 6,
+    id: 5,
   },
 
   {
@@ -67,8 +67,8 @@ export const projects = [
     image: "/assets/mockups/redux-cart.png",
     tags: ["React", "Firebase", "Hooks", "RTK"],
     source: "https://github.com/tanaliga100/rtk-cart",
-    visit: "/pages/404.tsx",
-    id: 7,
+    visit: "https://rtk-cart.vercel.app/",
+    id: 6,
   },
 
   {
@@ -79,7 +79,7 @@ export const projects = [
     tags: ["React", "Css Modules", "React-Redux", "RTK"],
     source: "https://github.com/tanaliga100/redux-auth",
     visit: "/pages/404.tsx",
-    id: 8,
+    id: 7,
   },
 
   {
@@ -90,7 +90,7 @@ export const projects = [
     tags: ["React", "Css Modules", "Firebase"],
     source: "https://github.com/tanaliga100/react-quotes",
     visit: "/pages/404.tsx",
-    id: 9,
+    id: 8,
   },
 ];
 
