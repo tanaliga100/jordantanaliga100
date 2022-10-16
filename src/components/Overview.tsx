@@ -1,20 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import Navbar from "../components/Navbar";
 import img from "/public/assets/img/projects.jpeg";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import Link from "next/link";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { useRouter } from "next/router";
 
 type Props = {};
 
-const Projectoverview = (props: Props) => {
-  console.log('overview', props);
-  
+const Overview = (props: Props) => {
+  const router = useRouter();
   return (
     <div className="w-full font-thin">
       <div className="w-screen h-[40vh] lg:h-[50vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[50vh] bg-black/60 z-10" />
+        [
+        <div className="absolute top-0 left-0 w-full h-[50vh] lg:h-50vh] bg-black/60 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
@@ -22,7 +22,6 @@ const Projectoverview = (props: Props) => {
           src={img}
           alt="/"
         />
-
         <div className="absolute top-[60%] min-w-auto text-4l sm:last:px-5 text-white z-10 md:last:p-10 px-5">
           <h2 className="py-2 text-2xl tracking-widest">Project Name</h2>
         </div>
@@ -104,6 +103,4 @@ const Projectoverview = (props: Props) => {
   );
 };
 
-
-
-export default Projectoverview;
+export default Overview;

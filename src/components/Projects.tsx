@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import ProjectList from "./ProjecList";
 // import img1 from "../../assets/img/piame.jpg";
 // import img2 from "../../assets/img/profile.jpg";
 // import img3 from "../../assets/img/me.jpg";
@@ -9,6 +8,7 @@ import ProjectList from "./ProjecList";
 // import img5 from "../../assets/img/profile.jpg";
 // import img6 from "../../assets/img/me.jpg";
 import { projects } from "../constants/me";
+import { useRouter } from "next/router";
 
 type Props = {};
 
@@ -21,7 +21,7 @@ const Projects = (props: Props) => {
         </h1>
         <div className="text-sm tracking-widest ">
           {/* Items */}
-          <ProjectList projects={projects} />
+          <ProjectCard projects={projects} />
         </div>
       </div>
     </div>
@@ -29,3 +29,97 @@ const Projects = (props: Props) => {
 };
 
 export default Projects;
+
+type PProps = {
+  id: number;
+  image: string;
+  source: string;
+  tags: string[];
+  title: string;
+  visit: string;
+  description: string;
+};
+interface IProjects {
+  projects: PProps[];
+}
+export const ProjectCard = (props: IProjects) => {
+  const router = useRouter();
+
+  return (
+    <React.Fragment>
+      {props.projects.map((project) => {
+        return (
+          <div
+            key={project.id}
+            className=" w-full  md:h-[70vh] 
+            rounded-xl group hover:contrast-100 duration-100 md:p-10 items-center "
+          >
+            <section className=" md:grid grid-cols-2 md:mx-20 items-center justify-center bg-secondary bg-auto bg-fixed ">
+              <section className="h-auto">
+                {/* <Link
+                  href={{
+                    pathname: `project-overview/`,
+                  }}
+                > */}
+
+                <Image
+                  className=" rounded-lg md:rounded-none hover:cursor-pointer w-auto h-auto"
+                  src={project.image}
+                  alt="projects"
+                  width={500}
+                  height={350}
+
+                  // layout="fill"
+                />
+              </section>
+              <section className="md:grid h-full ">
+                <div className="backdrop-blur-md">
+                  <h2 className="font-bold text-center contrast-50 ">
+                    {project.title}
+                  </h2>
+                  <div className="md:m-5 flex flex-col items-center">
+                    <section className="font-thin rounded-xl tracking-widest text-xs md:text-xl  text-white/100 md:text-white/70 contrast-50">
+                      {project.description}
+                    </section>
+                    {/* Source and Code */}
+                    <section className="flex justify-between items-center pt-5 text-amber/10 ">
+                      <div className="text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
+                        <a rel="noopener noreferrer" href={project.visit}>
+                          Demo
+                        </a>
+                      </div>
+                      <div className="text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={project.source}
+                        >
+                          Code
+                        </a>
+                      </div>
+                    </section>
+                    <section
+                      className="flex flex-nowrap py-10 md:py-3 md:gap-4 md:grid md:grid-flow-col w-full 
+                    justify-center text-center items-center  border-amber-200  md:p-1"
+                    >
+                      {project.tags.map((tag) => {
+                        return (
+                          <span
+                            key={tag}
+                            className="font-thin  w-full text-white/50 mx-1 md:px-5 cursor-default"
+                          >
+                            {tag}
+                          </span>
+                        );
+                      })}
+                    </section>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </div>
+        );
+      })}
+    </React.Fragment>
+  );
+};

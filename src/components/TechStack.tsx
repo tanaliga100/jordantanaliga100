@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import img1 from "/public/assets/techstack/html.png";
 import img2 from "/public/assets/techstack/css.png";
@@ -13,10 +13,6 @@ import img10 from "/public/assets/techstack/react.png";
 import img11 from "/public/assets/techstack/typescript.png";
 import img12 from "/public/assets/techstack/express.png";
 
-import Skills from "./Skills";
-
-type Props = {};
-
 const TechStack = (props: Props) => {
   return (
     <div id="techstack" className="w-full md:h-full flex items-center">
@@ -25,18 +21,18 @@ const TechStack = (props: Props) => {
           Tech-Stack
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 px-10 pt-10 md:p-10 lg:grid-cols-4 gap-8">
-          <Skills img={img1}>Html</Skills>
-          <Skills img={img2}>Css</Skills>
-          <Skills img={img3}>Javascript</Skills>
-          <Skills img={img11}>Typescript</Skills>
-          <Skills img={img9}>Github</Skills>
-          <Skills img={img4}>Tailwind</Skills>
-          <Skills img={img5}>Node</Skills>
-          <Skills img={img6}>NextJs</Skills>
-          <Skills img={img7}>mONGODB</Skills>
-          <Skills img={img8}>fIREBASE</Skills>
-          <Skills img={img10}>React</Skills>
-          <Skills img={img12}>Express</Skills>
+          <TechStackCard img={img1}>Html</TechStackCard>
+          <TechStackCard img={img2}>Css</TechStackCard>
+          <TechStackCard img={img3}>Javascript</TechStackCard>
+          <TechStackCard img={img11}>Typescript</TechStackCard>
+          <TechStackCard img={img9}>Github</TechStackCard>
+          <TechStackCard img={img4}>Tailwind</TechStackCard>
+          <TechStackCard img={img5}>Node</TechStackCard>
+          <TechStackCard img={img6}>NextJs</TechStackCard>
+          <TechStackCard img={img7}>mONGODB</TechStackCard>
+          <TechStackCard img={img8}>fIREBASE</TechStackCard>
+          <TechStackCard img={img10}>React</TechStackCard>
+          <TechStackCard img={img12}>Express</TechStackCard>
         </div>
       </div>
     </div>
@@ -44,3 +40,37 @@ const TechStack = (props: Props) => {
 };
 
 export default TechStack;
+
+type Props = {
+  img: StaticImageData;
+  children: React.ReactNode;
+};
+
+export const TechStackCard = (props: Props) => {
+  return (
+    <>
+      {/* Items  */}
+      <div
+        className="p-6 rounded-xl hover:scale-105 ease-in duration-500 
+       bg-primary bg-cover bg-center bg-no-repeat"
+      >
+        <div className="grid md:grid-cols-2 gap-4 justify-center items-center  ">
+          <div className="m-auto">
+            <Image
+              src={props.img}
+              alt="stack"
+              width="64x"
+              height="64px"
+              priority
+            />
+          </div>
+          <div className="">
+            <h3 className="uppercase font-thin text-base text-white/70">
+              {props.children}
+            </h3>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
