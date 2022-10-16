@@ -26,7 +26,7 @@ export const projects = [
     image: "/assets/mockups/task-lister.png",
     tags: ["React", "Hooks", "Bootstrap"],
     source: "https://github.com/tanaliga100/react-101",
-    visit: "/pages/404.tsx",
+    visit: "https://react-task-tracker-rho.vercel.app/",
     id: 2,
   },
   {
@@ -46,7 +46,7 @@ export const projects = [
     image: "/assets/mockups/covid-tracker.png",
     tags: ["React", "Tailwind Css"],
     source: "https://github.com/tanaliga100/covid-tracker",
-    visit: "https://covid-tracker-delta-pearl.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 4,
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
     image: "/assets/mockups/guess-the-word.png",
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/hangman",
-    visit: "/pages/404.tsx",
+    visit: "https://hangman-lac.vercel.app/",
     id: 5,
   },
 
@@ -89,7 +89,7 @@ export const projects = [
     image: "/assets/mockups/great-quotes.png",
     tags: ["React", "Css Modules", "Firebase"],
     source: "https://github.com/tanaliga100/react-quotes",
-    visit: "/pages/404.tsx",
+    visit: "https://react-quotes-nine.vercel.app/quotes",
     id: 8,
   },
 ];
