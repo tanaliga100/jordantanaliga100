@@ -6,7 +6,7 @@ import img4 from "/public/assets/certificates/typescript.jpg";
 import { NextPage } from "next";
 import Image from "next/image";
 
-const Certificates = (props: Props) => {
+const Certificates = (props: any) => {
   const data = [
     { img: img1, title: "JavaScript", description: "JavaScript Description" },
     { img: img2, title: "React", description: "React Description" },

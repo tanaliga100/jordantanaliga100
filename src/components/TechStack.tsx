@@ -13,7 +13,7 @@ import img10 from "/public/assets/techstack/react.png";
 import img11 from "/public/assets/techstack/typescript.png";
 import img12 from "/public/assets/techstack/express.png";
 
-const TechStack = (props: Props) => {
+const TechStack = (props: any) => {
   return (
     <div id="techstack" className="w-full md:h-full flex items-center">
       <div className="mx-auto  py-10 ">
