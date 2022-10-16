@@ -74,7 +74,7 @@ export const projects = [
   {
     title: "React - Authentication",
     description:
-      "This app is sends the access token to the local storage which act as a backend server and perform a fetching with each subsequent request every time the user creates a new account or login either. I used the RTK for managing the state",
+      "This app sends the access token to the local storage which act as a backend server and perform a fetching with each subsequent request every time the user creates a new account or login either. I used the RTK for managing the state",
     image: "/assets/mockups/react-auth.png",
     tags: ["React", "Css Modules", "React-Redux", "RTK"],
     source: "https://github.com/tanaliga100/redux-auth",
@@ -85,11 +85,11 @@ export const projects = [
   {
     title: "Great - Quotes ",
     description:
-      "This app lets you create a quotes with a author tag. Also you can put a comment under for whatever reason you might want to. I used firebase as a backend database which let data persist not just in the UI. Also I used the vite module bundler here for rapid instance of the projects.",
+      "This app lets you create a quotes with an author tag. Also you can put a comment under for whatever reason you might want to. I used firebase as a backend database which let data persist not just in the UI. Also I used the vite module bundler here for rapid instance of the projects.",
     image: "/assets/mockups/great-quotes.png",
-    tags: ["React", "Css Modules", "Firebase"],
+    tags: ["React", "Css Modules", "Firebase", "Vite"],
     source: "https://github.com/tanaliga100/react-quotes",
-    visit: "https://react-quotes-nine.vercel.app/quotes",
+    visit: "https://react-quotes-seven.vercel.app/",
     id: 8,
   },
 ];
