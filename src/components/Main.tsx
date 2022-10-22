@@ -21,7 +21,7 @@ const Main = (props: Props) => {
       bg-code bg-center bg-cover md:font-serif 
         bg-no-repeat  contrast-100 bg-fixed"
     >
-      <div className=" h-full m-auto w-screen flex justify-center items-center md:pt-10 ">
+      <div className=" h-full m-auto w-screen flex justify-center items-center md:pt-10 backdrop-blur-lg ">
         <div className="text-center items-center w-full  contrast-100 ">
           <div className=" hover:border-b-gray-800">
             <p className="uppercase text-4xl md:text-8xl text-center grayscale   tracking-widest font-thin md:pb-10">
