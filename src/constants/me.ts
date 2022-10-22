@@ -26,7 +26,7 @@ export const projects = [
     image: "/assets/mockups/finance-logger.png",
     tags: ["Typescript", "Webpack", "Tailwind", "JS"],
     source: "https://github.com/tanaliga100/finance-logger",
-    visit: "https://finance-logger-gamma.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 10,
   },
   {
