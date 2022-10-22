@@ -17,13 +17,14 @@ const Main = (props: Props) => {
   return (
     <div
       id="home"
-      className="w-full h-[100vh] md:h-[100vh] text-center items-center font-serif bg-code bg-center bg-cover md:bg-cover md:bg-top
-       bg-fixed bg-no-repeat  contrast-100"
+      className="w-full h-[100vh] md:h-[100vh] text-center items-center font-sans
+      bg-code bg-center bg-cover md:font-serif 
+        bg-no-repeat  contrast-100 bg-fixed"
     >
-      <div className=" h-full m-auto w-screen flex justify-center items-center pt-20 md:pt-30 ">
+      <div className=" h-full m-auto w-screen flex justify-center items-center md:pt-10 ">
         <div className="text-center items-center w-full  contrast-100 ">
           <div className=" hover:border-b-gray-800">
-            <p className="uppercase text-4xl text-center grayscale  md:text-4xl tracking-widest font-thin md:pb-10">
+            <p className="uppercase text-4xl md:text-8xl text-center grayscale   tracking-widest font-thin md:pb-10">
               Hello there !
             </p>
           </div>
