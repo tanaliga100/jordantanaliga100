@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
+import phFlag from "../../public/assets/icon/ph-flag.png";
 import {
   FaFacebook,
   FaFacebookSquare,
@@ -9,13 +10,15 @@ import {
   FaRegWindowClose,
   FaSmileWink,
 } from "react-icons/fa";
+import Image from "next/image";
 type Props = {};
 
 const Main = (props: Props) => {
   return (
     <div
       id="home"
-      className="w-full h-[100vh] md:h-[100vh] text-center items-center font-sans"
+      className="w-full h-[100vh] md:h-[100vh] text-center items-center font-serif bg-code bg-center bg-cover md:bg-cover md:bg-top
+       bg-fixed bg-no-repeat  contrast-100"
     >
       <div className=" h-full m-auto w-screen flex justify-center items-center pt-20 md:pt-30 ">
         <div className="text-center items-center w-full  contrast-100 ">
