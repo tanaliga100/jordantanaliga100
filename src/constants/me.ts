@@ -20,6 +20,26 @@ export const projects = [
     id: 1,
   },
   {
+    title: "Finance - Logger",
+    description:
+      "This app is built with pure Typescript in an Object-Oriented manner. I've never done that before. So as a refresher I built this simple finance logger app.",
+    image: "/assets/mockups/finance-logger.png",
+    tags: ["Typescript", "Webpack", "Tailwind", "JS"],
+    source: "https://github.com/tanaliga100/finance-logger",
+    visit: "https://finance-logger-gamma.vercel.app/",
+    id: 10,
+  },
+  {
+    title: "Landing Page",
+    description:
+      "This is a code-along project so nothing special. What I personally gain about building this app is how to use webpack from scratch. We all know, most of the technologies out there are already running through webpack. Most of all javascript libraries/frameworks to name a few. So in conclusion this experimental app helps me to understand what webpack is and how it works under the hood",
+    image: "/assets/mockups/landing-page.png",
+    tags: ["Tailwind", "VanillaJS", "Webpack"],
+    source: "https://github.com/tanaliga100/tailwind-landing-page",
+    visit: "https://tailwind-landing-page-kappa.vercel.app/",
+    id: 11,
+  },
+  {
     title: "Task-Lister App",
     description:
       "By building this App I learned many advanced React topics such as routing in depth but on top of that is I learned how to use React Hooks, which makes it easier to manage and much modern.",
