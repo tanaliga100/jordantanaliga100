@@ -52,7 +52,7 @@ export const projects = [
   {
     title: "Todo Application",
     description:
-      "This app make me broaden my skill on Javascript. It serves as the summary of my Javascript knowledge. Just javascript no frameworks. I showcase the basic functionality of CRUD in this app.",
+      "This app makes me broaden my skill on Javascript. It serves as the summary of my Javascript knowledge. Just javascript no frameworks. I showcase the basic functionality of CRUD in this app.",
     image: "/assets/mockups/todo-app.png",
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/todo-app",
@@ -62,7 +62,7 @@ export const projects = [
   {
     title: "Covid19 - Tracker",
     description:
-      "This app introduce me to learn RESTful API. How it works and be done. I use the public API for this app. This doesn't do alot of functionalities as compared to others but I gain more knowledge by building this app. This as a experimental app for me that measures my creativity.",
+      "This app introduce me to learn RESTful API. How it works and be done. I use the public API for this app. This doesn't do alot of functionalities as compared to others but I gain more knowledge by building this app. This was an experimental app for me that measures my creativity.",
     image: "/assets/mockups/covid-tracker.png",
     tags: ["React", "Tailwind Css"],
     source: "https://github.com/tanaliga100/covid-tracker",
