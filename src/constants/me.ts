@@ -27,7 +27,7 @@ export const projects = [
     tags: ["Typescript", "Webpack", "Tailwind", "JS"],
     source: "https://github.com/tanaliga100/finance-logger",
     visit: "/pages/404.tsx",
-    id: 10,
+    id: 2,
   },
   {
     title: "Landing Page",
@@ -37,7 +37,7 @@ export const projects = [
     tags: ["Tailwind", "VanillaJS", "Webpack"],
     source: "https://github.com/tanaliga100/tailwind-landing-page",
     visit: "https://tailwind-landing-page-kappa.vercel.app/",
-    id: 11,
+    id: 3,
   },
   {
     title: "Task-Lister App",
@@ -47,7 +47,7 @@ export const projects = [
     tags: ["React", "Hooks", "Bootstrap"],
     source: "https://github.com/tanaliga100/react-101",
     visit: "https://react-task-tracker-rho.vercel.app/",
-    id: 2,
+    id: 4,
   },
   {
     title: "Todo Application",
@@ -57,7 +57,7 @@ export const projects = [
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/todo-app",
     visit: "https://todo-app-kohl-mu.vercel.app/",
-    id: 3,
+    id: 5,
   },
   {
     title: "Covid19 - Tracker",
@@ -67,7 +67,17 @@ export const projects = [
     tags: ["React", "Tailwind Css"],
     source: "https://github.com/tanaliga100/covid-tracker",
     visit: "/pages/404.tsx",
-    id: 4,
+    id: 6,
+  },
+  {
+    title: "Redux - Cart",
+    description:
+      "This app became the summary of my studies in Redux. A state-management solution for react. I worked with the redux-core principles. Using the connect functions,  mapStateToProps and mapDispatchToProps subsequently to spread the state across the app without the need of hooks.",
+    image: "/assets/mockups/redux-cart.png",
+    tags: ["React", "MUI", "Redux"],
+    source: "https://github.com/tanaliga100/redux-cart",
+    visit: "https://redux-cart-delta.vercel.app/",
+    id: 7,
   },
   {
     title: "Hangman Game",
@@ -77,18 +87,18 @@ export const projects = [
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/hangman",
     visit: "https://hangman-lac.vercel.app/",
-    id: 5,
+    id: 8,
   },
 
   {
-    title: "Redux - Cart",
+    title: "RTK - Cart",
     description:
       "A simulation of e-commerce site with firebase as a backend.  I learned a solid foundation of reduxjs/toolkit by building this app. I used a combinations of useSelector and useReducer from the react-redux library. This is an experimental app for me.",
-    image: "/assets/mockups/redux-cart.png",
+    image: "/assets/mockups/rtk-cart.png",
     tags: ["React", "Firebase", "Hooks", "RTK"],
     source: "https://github.com/tanaliga100/rtk-cart",
     visit: "https://rtk-cart.vercel.app/",
-    id: 6,
+    id: 9,
   },
 
   {
@@ -99,7 +109,7 @@ export const projects = [
     tags: ["React", "Css Modules", "React-Redux", "RTK"],
     source: "https://github.com/tanaliga100/redux-auth",
     visit: "/pages/404.tsx",
-    id: 7,
+    id: 10,
   },
 
   {
@@ -110,10 +120,9 @@ export const projects = [
     tags: ["React", "Css Modules", "Firebase", "Vite"],
     source: "https://github.com/tanaliga100/react-quotes",
     visit: "https://react-quotes-seven.vercel.app/",
-    id: 8,
+    id: 11,
   },
 ];
-
 export const TimeLineData = [
   {
     year: "2016",
