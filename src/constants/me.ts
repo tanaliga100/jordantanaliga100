@@ -123,6 +123,14 @@ export const projects = [
     visit: "/pages/404.tsx",
     id: 10,
   },
+  {
+    title: "jordantanaliga100 | E-Portfolio",
+    description:
+      "This is an online representation of my work. What I have created, as well as my skills, and experiences. ",
+    image: "/assets/mockups/portfolio-cp.png",
+    tags: ["React", "TailwindCss", "NextJs", "Typescript"],
+    id: 12,
+  },
 
 ];
 export const TimeLineData = [

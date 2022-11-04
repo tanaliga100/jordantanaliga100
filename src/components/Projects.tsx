@@ -33,10 +33,10 @@ export default Projects;
 type PProps = {
   id: number;
   image: string;
-  source: string;
+  source?: string;
   tags: string[];
   title: string;
-  visit: string;
+  visit?: string;
   description: string;
 };
 interface IProjects {
@@ -74,7 +74,7 @@ export const ProjectCard = (props: IProjects) => {
               </section>
               <section className="md:grid h-full ">
                 <div className="backdrop-blur-sm">
-                  <h2 className="font-bold text-center contrast-50 ">
+                  <h2 className="font-bold text-center contrast-50 mt-5">
                     {project.title}
                   </h2>
                   <div className="md:m-5 flex flex-col items-center">
@@ -82,25 +82,29 @@ export const ProjectCard = (props: IProjects) => {
                       {project.description}
                     </section>
                     {/* Source and Code */}
-                    <section className="flex justify-between items-center pt-5 text-amber/10 ">
-                      <div className="font-mono text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
-                        <a rel="noopener noreferrer" href={project.visit}>
-                          Visit
-                        </a>
-                      </div>
-                      <div className="font-mono text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={project.source}
-                        >
-                          Code
-                        </a>
-                      </div>
-                    </section>
+                    {!project.source && !project.visit ? (
+                      ""
+                    ) : (
+                      <section className="flex justify-between items-center pt-5 text-amber/10 ">
+                        <div className="font-mono text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
+                          <a rel="noopener noreferrer" href={project.visit}>
+                            Visit
+                          </a>
+                        </div>
+                        <div className="font-mono text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={project.source}
+                          >
+                            Code
+                          </a>
+                        </div>
+                      </section>
+                    )}
                     <section
                       className="flex flex-nowrap py-10 md:py-3 md:gap-4 md:grid md:grid-flow-col w-full 
-                    justify-center text-center items-center  border-amber-200  md:p-1"
+                    justify-center text-center items-center  border-amber-200  md:p-1 mt-8"
                     >
                       {project.tags.map((tag) => {
                         return (

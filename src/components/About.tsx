@@ -4,10 +4,7 @@ import img from "/public/assets/img/me-modified.png";
 import { TimeLineData } from "../constants/me";
 import { Typewriter } from "react-simple-typewriter";
 
-type Props = {
-  year: number;
-  text: string;
-};
+type Props = {};
 const About = (props: Props) => {
   const timeLine = TimeLineData.map((val: any) => {
     return (
