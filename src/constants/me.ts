@@ -20,6 +20,16 @@ export const projects = [
     id: 1,
   },
   {
+    title: "Great - Quotes ",
+    description:
+      "This app lets you create a quotes with an author tag. Also you can put a comment under for whatever reason you might want to. I used firebase as a backend database which let data persist not just in the UI. Also I used the vite module bundler here for rapid instance of the projects.",
+    image: "/assets/mockups/great-quotes.png",
+    tags: ["React", "Css Modules", "Firebase", "Vite"],
+    source: "https://github.com/tanaliga100/react-quotes",
+    visit: "https://react-quotes-seven.vercel.app/",
+    id: 11,
+  },
+  {
     title: "Finance - Logger",
     description:
       "This app is built with pure Typescript in an Object-Oriented manner. I've never done that before. So as a refresher I built this simple finance logger app.",
@@ -29,6 +39,8 @@ export const projects = [
     visit: "/pages/404.tsx",
     id: 2,
   },
+
+
   {
     title: "Landing Page",
     description:
@@ -38,16 +50,6 @@ export const projects = [
     source: "https://github.com/tanaliga100/tailwind-landing-page",
     visit: "https://tailwind-landing-page-kappa.vercel.app/",
     id: 3,
-  },
-  {
-    title: "Task-Lister App",
-    description:
-      "By building this App I learned many advanced React topics such as routing in depth but on top of that is I learned how to use React Hooks, which makes it easier to manage and much modern.",
-    image: "/assets/mockups/task-lister.png",
-    tags: ["React", "Hooks", "Bootstrap"],
-    source: "https://github.com/tanaliga100/react-101",
-    visit: "https://react-task-tracker-rho.vercel.app/",
-    id: 4,
   },
   {
     title: "Todo Application",
@@ -78,6 +80,16 @@ export const projects = [
     source: "https://github.com/tanaliga100/redux-cart",
     visit: "https://redux-cart-delta.vercel.app/",
     id: 7,
+  },
+  {
+    title: "Task-Lister App",
+    description:
+      "By building this App I learned many advanced React topics such as routing in depth but on top of that is I learned how to use React Hooks, which makes it easier to manage and much modern.",
+    image: "/assets/mockups/task-lister.png",
+    tags: ["React", "Hooks", "Bootstrap"],
+    source: "https://github.com/tanaliga100/react-101",
+    visit: "https://react-task-tracker-rho.vercel.app/",
+    id: 4,
   },
   {
     title: "Hangman Game",
@@ -112,16 +124,6 @@ export const projects = [
     id: 10,
   },
 
-  {
-    title: "Great - Quotes ",
-    description:
-      "This app lets you create a quotes with an author tag. Also you can put a comment under for whatever reason you might want to. I used firebase as a backend database which let data persist not just in the UI. Also I used the vite module bundler here for rapid instance of the projects.",
-    image: "/assets/mockups/great-quotes.png",
-    tags: ["React", "Css Modules", "Firebase", "Vite"],
-    source: "https://github.com/tanaliga100/react-quotes",
-    visit: "https://react-quotes-seven.vercel.app/",
-    id: 11,
-  },
 ];
 export const TimeLineData = [
   {

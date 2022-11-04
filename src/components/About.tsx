@@ -3,7 +3,6 @@ import Image from "next/image";
 import img from "/public/assets/img/me-modified.png";
 import { TimeLineData } from "../constants/me";
 import { Typewriter } from "react-simple-typewriter";
-import { setTimeout } from "timers/promises";
 
 type Props = {
   year: number;
