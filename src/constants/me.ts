@@ -125,15 +125,19 @@ export const projects = [
 ];
 export const TimeLineData = [
   {
-    year: "2016",
-    text: "Started my journey as an IT Student at STI College-Munoz",
+    id: 1,
+    year: 2016,
+    text: "In 2016, I started my journey as an IT Student at STI College-Munoz",
   },
   {
-    year: "2018 - 2020",
-    text: "Started to learn coding by myself. Applied for an Online Courses. Ventured to JavaScript World and specialized React.js framework as my main stack. From then on I spent my leeway learning from an open source tutorials on the internet ",
+    id: 2,
+    year: 2018,
+    text: "The following year 2018 - 2020 , I started to learn coding by myself. Applied for an Online Courses. Ventured to JavaScript World and specialized React.js framework as my main stack. From then on I spent my leeway learning from an open source tutorials on the internet ",
   },
   {
-    year: "2021",
-    text: "Graduated from college and finally land my very first job as a Jr. React Developer. ",
+
+    id: 3,
+    year: 2021,
+    text: "And then graduated from college on October 2021 and finally land my very first job as a Jr. React Developer. ",
   },
 ];

@@ -2,10 +2,25 @@ import React from "react";
 import Image from "next/image";
 import img from "/public/assets/img/me-modified.png";
 import { TimeLineData } from "../constants/me";
+import { Typewriter } from "react-simple-typewriter";
+import { setTimeout } from "timers/promises";
 
-type Props = {};
-
+type Props = {
+  year: number;
+  text: string;
+};
 const About = (props: Props) => {
+  const timeLine = TimeLineData.map((val: any) => {
+    return (
+      <div className="font-thin" key={val.id}>
+        <p className="text-xs md:text-2xl font-bold">{val.year}</p>
+        <p className="text-sm md:text-xl font-thin py-4 text-white/80">
+          {val.text}
+        </p>
+      </div>
+    );
+  });
+
   return (
     <div
       id="about"
@@ -17,7 +32,8 @@ const About = (props: Props) => {
           <div className="  brightness-50  p-10 text-center">
             <Image src={img} width={200} height={200} alt="/" />
           </div>
-          {TimeLineData?.map((val: any) => {
+          {timeLine}
+          {/* {TimeLineData?.map((val: any) => {
             return (
               <div className="font-thin" key={val.text}>
                 <p className="text-xs md:text-2xl font-bold">{val.year}</p>
@@ -26,7 +42,7 @@ const About = (props: Props) => {
                 </p>
               </div>
             );
-          })}
+          })} */}
         </div>
       </div>
     </div>

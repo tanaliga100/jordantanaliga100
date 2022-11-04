@@ -51,10 +51,10 @@ export const ProjectCard = (props: IProjects) => {
         return (
           <div
             key={project.id}
-            className=" w-full  md:h-[70vh] 
+            className=" w-full  md:h-[max-height] 
             rounded-xl group hover:contrast-100 duration-100 md:p-10 items-center "
           >
-            <section className=" md:grid grid-cols-2 md:mx-20 items-center justify-center bg-secondary bg-auto bg-fixed ">
+            <section className=" md:grid grid-cols-2 md:mx-20 items-center justify-center bg-secondary bg-left bg-fixed ">
               <section className="h-auto">
                 {/* <Link
                   href={{
@@ -67,13 +67,13 @@ export const ProjectCard = (props: IProjects) => {
                   src={project.image}
                   alt="projects"
                   width={500}
-                  height={350}
+                  height={300}
 
                   // layout="fill"
                 />
               </section>
               <section className="md:grid h-full ">
-                <div className="backdrop-blur-md">
+                <div className="backdrop-blur-sm">
                   <h2 className="font-bold text-center contrast-50 ">
                     {project.title}
                   </h2>
