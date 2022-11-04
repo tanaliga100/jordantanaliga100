@@ -104,7 +104,7 @@ export const ProjectCard = (props: IProjects) => {
                     )}
                     <section
                       className="flex flex-nowrap py-10 md:py-3 md:gap-4 md:grid md:grid-flow-col w-full 
-                    justify-center text-center items-center  border-amber-200  md:p-1 mt-8"
+                    justify-center text-center items-center  border-amber-200  md:p-1 md:mt-8"
                     >
                       {project.tags.map((tag) => {
                         return (
