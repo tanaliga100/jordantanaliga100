@@ -139,7 +139,7 @@ export const projects = [
     description:
       "This is an online representation of my work. What I have created, as well as my skills, and experiences. ",
     image: "/assets/mockups/portfolio-cp.png",
-    tags: ["React", "TailwindCss", "NextJs", "Typescript"],
+    tags: ["React", "Tailwind", "NextJs", "Typescript"],
     id: 1,
   },
 
@@ -148,7 +148,7 @@ export const TimeLineData = [
   {
     id: 1,
     year: 2016,
-    text: "In 2016, I started my journey as an IT Student at STI College-Munoz",
+    text: "I started my journey as an IT Student at STI College-Munoz",
   },
   {
     id: 2,

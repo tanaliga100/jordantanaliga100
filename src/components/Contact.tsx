@@ -20,7 +20,7 @@ const Contact = (props: Props) => {
   return (
     <div
       id="contact"
-      className="w-full h-full text-center justify-center items-center"
+      className="w-full h-full text-center justify-center items-center md:pt-20 pt-20"
     >
       <div className=" md:py-10  text-center ">
         <h2 className=" tracking-widest text-xl md:text-5xl font-thin py-5 mx-auto text-center">

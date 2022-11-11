@@ -83,14 +83,14 @@ const Navbar = (props: any) => {
                 About
               </li>
             </Link>
-            <Link href="/#techstack">
-              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
-                Tech Stack
-              </li>
-            </Link>
             <Link href="/#projects">
               <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Projects
+              </li>
+            </Link>
+            <Link href="/#techstack">
+              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
+                Tech Stack
               </li>
             </Link>
             <Link href="/#certificates">

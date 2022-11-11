@@ -24,7 +24,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <Certificates />
       <Contact />
       <Footer /> */}
-      {children}
+      {/* {children} */}
     </React.Fragment>
   );
 };

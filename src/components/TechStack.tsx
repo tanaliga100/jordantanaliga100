@@ -15,9 +15,12 @@ import img12 from "/public/assets/techstack/express.png";
 
 const TechStack = (props: any) => {
   return (
-    <div id="techstack" className="w-full md:h-full flex items-center">
+    <div
+      id="techstack"
+      className="w-full md:h-full flex items-center pt-10 md:pt-20"
+    >
       <div className="mx-auto  py-10 ">
-        <h1 className="text-xl md:text-5xl pt-3  md:py-5 mx-auto text-center font-mono tracking-widest uppercase ">
+        <h1 className="text-xl md:text-5xl pt-3  md:py-5 mx-auto text-center font-serif font-bold  tracking-widest uppercase ">
           Tech-Stack
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 px-10 pt-10 md:p-10 lg:grid-cols-4 gap-8">

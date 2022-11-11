@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
       className="font-thin text-white  md:p-10 w-full  bg-black text-center  items-center"
     >
       <div className="my-3  text-xs">
-        <p className="font-thin text-xs md:text-2xl text-white/60 tracking-widest px-2">
+        <p className="font-thin text-xs md:text-2xl text-white/60 tracking-widest px-2 animate-pulse ">
           Whatever I do, I do it enthusiastically... so people will love it more
         </p>
       </div>

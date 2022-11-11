@@ -7,13 +7,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // "hero-pattern": "url()",
         primary: "url('../../public/assets/img/gray.jpeg')",
-
         secondary: "url('../../public/assets/img/code.jpg')",
-        sub: "url('../../public/assets/img/onred.jpg')",
-        code: "url('../../public/assets/img/circle-with-a.gif')",
-        bgCoding: "url('../../public/assets/img/coding.gif')"
+        onPiano: "url('../../public/assets/img/piame.jpg')",
+        onRed: "url('../../public/assets/img/onred.jpg')",
+        circle: "url('../../public/assets/img/circle-with-a.gif')",
+        onCircle: "url('../../public/assets/img/circle.gif')",
+        bgCoding: "url('../../public/assets/img/coding.gif')",
+        bgStars: "url('../../public/assets/img/stars.jpg')",
       },
     },
   },

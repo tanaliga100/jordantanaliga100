@@ -14,12 +14,12 @@ type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    <div id="projects" className="w-full md:h-full md:pt-5 ">
-      <div className="mx-auto px-2  ">
-        <h1 className="text-xl md:text-5xl py-10 md:py-20 mx-auto text-center font-mono tracking-widest uppercase ">
+    <div id="projects" className="w-full md:h-full md:pt-20 pt-10">
+      <div className="mx-auto px-2 py-10 ">
+        <h1 className="text-xl md:text-5xl  mx-auto text-center font-serif font-bold tracking-widest uppercase ">
           Projects
         </h1>
-        <div className="text-sm tracking-widest ">
+        <div className="text-sm tracking-widest py-10">
           {/* Items */}
           <ProjectCard projects={projects} />
         </div>
@@ -52,7 +52,7 @@ export const ProjectCard = (props: IProjects) => {
           <div
             key={project.id}
             className=" w-full  md:h-[max-height] 
-            rounded-xl group hover:contrast-100 duration-100 md:p-10 items-center "
+            rounded-xl group hover:saturate-200 duration-100 md:p-5 items-center "
           >
             <section className=" md:grid grid-cols-2 md:mx-20 items-center justify-center bg-secondary bg-left bg-fixed ">
               <section className="h-auto">
@@ -61,7 +61,6 @@ export const ProjectCard = (props: IProjects) => {
                     pathname: `project-overview/`,
                   }}
                 > */}
-
                 <Image
                   className=" rounded-lg md:rounded-none hover:cursor-pointer w-auto h-auto"
                   src={project.image}
