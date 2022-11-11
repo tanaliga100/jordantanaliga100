@@ -87,7 +87,11 @@ export const ProjectCard = (props: IProjects) => {
                     ) : (
                       <section className="flex justify-between items-center pt-5 text-amber/10 ">
                         <div className="font-mono text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
-                          <a rel="noopener noreferrer" href={project.visit}>
+                          <a
+                            target="_blank"
+                            rel=" noopener noreferrer"
+                            href={project.visit}
+                          >
                             Visit
                           </a>
                         </div>

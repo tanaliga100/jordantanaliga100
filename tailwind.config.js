@@ -13,6 +13,7 @@ module.exports = {
         secondary: "url('../../public/assets/img/code.jpg')",
         sub: "url('../../public/assets/img/onred.jpg')",
         code: "url('../../public/assets/img/circle-with-a.gif')",
+        bgCoding: "url('../../public/assets/img/coding.gif')"
       },
     },
   },
