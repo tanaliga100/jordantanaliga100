@@ -31,8 +31,9 @@ const Page404 = (props: Props) => {
           </p>
         </div>
       )}
-      <section className="md:grid justify-center md:pt-5">
-        <small className="text-white pt-5">_jordantanaliga100</small>
+      <section className="mt-10 h-[10vh] bg-bgCoding bg-no-repeat bg-contain bg-center bg-fixed grid justify-center md:pt-5 md:bg-cover md:h-[15vh]"></section>
+      <section className="backdrop-blur-3xl grid justify-center w-[40vw] m-auto text-center">
+        <small className="text-white pt-5 ">_jordantanaliga100</small>
         <button className="hover: bg-red-600 p-2 m-3 text-white">
           <span onClick={() => router.back()}> ...go back</span>
         </button>
