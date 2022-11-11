@@ -1,13 +1,23 @@
 export const projects = [
   {
+    title: "Lazamo",
+    description:
+      "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
+    image: "/assets/mockups/lazamo.png",
+    tags: ["Firebase", "React", "Node", "Tachyons"],
+    source: "https://github.com/tanaliga100/redux-core-with-hooks",
+    visit: "/pages/404.tsx",
+    id: 14,
+  },
+  {
     title: "Food Order App",
     description:
-      "Using React, Node.js, and Firebase as backend I learn how to build a Full Stack  Application - from start to finish.Its an ordering app that allows users to takes an order depending on what they wanted.I used contextAPI as a state management for this project which helps to centralize the store/data with a combinations of react-hooks",
+      "Using React, Node.js, and Firebase as backend. I learn how to build a Full Stack  Application - from start to finish.Its an ordering app that allows users to takes an order depending on what they wanted.I used contextAPI as a state management for this project which helps to centralize the store/data with a combinations of react-hooks",
     image: "/assets/mockups/react-meals.png",
     tags: ["Firebase", "React", "Node", "CSS Modules"],
     source: "https://github.com/tanaliga100/react-meals",
     visit: "https://react-meals-topaz.vercel.app/",
-    id: 0,
+    id: 13,
   },
   {
     title: "Expense - Tracker",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["React", "Css Modules"],
     source: "https://github.com/tanaliga100/react-expense-tracker",
     visit: "https://react-expense-tracker-steel.vercel.app/",
-    id: 1,
+    id: 12,
   },
   {
     title: "Great - Quotes ",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["Typescript", "Webpack", "Tailwind", "JS"],
     source: "https://github.com/tanaliga100/finance-logger",
     visit: "/pages/404.tsx",
-    id: 2,
+    id: 10,
   },
 
 
@@ -49,7 +59,7 @@ export const projects = [
     tags: ["Tailwind", "VanillaJS", "Webpack"],
     source: "https://github.com/tanaliga100/tailwind-landing-page",
     visit: "https://tailwind-landing-page-kappa.vercel.app/",
-    id: 3,
+    id: 9,
   },
   {
     title: "Todo Application",
@@ -59,7 +69,7 @@ export const projects = [
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/todo-app",
     visit: "https://todo-app-kohl-mu.vercel.app/",
-    id: 5,
+    id: 8,
   },
   {
     title: "Covid19 - Tracker",
@@ -69,7 +79,7 @@ export const projects = [
     tags: ["React", "Tailwind Css"],
     source: "https://github.com/tanaliga100/covid-tracker",
     visit: "/pages/404.tsx",
-    id: 6,
+    id: 7,
   },
   {
     title: "Redux - Cart",
@@ -79,7 +89,7 @@ export const projects = [
     tags: ["React", "MUI", "Redux"],
     source: "https://github.com/tanaliga100/redux-cart",
     visit: "https://redux-cart-delta.vercel.app/",
-    id: 7,
+    id: 6,
   },
   {
     title: "Task-Lister App",
@@ -89,7 +99,7 @@ export const projects = [
     tags: ["React", "Hooks", "Bootstrap"],
     source: "https://github.com/tanaliga100/react-101",
     visit: "https://react-task-tracker-rho.vercel.app/",
-    id: 4,
+    id: 5,
   },
   {
     title: "Hangman Game",
@@ -99,7 +109,7 @@ export const projects = [
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/hangman",
     visit: "https://hangman-lac.vercel.app/",
-    id: 8,
+    id: 4,
   },
 
   {
@@ -110,7 +120,7 @@ export const projects = [
     tags: ["React", "Firebase", "Hooks", "RTK"],
     source: "https://github.com/tanaliga100/rtk-cart",
     visit: "https://rtk-cart.vercel.app/",
-    id: 9,
+    id: 3,
   },
 
   {
@@ -121,7 +131,7 @@ export const projects = [
     tags: ["React", "Css Modules", "React-Redux", "RTK"],
     source: "https://github.com/tanaliga100/redux-auth",
     visit: "/pages/404.tsx",
-    id: 10,
+    id: 2,
   },
   {
     title: "jordantanaliga100 | E-Portfolio",
@@ -129,7 +139,7 @@ export const projects = [
       "This is an online representation of my work. What I have created, as well as my skills, and experiences. ",
     image: "/assets/mockups/portfolio-cp.png",
     tags: ["React", "TailwindCss", "NextJs", "Typescript"],
-    id: 12,
+    id: 1,
   },
 
 ];
