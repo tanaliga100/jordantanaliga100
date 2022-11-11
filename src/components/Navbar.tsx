@@ -155,14 +155,14 @@ const Navbar = (props: any) => {
                     About{" "}
                   </li>
                 </Link>
-                <Link href="/#techstack">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Tech Stack{" "}
-                  </li>
-                </Link>
                 <Link href="/#projects">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Projects
+                  </li>
+                </Link>
+                <Link href="/#techstack">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                    Tech Stack{" "}
                   </li>
                 </Link>
                 <Link href="/#certificates">

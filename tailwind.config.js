@@ -15,6 +15,7 @@ module.exports = {
         onCircle: "url('../../public/assets/img/circle.gif')",
         bgCoding: "url('../../public/assets/img/coding.gif')",
         bgStars: "url('../../public/assets/img/stars.jpg')",
+        bgMoon: "url('../../public/assets/img/moon.jpg')",
       },
     },
   },
