@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 type Props = {};
 
-const NotFound = (props: Props) => {
+const Page404 = (props: Props) => {
   const router = useRouter();
   return (
     <div className="text-center m-10 pt-40 h-full">
@@ -22,4 +22,4 @@ const NotFound = (props: Props) => {
   );
 };
 
-export default NotFound;
+export default Page404;

@@ -5,7 +5,9 @@ export const projects = [
       "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
     image: "/assets/mockups/lazamo.png",
     tags: ["Firebase", "React", "Node", "Tachyons"],
-    source: "https://github.com/tanaliga100/redux-core-with-hooks",
+    // source: "https://github.com/tanaliga100/redux-core-with-hooks",
+    source: "/https://github.com/tanaliga100/redux-core-with-hooks",
+
     visit: "/pages/404.tsx",
     id: 14,
   },
@@ -16,7 +18,7 @@ export const projects = [
     image: "/assets/mockups/react-meals.png",
     tags: ["Firebase", "React", "Node", "CSS Modules"],
     source: "https://github.com/tanaliga100/react-meals",
-    visit: "https://react-meals-topaz.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 13,
   },
   {
@@ -26,7 +28,7 @@ export const projects = [
     image: "/assets/mockups/expense-tracker.png",
     tags: ["React", "Css Modules"],
     source: "https://github.com/tanaliga100/react-expense-tracker",
-    visit: "https://react-expense-tracker-steel.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 12,
   },
   {
@@ -36,7 +38,7 @@ export const projects = [
     image: "/assets/mockups/great-quotes.png",
     tags: ["React", "Css Modules", "Firebase", "Vite"],
     source: "https://github.com/tanaliga100/react-quotes",
-    visit: "https://react-quotes-seven.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 11,
   },
   {
@@ -68,7 +70,7 @@ export const projects = [
     image: "/assets/mockups/todo-app.png",
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/todo-app",
-    visit: "https://todo-app-kohl-mu.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 8,
   },
   {
@@ -88,7 +90,7 @@ export const projects = [
     image: "/assets/mockups/redux-cart.png",
     tags: ["React", "MUI", "Redux"],
     source: "https://github.com/tanaliga100/redux-cart",
-    visit: "https://redux-cart-delta.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 6,
   },
   {
@@ -98,7 +100,7 @@ export const projects = [
     image: "/assets/mockups/task-lister.png",
     tags: ["React", "Hooks", "Bootstrap"],
     source: "https://github.com/tanaliga100/react-101",
-    visit: "https://react-task-tracker-rho.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 5,
   },
   {
@@ -108,7 +110,7 @@ export const projects = [
     image: "/assets/mockups/guess-the-word.png",
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "https://github.com/tanaliga100/hangman",
-    visit: "https://hangman-lac.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 4,
   },
 
@@ -119,7 +121,7 @@ export const projects = [
     image: "/assets/mockups/rtk-cart.png",
     tags: ["React", "Firebase", "Hooks", "RTK"],
     source: "https://github.com/tanaliga100/rtk-cart",
-    visit: "https://rtk-cart.vercel.app/",
+    visit: "/pages/404.tsx",
     id: 3,
   },
 
