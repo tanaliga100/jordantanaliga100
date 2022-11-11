@@ -6,8 +6,7 @@ export const projects = [
     image: "/assets/mockups/lazamo.png",
     tags: ["Firebase", "React", "Node", "Tachyons"],
     // source: "https://github.com/tanaliga100/redux-core-with-hooks",
-    source: "/https://github.com/tanaliga100/redux-core-with-hooks",
-
+    source: "https://github.com/tanaliga100/redux-core-with-hooks",
     visit: "/pages/404.tsx",
     id: 14,
   },
