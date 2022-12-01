@@ -1,8 +1,8 @@
-import React from "react";
 import Image from "next/image";
-import img from "/public/assets/img/piame-modified.png";
-import { TimeLineData } from "../constants/me";
+import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import { TimeLineData } from "../constants/me";
+import img from "/public/assets/img/piame-modified.png";
 
 type Props = {};
 const About = (props: Props) => {

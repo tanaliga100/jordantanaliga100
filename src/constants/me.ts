@@ -1,5 +1,16 @@
 export const projects = [
   {
+    title: "Netflox",
+    description:
+      "Netflox; a full fledge entertainment app built with Next.js and Firebase as a backend. Its basically a movie app inspired from netflix.",
+    image: "/assets/mockups/netflix.png",
+    tags: ["Firebase", "Next.js", "Typescript", "Tailwind"],
+    // source: "https://github.com/tanaliga100/redux-core-with-hooks",
+    source: "no-entry",
+    visit: "/pages/404.tsx",
+    id: 15,
+  },
+  {
     title: "Lazamo",
     description:
       "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
@@ -50,7 +61,6 @@ export const projects = [
     visit: "/pages/404.tsx",
     id: 10,
   },
-
 
   {
     title: "Landing Page",
@@ -142,7 +152,6 @@ export const projects = [
     tags: ["React", "Tailwind", "NextJs", "Typescript"],
     id: 1,
   },
-
 ];
 export const TimeLineData = [
   {
@@ -156,7 +165,6 @@ export const TimeLineData = [
     text: "The following year 2018 - 2020 , I started to learn coding by myself. Applied for an Online Courses. Ventured to JavaScript World and specialized React.js framework as my main stack. From then on I spent my leeway learning from an open source tutorials on the internet ",
   },
   {
-
     id: 3,
     year: 2021,
     text: "And then graduated from college on October 2021 and finally land my very first job as a Jr. React Developer. ",

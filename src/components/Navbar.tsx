@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
 import {
   FaFacebook,
   FaFacebookSquare,
@@ -10,11 +11,10 @@ import {
   FaRegWindowClose,
   FaSmileWink,
 } from "react-icons/fa";
-import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
 import { VscSmiley } from "react-icons/vsc";
 
-import img from "/public/assets/img/piame-modified.png";
 import { useRouter } from "next/router";
+import img from "/public/assets/img/piame-modified.png";
 
 type Props = {};
 
