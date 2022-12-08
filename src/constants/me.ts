@@ -45,10 +45,9 @@ export const projects = [
     // source: "no-entry",
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/react-quotes",
-    visit: "https://react-quotes-seven.vercel.app/quotes",
+    visit: "https://react-quotes-bxx68pnpc-tanaliga100.vercel.app/quotes",
     id: 11,
   },
-
   {
     title: "RTK - Cart",
     description:
@@ -61,7 +60,6 @@ export const projects = [
     visit: "https://rtk-cart.vercel.app/",
     id: 3,
   },
-
   {
     title: "Landing Page",
     description:
