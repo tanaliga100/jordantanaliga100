@@ -119,6 +119,18 @@ export const projects = [
     id: 5,
   },
   {
+    title: "Todo Application",
+    description:
+      "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
+    image: "/assets/mockups/note-taking-app.png",
+    tags: ["Vanilla JS", "Vanilla Css"],
+    // source: "no-entry",
+    // visit: "/pages/404.tsx",
+    source: "https://github.com/tanaliga100/note-taking-app",
+    visit: "https://note-taking-app-orcin.vercel.app/index.html",
+    id: 16,
+  },
+  {
     title: "Hangman Game",
     description:
       "This is a simple game app which let you guess the random word from an api. It counts every single stroke the user is guessing and gives a feedback how many attempt are left. Also whenever the user is guessing the correct letter will pop-up. This is an experimental app for me which measures my logical thinking.",
