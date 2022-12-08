@@ -73,7 +73,7 @@ export const projects = [
     id: 9,
   },
   {
-    title: "Todo Application",
+    title: "DoAny App",
     description:
       "This app makes me broaden my skill on Javascript. It serves as the summary of my Javascript knowledge. Just javascript no frameworks. I showcase the basic functionality of CRUD in this app.",
     image: "/assets/mockups/todo-app.png",
@@ -119,7 +119,7 @@ export const projects = [
     id: 5,
   },
   {
-    title: "Todo Application",
+    title: "EveryDay-Note",
     description:
       "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
     image: "/assets/mockups/note-taking-app.png",
