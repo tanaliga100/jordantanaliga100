@@ -10,7 +10,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/netflox",
     visit: "https://netflox-beryl.vercel.app/",
-    id: 15,
+    id: 16,
   },
   {
     title: "Food Order App",
@@ -22,7 +22,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/react-meals/",
     visit: "https://react-meals-topaz.vercel.app/",
-    id: 13,
+    id: 15,
   },
   {
     title: "Expense - Tracker",
@@ -34,7 +34,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/react-expense-tracker/",
     visit: "https://react-expense-tracker-steel.vercel.app/",
-    id: 12,
+    id: 14,
   },
   {
     title: "Great - Quotes ",
@@ -45,8 +45,8 @@ export const projects = [
     // source: "no-entry",
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/react-quotes",
-    visit: "https://react-quotes-teal.vercel.app/quotes/",
-    id: 11,
+    visit: "https://react-quotes-i97u5h4g9-tanaliga100.vercel.app/quotes",
+    id: 13,
   },
   {
     title: "RTK - Cart",
@@ -58,7 +58,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/rtk-cart",
     visit: "https://rtk-cart.vercel.app/",
-    id: 3,
+    id: 12,
   },
   {
     title: "Landing Page",
@@ -68,7 +68,7 @@ export const projects = [
     tags: ["Tailwind", "VanillaJS", "Webpack"],
     source: "https://github.com/tanaliga100/tailwind-landing-page",
     visit: "https://tailwind-landing-page-kappa.vercel.app/",
-    id: 9,
+    id: 11,
   },
   {
     title: "DoAny App",
@@ -80,7 +80,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/todo-app",
     visit: "https://todo-app-kohl-mu.vercel.app/",
-    id: 8,
+    id: 10,
   },
   {
     title: "Covid19 - Tracker",
@@ -90,7 +90,7 @@ export const projects = [
     tags: ["React", "Tailwind Css"],
     source: "no-entry",
     visit: "/pages/404.tsx",
-    id: 7,
+    id: 9,
   },
   {
     title: "Redux - Cart",
@@ -102,7 +102,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/redux-core/",
     visit: "https://redux-cart-delta.vercel.app/",
-    id: 6,
+    id: 8,
   },
   {
     title: "Task-Lister App",
@@ -114,7 +114,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/react-101/",
     visit: "https://react-task-tracker-rho.vercel.app/",
-    id: 5,
+    id: 7,
   },
   {
     title: "EveryDay-Note",
@@ -126,7 +126,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/note-taking-app",
     visit: "https://note-taking-app-orcin.vercel.app/index.html",
-    id: 16,
+    id: 6,
   },
   {
     title: "Hangman Game",
@@ -138,7 +138,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/hangman/",
     visit: "https://hangman-lac.vercel.app/",
-    id: 4,
+    id: 5,
   },
   {
     title: "Lazamo",
@@ -150,7 +150,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/redux-core-with-hooks/",
     visit: "/pages/404.tsx",
-    id: 14,
+    id: 4,
   },
   {
     title: "Finance - Logger",
@@ -162,7 +162,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/finance-logger/",
     visit: "https://finance-logger-gamma.vercel.app/",
-    id: 10,
+    id: 3,
   },
 
   {
