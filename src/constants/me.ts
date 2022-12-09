@@ -45,7 +45,7 @@ export const projects = [
     // source: "no-entry",
     // visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/react-quotes",
-    visit: "https://react-quotes-roan.vercel.app/quotes",
+    visit: "https://react-quotes-teal.vercel.app/quotes/",
     id: 11,
   },
   {
