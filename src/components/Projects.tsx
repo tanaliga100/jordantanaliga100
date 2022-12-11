@@ -7,8 +7,9 @@ import React from "react";
 // import img4 from "../../assets/img/piame.jpg";
 // import img5 from "../../assets/img/profile.jpg";
 // import img6 from "../../assets/img/me.jpg";
-import { projects } from "../constants/me";
 import { useRouter } from "next/router";
+import { AiFillExclamationCircle } from "react-icons/ai";
+import { projects } from "../constants/me";
 
 type Props = {};
 
@@ -27,7 +28,6 @@ const Projects = (props: Props) => {
     </div>
   );
 };
-
 export default Projects;
 
 type PProps = {
@@ -38,6 +38,7 @@ type PProps = {
   title: string;
   visit?: string;
   description: string;
+  note?: string;
 };
 interface IProjects {
   projects: PProps[];
@@ -80,7 +81,18 @@ export const ProjectCard = (props: IProjects) => {
                     <section className="font-thin rounded-xl tracking-widest text-xs md:text-xl  text-white/100 md:text-white/70 contrast-50">
                       {project.description}
                     </section>
-                    {/* Source and Code */}
+                    <section className="font-thin p-3 items-center text-xs text-orange-600">
+                      {project.note ? (
+                        <div className="p-1">
+                          <AiFillExclamationCircle size={20} />
+                          <p className="grayscale pt-2 italic">
+                            {project.note.toUpperCase()}
+                          </p>
+                        </div>
+                      ) : (
+                        ""
+                      )}
+                    </section>
                     {!project.source && !project.visit ? (
                       ""
                     ) : (

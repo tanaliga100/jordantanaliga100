@@ -144,6 +144,7 @@ export const projects = [
     title: "Lazamo",
     description:
       "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
+    note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
     image: "/assets/mockups/lazamo.png",
     tags: ["Firebase", "React", "Node", "Tachyons"],
     // source: "no-entry",
@@ -156,6 +157,7 @@ export const projects = [
     title: "Finance - Logger",
     description:
       "This app is built with pure Typescript in an Object-Oriented manner. I've never done that before. So as a refresher I built this simple finance logger app.",
+    note: "THIS PROJECT IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
     image: "/assets/mockups/finance-logger.png",
     tags: ["Typescript", "Webpack", "Tailwind", "JS"],
     // source: "no-entry",
