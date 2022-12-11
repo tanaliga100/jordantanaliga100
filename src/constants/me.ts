@@ -161,9 +161,9 @@ export const projects = [
     image: "/assets/mockups/finance-logger.png",
     tags: ["Typescript", "Webpack", "Tailwind", "JS"],
     // source: "no-entry",
-    // visit: "/pages/404.tsx",
+    visit: "/pages/404.tsx",
     source: "https://github.com/tanaliga100/finance-logger/",
-    visit: "https://finance-logger-gamma.vercel.app/",
+    // visit: "https://finance-logger-gamma.vercel.app/",
     id: 3,
   },
 
