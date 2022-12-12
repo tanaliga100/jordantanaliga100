@@ -182,7 +182,7 @@ export const projects = [
   {
     title: "jordantanaliga100 | E-Portfolio",
     description:
-      "This is an online representation of my work. What I have created, as well as my skills, and experiences. ",
+      "This is an online representation of my work. What I have created, as well as my skills, and experiences.",
     image: "/assets/mockups/portfolio-cp.png",
     tags: ["React", "Tailwind", "NextJs", "Typescript"],
     id: 1,

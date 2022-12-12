@@ -1,16 +1,16 @@
+import type { NextPage } from "next";
 import React, { Fragment } from "react";
 import "tailwindcss/tailwind.css";
-import type { NextPage } from "next";
 
 // COMPONENTS IMPORTS
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Main from "../components/Main";
 import About from "../components/About";
-import TechStack from "../components/TechStack";
-import Projects from "../components/Projects";
 import Certificates from "../components/Certificates";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Main from "../components/Main";
+import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
+import TechStack from "../components/TechStack";
 // NEXT IMPORTS
 import Head from "next/head";
 import Image from "next/image";
@@ -22,8 +22,8 @@ type Props = {
 };
 const Home: NextPage<Props> = ({ children }) => {
   return (
-    <div>
-      <React.Fragment>
+    <React.Fragment>
+      <div>
         <Main />
         <About />
         <Projects />
@@ -31,8 +31,8 @@ const Home: NextPage<Props> = ({ children }) => {
         <Certificates />
         <Contact />
         <TopUp />
-      </React.Fragment>
-    </div>
+      </div>
+    </React.Fragment>
   );
 };
 export default Home;

@@ -1,8 +1,6 @@
-import React from "react";
 import Image, { StaticImageData } from "next/image";
-import img from "/public/assets/img/me-modified.png";
+import React from "react";
 import { AiFillMail } from "react-icons/ai";
-import Mail from "./Mail";
 import {
   FaFacebook,
   FaFacebookSquare,
@@ -12,6 +10,8 @@ import {
   FaRegWindowClose,
   FaSmileWink,
 } from "react-icons/fa";
+import Mail from "./Mail";
+import img from "/public/assets/img/me-modified.png";
 type Props = {
   img?: StaticImageData;
 };

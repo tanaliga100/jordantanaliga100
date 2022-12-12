@@ -194,15 +194,6 @@ const Navbar = (props: any) => {
                   <div className="border-spacing-2">
                     <a
                       target="_blank"
-                      href="https://www.facebook.com/tanaligajordanpascual/"
-                      rel="noopener noreferrer"
-                    >
-                      <FaFacebook size={30} />
-                    </a>
-                  </div>
-                  <div className="border-spacing-2">
-                    <a
-                      target="_blank"
                       href="mailto:jordantanaliga@gmail.com"
                       rel="noopener noreferrer"
                     >

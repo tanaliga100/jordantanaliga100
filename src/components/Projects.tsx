@@ -15,8 +15,8 @@ type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    <div id="projects" className="w-full md:h-full md:pt-20 pt-10">
-      <div className="mx-auto px-2 py-10 ">
+    <div id="projects" className="w-full md:h-full md:mt-32 md:pt-10">
+      <div className="mx-auto px-2 py-20 ">
         <h1 className="text-xl md:text-5xl  mx-auto text-center font-serif font-bold tracking-widest uppercase ">
           Projects
         </h1>
@@ -72,9 +72,9 @@ export const ProjectCard = (props: IProjects) => {
                   // layout="fill"
                 />
               </section>
-              <section className="md:grid h-full ">
+              <section className="md:grid h-full w-full">
                 <div className="backdrop-blur-sm">
-                  <h2 className="font-bold text-center contrast-50 mt-5">
+                  <h2 className="font-serif text-center contrast-50 mt-5 mb-3">
                     {project.title}
                   </h2>
                   <div className="md:m-5 flex flex-col items-center">
@@ -117,7 +117,7 @@ export const ProjectCard = (props: IProjects) => {
                         return (
                           <span
                             key={tag}
-                            className="font-thin  w-full text-white/50 mx-1 md:px-5 cursor-default"
+                            className="font-thin text-xs md:text-sm w-full text-white/50 mx-1 md:px-5 cursor-default"
                           >
                             {tag}
                           </span>
