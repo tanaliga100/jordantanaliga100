@@ -54,7 +54,7 @@ const Contact = (props: Props) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaLinkedin size={50} />
+                      <FaLinkedin size={40} />
                     </a>
                   </div>
                   <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer px-1">
@@ -63,7 +63,7 @@ const Contact = (props: Props) => {
                       href="mailto:jordantanaliga@gmail.com"
                       rel="noopener noreferrer"
                     >
-                      <AiFillMail size={50} />
+                      <AiFillMail size={40} />
                     </a>
                   </div>
                   <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer px-1">
@@ -72,7 +72,7 @@ const Contact = (props: Props) => {
                       href="https://github.com/tanaliga100"
                       rel="noopener noreferrer"
                     >
-                      <FaGithub size={50} />
+                      <FaGithub size={40} />
                     </a>
                   </div>
                 </div>

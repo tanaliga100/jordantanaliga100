@@ -20,9 +20,9 @@ const About = (props: Props) => {
   return (
     <div
       id="about"
-      className="w-full md:h-screen pt-20 md:py-20 flex items-center bg-bgStars bg-cover bg-left-top bg-fixed bg-no-repeat"
+      className="w-full h-full md:mt-32 pt-20 flex items-center bg-bgStars bg-cover bg-left-top bg-fixed bg-no-repeat"
     >
-      <div className=" h-screen m-auto gap-8 items-center justify-between">
+      <div className="m-auto gap-8 items-center justify-between">
         <div className=" text-center  ">
           <div className="  brightness-75 text-center contrast-175 mb-8">
             <Image src={img} width={200} height={200} alt="/" />

@@ -15,8 +15,8 @@ type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    <div id="projects" className="w-full md:h-full md:mt-32 md:pt-20">
-      <div className="mx-auto px-2 ">
+    <div id="projects" className="w-full h-full md:mt-32 pt-20 ">
+      <div className="mx-auto px-2">
         <h1 className="text-xl md:text-5xl  mx-auto text-center font-serif font-bold tracking-widest uppercase ">
           Projects
         </h1>
@@ -53,7 +53,7 @@ export const ProjectCard = (props: IProjects) => {
           <div
             key={project.id}
             className=" w-full  md:h-[max-height] 
-            rounded-xl group hover:saturate-200 duration-100 md:p-5 items-center "
+            rounded-xl group hover:saturate-200 duration-100 md:p-5 items-center  pt-6"
           >
             <section className=" md:grid grid-cols-2 md:mx-20 items-center justify-center bg-secondary bg-left bg-fixed ">
               <section className="h-auto">
@@ -74,7 +74,7 @@ export const ProjectCard = (props: IProjects) => {
               </section>
               <section className="md:grid h-full w-full">
                 <div className="backdrop-blur-sm">
-                  <h2 className="font-serif text-center contrast-50 mt-5 mb-3">
+                  <h2 className="font-serif text-[25px] md:text-[40px] text-center contrast-50 mt-5 mb-3">
                     {project.title}
                   </h2>
                   <div className="md:m-5 flex flex-col items-center">

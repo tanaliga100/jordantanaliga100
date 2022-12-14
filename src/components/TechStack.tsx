@@ -17,7 +17,7 @@ const TechStack = (props: any) => {
   return (
     <div
       id="techstack"
-      className="w-full md:h-full flex items-center  md:pt-20"
+      className="w-full md:h-full flex items-center md:mt-32 pt-20 "
     >
       <div className="mx-auto  ">
         <h1 className="text-xl md:text-5xl mx-auto text-center font-serif font-bold  tracking-widest uppercase ">
@@ -54,7 +54,7 @@ export const TechStackCard = (props: Props) => {
     <>
       {/* Items  */}
       <div
-        className="p-6 rounded-xl hover:scale-105 ease-in duration-500 
+        className="p-6 rounded-xl hover:scale-105 ease-in duration-500 w-full
        bg-primary bg-cover bg-center bg-no-repeat"
       >
         <div className="grid md:grid-cols-2 gap-4 justify-center items-center ">
