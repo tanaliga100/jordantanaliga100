@@ -47,46 +47,33 @@ const Contact = (props: Props) => {
                 </p>
               </div>
               <div className="md:py-10 py-10">
-                <div className="flex items-center justify-center  hover:cursor-pointer  animate-pulse duration-100 ">
-                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out  px-1 ">
+                <div className="flex items-center justify-center    animate-pulse duration-100 ">
+                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer  px-1 ">
                     <a
                       href="https://www.linkedin.com/in/jordan-tanaliga-664b801a3/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      // <FaLinkedin size={30} />
+                      <FaLinkedin size={50} />
                     </a>
-                    //{" "}
                   </div>
-                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out px-1">
-                    <a
-                      target="_blank"
-                      href="https://www.facebook.com/tanaligajordanpascual/"
-                      rel="noopener noreferrer"
-                    >
-                      // <FaFacebook size={30} />
-                    </a>
-                    //{" "}
-                  </div>
-                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out px-1">
+                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer px-1">
                     <a
                       target="_blank"
                       href="mailto:jordantanaliga@gmail.com"
                       rel="noopener noreferrer"
                     >
-                      // <AiFillMail size={30} />
+                      <AiFillMail size={50} />
                     </a>
-                    //{" "}
                   </div>
-                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out px-1">
+                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer px-1">
                     <a
                       target="_blank"
                       href="https://github.com/tanaliga100"
                       rel="noopener noreferrer"
                     >
-                      // <FaGithub size={30} />
+                      <FaGithub size={50} />
                     </a>
-                    //{" "}
                   </div>
                 </div>
               </div>
@@ -147,7 +134,7 @@ const Contact = (props: Props) => {
                   />
                 </div> */}
                 <div className="items-center text-center flex flex-col md:p-3 py-10 w-full">
-                  <button className="bg-gradient-to-l from-amber-900 px-5 m-2 py-4 rounded text-white font-thin shadow-md tracking-widest w-1/2">
+                  <button className="bg-gradient-to-t from-amber-900 to-transparent px-5 m-2 py-4 rounded text-white text-xs font-normal shadow-md tracking-widest w-1/2">
                     <Mail
                       href="mailto:jordantanaliga@gmail.com"
                       subject="Hello"

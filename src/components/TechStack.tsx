@@ -1,26 +1,26 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import img1 from "/public/assets/techstack/html.png";
 import img2 from "/public/assets/techstack/css.png";
-import img3 from "/public/assets/techstack/javascript.png";
-import img4 from "/public/assets/techstack/tailwind.png";
-import img5 from "/public/assets/techstack/node.png";
-import img6 from "/public/assets/techstack/nextjs.png";
-import img7 from "/public/assets/techstack/mongo.png";
+import img12 from "/public/assets/techstack/express.png";
 import img8 from "/public/assets/techstack/firebase.png";
 import img9 from "/public/assets/techstack/github1.png";
+import img1 from "/public/assets/techstack/html.png";
+import img3 from "/public/assets/techstack/javascript.png";
+import img7 from "/public/assets/techstack/mongo.png";
+import img6 from "/public/assets/techstack/nextjs.png";
+import img5 from "/public/assets/techstack/node.png";
 import img10 from "/public/assets/techstack/react.png";
+import img4 from "/public/assets/techstack/tailwind.png";
 import img11 from "/public/assets/techstack/typescript.png";
-import img12 from "/public/assets/techstack/express.png";
 
 const TechStack = (props: any) => {
   return (
     <div
       id="techstack"
-      className="w-full md:h-full flex items-center pt-10 md:pt-20"
+      className="w-full md:h-full flex items-center  md:pt-20"
     >
-      <div className="mx-auto  py-10 ">
-        <h1 className="text-xl md:text-5xl pt-3  md:py-5 mx-auto text-center font-serif font-bold  tracking-widest uppercase ">
+      <div className="mx-auto  ">
+        <h1 className="text-xl md:text-5xl mx-auto text-center font-serif font-bold  tracking-widest uppercase ">
           Tech-Stack
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 px-10 pt-10 md:p-10 lg:grid-cols-4 gap-8">
@@ -57,8 +57,8 @@ export const TechStackCard = (props: Props) => {
         className="p-6 rounded-xl hover:scale-105 ease-in duration-500 
        bg-primary bg-cover bg-center bg-no-repeat"
       >
-        <div className="grid md:grid-cols-2 gap-4 justify-center items-center  ">
-          <div className="m-auto">
+        <div className="grid md:grid-cols-2 gap-4 justify-center items-center ">
+          <div className="m-auto ">
             <Image
               src={props.img}
               alt="stack"
@@ -68,7 +68,7 @@ export const TechStackCard = (props: Props) => {
             />
           </div>
           <div className="">
-            <h3 className="uppercase font-thin text-base text-white/70">
+            <h3 className="uppercase font-thin text-base text-orange/30">
               {props.children}
             </h3>
           </div>

@@ -1,10 +1,10 @@
+import { NextPage } from "next";
+import Image from "next/image";
 import React from "react";
 import img1 from "/public/assets/certificates/javascript.jpg";
 import img2 from "/public/assets/certificates/react.jpg";
-import img3 from "/public/assets/certificates/ui-ux.jpg";
 import img4 from "/public/assets/certificates/typescript.jpg";
-import { NextPage } from "next";
-import Image from "next/image";
+import img3 from "/public/assets/certificates/ui-ux.jpg";
 
 const Certificates = (props: any) => {
   const data = [
@@ -15,8 +15,8 @@ const Certificates = (props: any) => {
   ];
 
   return (
-    <div id="certificates" className="w-full md:pt-20 ">
-      <div className="mx-auto px-2 py-10  ">
+    <div id="certificates" className="w-full md:pt-20">
+      <div className="mx-auto px-2   ">
         <h1 className="text-xl md:text-5xl py-10  md:py-5 mx-auto text-center font-serif tracking-widest uppercase">
           Licenses and Certification
         </h1>
@@ -56,7 +56,7 @@ export const CertificateCard: NextPage<Props> = (props: Props) => {
                 priority
               />
               <div className="text-center">
-                <h2 className="font-bold text-white/30">{title}</h2>
+                <p className="font-thin text-orange/30 pt-5 ">{title}</p>
               </div>
             </div>
           </div>
