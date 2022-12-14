@@ -1,6 +1,6 @@
+import Link from "next/link";
 import React from "react";
 import { AiFillUpSquare } from "react-icons/ai";
-import Link from "next/link";
 
 type Props = {};
 
