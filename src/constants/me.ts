@@ -1,5 +1,18 @@
 export const projects = [
   {
+    title: "Lazamo",
+    description:
+      "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
+    note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+    image: "/assets/mockups/lazamo.png",
+    tags: ["Firebase", "React", "Node", "Tachyons"],
+    // source: "no-entry",
+    // visit: "/pages/404.tsx",
+    source: "https://github.com/tanaliga100/redux-core-with-hooks/",
+    visit: "/pages/404.tsx",
+    id: 4,
+  },
+  {
     title: "Netflox",
     description:
       "Netflox; a full fledge entertainment app built with Next.js and Firebase as a backend. Its basically a movie app inspired from netflix.",
@@ -139,19 +152,6 @@ export const projects = [
     source: "https://github.com/tanaliga100/hangman/",
     visit: "https://hangman-lac.vercel.app/",
     id: 5,
-  },
-  {
-    title: "Lazamo",
-    description:
-      "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
-    note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
-    image: "/assets/mockups/lazamo.png",
-    tags: ["Firebase", "React", "Node", "Tachyons"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/redux-core-with-hooks/",
-    visit: "/pages/404.tsx",
-    id: 4,
   },
   {
     title: "Finance - Logger",
