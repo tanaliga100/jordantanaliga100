@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { TimeLineData } from "../constants/me";
-import img from "/public/assets/img/piame-modified.png";
+import img from "/public/assets/img/profile-modified.png";
 
 type Props = {};
 const About = (props: Props) => {
@@ -27,10 +27,10 @@ const About = (props: Props) => {
           <div className="brightness-75 text-center contrast-175 mb-8">
             <Image
               src={img}
-              width={200}
-              height={200}
+              width={125}
+              height={125}
               alt="/"
-              className="grayscale"
+              className="contrast-125"
             />
           </div>
           {timeLine}

@@ -116,7 +116,7 @@ const Contact = (props: Props) => {
                   />
                 </div> */}
                 <div className="items-center text-center flex flex-col md:p-3 py-10 w-full">
-                  <button className="bg-orange-900 px-5 m-2 py-4 text-white text-xs font-normal tracking-widest w-1/2 cursor-pointer">
+                  <button className="bg-gradient-to-t from-orange-900 to-amber-700 px-5 m-2 py-4 text-white text-xs font-normal tracking-widest w-1/2 cursor-pointer">
                     <Mail
                       href="mailto:jordantanaliga@gmail.com"
                       subject="Hello"

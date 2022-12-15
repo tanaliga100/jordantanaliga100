@@ -19,8 +19,7 @@ const Main = (props: Props) => {
   return (
     <div
       id="home"
-      className="w-full h-full text-center items-center md:mb-12
-         
+      className="w-full h-[80vh] md:h-full text-center items-center md:mb-12
         bg-no-repeat  contrast-100 bg-fixed"
     >
       <div className=" w-full h-screen m-auto  flex justify-center items-center md:pt-32">
