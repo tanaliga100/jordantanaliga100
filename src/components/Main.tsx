@@ -60,8 +60,8 @@ const Main = (props: Props) => {
               <div className="border-spacing-2 mx-10 transition duration-300 ease-in-out   ">
                 <a
                   target="_blank"
-                  href="hhttps://join.skype.com/invite/w2qkAmtGH6Kz"
-                  rel="noopener noreferrer"
+                  href="skype:live:.cid.3928b274d9ebe539?chat"
+                  rel=" noopener noreferrer"
                 >
                   <FaSkype size={30} />
                 </a>

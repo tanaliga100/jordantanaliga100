@@ -64,7 +64,7 @@ const Navbar = (props: any) => {
             : "fixed w-full h-20   tracking-widest "
         }
       >
-        <div className="flex justify-between items-center p-10 w-full h-full px-2 bg-slate-900">
+        <div className="flex justify-between items-center p-10 w-full h-full px-2 bg-black">
           <Link href="/">
             {/* <Image src={img} alt="logo" width="60" height="50" /> */}
             <h1 className="hover:cursor-pointer  text-amber/10 text-xs">
@@ -195,18 +195,20 @@ const Navbar = (props: any) => {
                   </div> */}
                   <div className="border-spacing-2">
                     <a
-                      target="_blank"
-                      href="hhttps://join.skype.com/invite/w2qkAmtGH6Kz"
-                      rel="noopener noreferrer"
+                      
+                  target="_blank"
+                  href="skype:live:.cid.3928b274d9ebe539?chat"
+                  rel="noreferrer"
+                
                     >
                       <FaSkype size={30} />
                     </a>
                   </div>
                   <div className="border-spacing-2">
                     <a
-                      target="_blank"
-                      href="viber://chat?number=09690243354"
-                      rel="noopener noreferrer"
+                     target="_blank"
+                  href="viber://chat?number=09690243354"
+                  rel="noreferrer"
                     >
                       <FaViber size={30} />
                     </a>

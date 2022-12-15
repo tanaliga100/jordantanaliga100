@@ -15,7 +15,7 @@ type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    <div id="projects" className="w-full h-full pt-20">
+    <div id="projects" className="w-full h-full pt-20 ">
       <div className="mx-auto px-2">
         <h1 className="text-xl md:text-5xl  mx-auto text-center  font-bold tracking-widest uppercase ">
           Projects
@@ -52,8 +52,8 @@ export const ProjectCard = (props: IProjects) => {
         return (
           <div
             key={project.id}
-            className=" w-full  md:h-[max-height] 
-            rounded-xl group hover:saturate-200 md:p-5 items-center  pt-6 hover:border-b duration-100"
+            className=" w-full  h-auto 
+            rounded-xl group hover:saturate-200 md:p-5 items-center  pt-6 hover:border-b duration-100 "
           >
             <section className=" md:grid grid-cols-2 md:mx-20 items-center justify-center  bg-left bg-contain ">
               <section className="h-auto">
