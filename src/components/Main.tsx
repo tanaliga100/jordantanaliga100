@@ -20,7 +20,7 @@ const Main = (props: Props) => {
     <div
       id="home"
       className="w-full h-full text-center items-center md:mb-12
-         md:font-serif
+         
         bg-no-repeat  contrast-100 bg-fixed"
     >
       <div className=" w-full h-screen m-auto  flex justify-center items-center md:pt-32">

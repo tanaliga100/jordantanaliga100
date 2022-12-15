@@ -65,7 +65,7 @@ const Contact = (props: Props) => {
             </div>
           </div>
           {/* right */}
-          <div className="md:cols-span-2 h-full w-full shadow-xl rounded-xl lg:p-4">
+          <div className="md:cols-span-2 h-full w-full lg:p-4">
             <div className=" md:px-64">
               <form action="">
                 {/* <div className="grid md:grid-cols-2 md:py-2 ">
@@ -116,7 +116,7 @@ const Contact = (props: Props) => {
                   />
                 </div> */}
                 <div className="items-center text-center flex flex-col md:p-3 py-10 w-full">
-                  <button className="bg-gradient-to-t from-amber-900 to-transparent px-5 m-2 py-4 rounded text-white text-xs font-normal shadow-md tracking-widest w-1/2">
+                  <button className="bg-orange-900 px-5 m-2 py-4 text-white text-xs font-normal tracking-widest w-1/2 cursor-pointer">
                     <Mail
                       href="mailto:jordantanaliga@gmail.com"
                       subject="Hello"

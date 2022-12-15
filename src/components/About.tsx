@@ -20,7 +20,7 @@ const About = (props: Props) => {
   return (
     <div
       id="about"
-      className="w-full h-full  pt-20 px-5 md:px-40 flex items-center  bg-cover bg-left-top  bg-fixed bg-no-repeat"
+      className="w-full h-full pt-20 px-5 md:px-40  flex items-center  bg-cover bg-left-top  bg-fixed bg-no-repeat"
     >
       <div className="m-auto gap-1 items-center justify-between">
         <div className=" text-center  ">

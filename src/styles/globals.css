@@ -15,7 +15,7 @@ body {
   scroll-behavior: smooth;
   box-sizing: border-box;
   height: auto;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 @layer base {

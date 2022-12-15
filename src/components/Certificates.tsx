@@ -17,7 +17,7 @@ const Certificates = (props: any) => {
   return (
     <div id="certificates" className="w-full h-full pt-20 ">
       <div className="mx-auto px-2   ">
-        <h1 className="text-xl md:text-5xl py-10  md:py-5 mx-auto text-center font-serif tracking-widest uppercase">
+        <h1 className="text-xl md:text-5xl py-10  md:py-5 mx-auto text-center tracking-widest uppercase">
           Licenses and Certification
         </h1>
         <div className="grid md:grid-cols-2 gap-8 md:p-10 lg:px-60  ">

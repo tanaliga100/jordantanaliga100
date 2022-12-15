@@ -17,7 +17,7 @@ const Projects = (props: Props) => {
   return (
     <div id="projects" className="w-full h-full pt-20">
       <div className="mx-auto px-2">
-        <h1 className="text-xl md:text-5xl  mx-auto text-center font-serif font-bold tracking-widest uppercase ">
+        <h1 className="text-xl md:text-5xl  mx-auto text-center  font-bold tracking-widest uppercase ">
           Projects
         </h1>
         <div className="text-sm tracking-widest py-10">
@@ -74,7 +74,7 @@ export const ProjectCard = (props: IProjects) => {
               </section>
               <section className="md:grid h-full w-full">
                 <div className="backdrop-blur-sm">
-                  <h2 className="font-serif text-[25px] md:text-[40px] text-center contrast-50 mt-5 mb-3">
+                  <h2 className=" text-[25px] md:text-[40px] text-center contrast-50 mt-5 mb-3">
                     {project.title}
                   </h2>
                   <div className="md:m-5 flex flex-col items-center">
