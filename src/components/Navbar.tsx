@@ -64,7 +64,7 @@ const Navbar = (props: any) => {
             : "fixed w-full h-20   tracking-widest "
         }
       >
-        <div className="grid justify-between items-center p-10 w-full h-full px-2 bg-slate-900">
+        <div className="flex justify-between items-center p-10 w-full h-full px-2 bg-slate-900">
           <Link href="/">
             {/* <Image src={img} alt="logo" width="60" height="50" /> */}
             <h1 className="hover:cursor-pointer  text-amber/10 text-xs">
