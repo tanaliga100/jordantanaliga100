@@ -15,10 +15,7 @@ import img11 from "/public/assets/techstack/typescript.png";
 
 const TechStack = (props: any) => {
   return (
-    <div
-      id="techstack"
-      className="w-full md:h-full flex items-center md:mt-32 pt-20 "
-    >
+    <div id="techstack" className="w-full md:h-full flex items-center  pt-20 ">
       <div className="mx-auto  ">
         <h1 className="text-xl md:text-5xl mx-auto text-center font-serif font-bold  tracking-widest uppercase ">
           Tech-Stack

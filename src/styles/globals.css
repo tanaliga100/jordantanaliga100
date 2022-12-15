@@ -15,11 +15,12 @@ body {
   scroll-behavior: smooth;
   box-sizing: border-box;
   height: auto;
+  font-family: serif;
 }
 
 @layer base {
   body {
-    @apply bg-black  tracking-wide text-orange-400 md:text-3xl h-[100vh];
+    @apply tracking-wide text-orange-400 md:text-3xl h-[100vh];
   }
   h1,
   h2,

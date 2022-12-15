@@ -8,7 +8,9 @@ import {
   FaInstagram,
   FaLinkedin,
   FaRegWindowClose,
+  FaSkype,
   FaSmileWink,
+  FaViber,
 } from "react-icons/fa";
 import phFlag from "../../public/assets/icon/ph-flag.png";
 type Props = {};
@@ -17,9 +19,9 @@ const Main = (props: Props) => {
   return (
     <div
       id="home"
-      className="w-full md:h-[100vh] text-center items-center font-sans md:mb-12
+      className="w-full h-full text-center items-center md:mb-12
          md:font-serif
-        bg-no-repeat  contrast-100 bg-fixed "
+        bg-no-repeat  contrast-100 bg-fixed"
     >
       <div className=" w-full h-screen m-auto  flex justify-center items-center md:pt-32">
         <div className="text-center items-center w-full  contrast-100 ">
@@ -46,13 +48,31 @@ const Main = (props: Props) => {
               Connect with Me
             </p>
             <div className="flex text-center w-auto py-5">
-              <div className="border-spacing-2 mx-10 transition duration-300 ease-in-out   ">
+              {/* <div className="border-spacing-2 mx-10 transition duration-300 ease-in-out   ">
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/jordan-tanaliga-664b801a3/"
                   rel="noopener noreferrer"
                 >
                   <FaLinkedin size={30} />
+                </a>
+              </div> */}
+              <div className="border-spacing-2 mx-10 transition duration-300 ease-in-out   ">
+                <a
+                  target="_blank"
+                  href="hhttps://join.skype.com/invite/w2qkAmtGH6Kz"
+                  rel="noopener noreferrer"
+                >
+                  <FaSkype size={30} />
+                </a>
+              </div>
+              <div className="border-spacing-2 mx-10 transition duration-300 ease-in-out   ">
+                <a
+                  target="_blank"
+                  href="viber://chat?number=09690243354"
+                  rel="noopener noreferrer"
+                >
+                  <FaViber size={30} />
                 </a>
               </div>
               <div className="border-spacing-2 mx-10 transition duration-300 ease-in-out ">
@@ -80,5 +100,4 @@ const Main = (props: Props) => {
     </div>
   );
 };
-
 export default Main;

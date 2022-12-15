@@ -9,7 +9,9 @@ import {
   FaInstagram,
   FaLinkedin,
   FaRegWindowClose,
+  FaSkype,
   FaSmileWink,
+  FaViber,
 } from "react-icons/fa";
 import { VscSmiley } from "react-icons/vsc";
 
@@ -59,10 +61,10 @@ const Navbar = (props: any) => {
         className={
           shadow
             ? "fixed w-full h-20  z-[20]  tracking-widest"
-            : "fixed w-full h-20   tracking-widest"
+            : "fixed w-full h-20   tracking-widest "
         }
       >
-        <div className="flex justify-between items-center p-10 w-full h-full px-2">
+        <div className="grid justify-between items-center p-10 w-full h-full px-2 bg-slate-900">
           <Link href="/">
             {/* <Image src={img} alt="logo" width="60" height="50" /> */}
             <h1 className="hover:cursor-pointer  text-amber/10 text-xs">
@@ -182,13 +184,31 @@ const Navbar = (props: any) => {
                   Connect with Me
                 </p>
                 <div className="pt-5 cursor-pointer flex justify-around">
-                  <div className="border-spacing-2">
+                  {/* <div className="border-spacing-2">
                     <a
                       target="_blank"
                       href="https://www.linkedin.com/in/jordan-tanaliga-664b801a3/"
                       rel="noopener noreferrer"
                     >
                       <FaLinkedin size={30} />
+                    </a>
+                  </div> */}
+                  <div className="border-spacing-2">
+                    <a
+                      target="_blank"
+                      href="hhttps://join.skype.com/invite/w2qkAmtGH6Kz"
+                      rel="noopener noreferrer"
+                    >
+                      <FaSkype size={30} />
+                    </a>
+                  </div>
+                  <div className="border-spacing-2">
+                    <a
+                      target="_blank"
+                      href="viber://chat?number=09690243354"
+                      rel="noopener noreferrer"
+                    >
+                      <FaViber size={30} />
                     </a>
                   </div>
                   <div className="border-spacing-2">

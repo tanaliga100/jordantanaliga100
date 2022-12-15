@@ -48,15 +48,6 @@ const Contact = (props: Props) => {
               </div>
               <div className="md:py-10 py-10">
                 <div className="flex items-center justify-center    animate-pulse duration-100 ">
-                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer  px-1 ">
-                    <a
-                      href="https://www.linkedin.com/in/jordan-tanaliga-664b801a3/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaLinkedin size={40} />
-                    </a>
-                  </div>
                   <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer px-1">
                     <a
                       target="_blank"
@@ -64,15 +55,6 @@ const Contact = (props: Props) => {
                       rel="noopener noreferrer"
                     >
                       <AiFillMail size={40} />
-                    </a>
-                  </div>
-                  <div className="border-spacing-2 md:mx-10 transition duration-300 ease-in-out hover:cursor-pointer px-1">
-                    <a
-                      target="_blank"
-                      href="https://github.com/tanaliga100"
-                      rel="noopener noreferrer"
-                    >
-                      <FaGithub size={40} />
                     </a>
                   </div>
                 </div>
