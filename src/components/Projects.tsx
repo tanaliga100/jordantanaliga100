@@ -117,7 +117,7 @@ export const ProjectCard = (props: IProjects) => {
                         return (
                           <span
                             key={tag}
-                            className="font-thin text-xs md:text-sm w-full text-white/50 mx-1 md:px-5 cursor-default"
+                            className=" text-xs md:text-sm w-full text-white/50 mx-1 md:px-5 cursor-default"
                           >
                             {tag}
                           </span>

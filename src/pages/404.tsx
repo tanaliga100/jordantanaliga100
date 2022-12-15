@@ -14,7 +14,7 @@ const Page404 = (props: Props) => {
   }, [router]);
 
   return (
-    <div className="text-center m-10 pt-40 h-full">
+    <div className="text-center pt-40  h-full w-full">
       {router.asPath === "/no-entry" ? (
         <div>
           <h1 className="text-2xl md:text-5xl mb-5">Notice !</h1>

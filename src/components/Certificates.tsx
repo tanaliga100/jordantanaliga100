@@ -56,7 +56,7 @@ export const CertificateCard: NextPage<Props> = (props: Props) => {
                 priority
               />
               <div className="text-center">
-                <p className="font-thin text-orange/30 pt-5 ">{title}</p>
+                <p className=" text-orange/30 pt-5 ">{title}</p>
               </div>
             </div>
           </div>

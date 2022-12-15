@@ -8,9 +8,9 @@ type Props = {};
 const About = (props: Props) => {
   const timeLine = TimeLineData.map((val: any) => {
     return (
-      <div className="font-thin" key={val.id}>
+      <div className="" key={val.id}>
         <p className="text-xs md:text-2xl font-bold">{val.year}</p>
-        <p className="text-sm md:text-xl font-thin py-4 text-white/50 tracking-widest">
+        <p className="text-sm md:text-xl  py-4 text-white/50 tracking-widest">
           {val.text}
         </p>
       </div>

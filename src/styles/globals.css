@@ -28,7 +28,7 @@ body {
   h4,
   h5,
   h6 {
-    @apply font-thin;
+    @apply font-bold;
   }
   h1 {
     @apply text-4xl sm:text-5xl md:text-9xl;
