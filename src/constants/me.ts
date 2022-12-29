@@ -1,5 +1,18 @@
 export const projects = [
   {
+    title: "Jobster",
+    description:
+      "Jobster; A MERN stack application that puts jobs into a job queue to execute. Manage and ensures that the job applications are declined, pending or interviewed in appropriate order. It can add, edit, remove according to the author of the job. Has a sorting algorithm and authentication mechanism",
+    // note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+    image: "/assets/mockups/jobster-app.png",
+    tags: ["MongoDB", "Express", "React", "Styled Components"],
+    // source: "no-entry",
+    // visit: "/pages/404.tsx",
+    source: "https://github.com/tanaliga100/Jobster-App",
+    visit: "https://jobster-app-1nmx.onrender.com/landing",
+    id: 17,
+  },
+  {
     title: "Lazamo",
     description:
       "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
