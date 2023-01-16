@@ -49,7 +49,7 @@ export const projects = [
 //     source: "https://github.com/tanaliga100/react-meals/",
 //     visit: "https://react-meals-topaz.vercel.app/",
 //     id: 15,
-  },
+//   },
   {
     title: "Expense - Tracker",
     description:
