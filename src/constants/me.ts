@@ -51,18 +51,18 @@ export const projects = [
     visit: "https://netflox-beryl.vercel.app/",
     id: 16,
   },
-  {
-    title: "Food Order App",
-    description:
-      "Using React, Node.js, and Firebase as backend. I learn how to build a Full Stack  Application - from start to finish.Its an ordering app that allows users to takes an order depending on what they wanted.I used contextAPI as a state management for this project which helps to centralize the store/data with a combinations of react-hooks",
-    image: "/assets/mockups/react-meals.png",
-    tags: ["Firebase", "React", "Node", "CSS Modules"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/react-meals/",
-    visit: "https://react-meals-topaz.vercel.app/",
-    id: 15,
-  },
+//   {
+//     title: "Food Order App",
+//     description:
+//       "Using React, Node.js, and Firebase as backend. I learn how to build a Full Stack  Application - from start to finish.Its an ordering app that allows users to takes an order depending on what they wanted.I used contextAPI as a state management for this project which helps to centralize the store/data with a combinations of react-hooks",
+//     image: "/assets/mockups/react-meals.png",
+//     tags: ["Firebase", "React", "Node", "CSS Modules"],
+//     // source: "no-entry",
+//     // visit: "/pages/404.tsx",
+//     source: "https://github.com/tanaliga100/react-meals/",
+//     visit: "https://react-meals-topaz.vercel.app/",
+//     id: 15,
+//   },
   {
     title: "Expense - Tracker",
     description:
@@ -99,16 +99,16 @@ export const projects = [
     visit: "https://rtk-cart.vercel.app/",
     id: 12,
   },
-  {
-    title: "Landing Page",
-    description:
-      "This is a code-along project so nothing special. What I personally gain about building this app is how to use webpack from scratch. We all know, most of the technologies out there are already running through webpack. Most of all javascript libraries/frameworks to name a few. So in conclusion this experimental app helps me to understand what webpack is and how it works under the hood",
-    image: "/assets/mockups/landing-page.png",
-    tags: ["Tailwind", "VanillaJS", "Webpack"],
-    source: "https://github.com/tanaliga100/tailwind-landing-page",
-    visit: "https://tailwind-landing-page-kappa.vercel.app/",
-    id: 11,
-  },
+//   {
+//     title: "Landing Page",
+//     description:
+//       "This is a code-along project so nothing special. What I personally gain about building this app is how to use webpack from scratch. We all know, most of the technologies out there are already running through webpack. Most of all javascript libraries/frameworks to name a few. So in conclusion this experimental app helps me to understand what webpack is and how it works under the hood",
+//     image: "/assets/mockups/landing-page.png",
+//     tags: ["Tailwind", "VanillaJS", "Webpack"],
+//     source: "https://github.com/tanaliga100/tailwind-landing-page",
+//     visit: "https://tailwind-landing-page-kappa.vercel.app/",
+//     id: 11,
+//   },
   {
     title: "DoAny App",
     description:
@@ -121,64 +121,64 @@ export const projects = [
     visit: "https://todo-app-kohl-mu.vercel.app/",
     id: 10,
   },
-  {
-    title: "Covid19 - Tracker",
-    description:
-      "This app introduce me to learn RESTful API. How it works and be done. I use the public API for this app. This doesn't do alot of functionalities as compared to others but I gain more knowledge by building this app. This was an experimental app for me that measures my creativity.",
-    image: "/assets/mockups/covid-tracker.png",
-    tags: ["React", "Tailwind Css"],
-    source: "no-entry",
-    visit: "/pages/404.tsx",
-    id: 9,
-  },
-  {
-    title: "Redux - Cart",
-    description:
-      "This app became the summary of my studies in Redux. A state-management solution for react. I worked with the redux-core principles. Using the connect functions,  mapStateToProps and mapDispatchToProps subsequently to spread the state across the app without the need of hooks.",
-    image: "/assets/mockups/redux-cart.png",
-    tags: ["React", "MUI", "Redux"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/redux-core/",
-    visit: "https://redux-cart-delta.vercel.app/",
-    id: 8,
-  },
-  {
-    title: "Task-Lister App",
-    description:
-      "By building this App I learned many advanced React topics such as routing in depth but on top of that is I learned how to use React Hooks, which makes it easier to manage and much modern.",
-    image: "/assets/mockups/task-lister.png",
-    tags: ["React", "Hooks", "Bootstrap"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/react-101/",
-    visit: "https://react-task-tracker-rho.vercel.app/",
-    id: 7,
-  },
-  {
-    title: "EveryDay-Note",
-    description:
-      "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
-    image: "/assets/mockups/note-taking-app.png",
-    tags: ["Vanilla JS", "Vanilla Css"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/note-taking-app",
-    visit: "https://note-taking-app-orcin.vercel.app/index.html",
-    id: 6,
-  },
-  {
-    title: "Hangman Game",
-    description:
-      "This is a simple game app which let you guess the random word from an api. It counts every single stroke the user is guessing and gives a feedback how many attempt are left. Also whenever the user is guessing the correct letter will pop-up. This is an experimental app for me which measures my logical thinking.",
-    image: "/assets/mockups/guess-the-word.png",
-    tags: ["Vanilla JS", "Vanilla Css"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/hangman/",
-    visit: "https://hangman-lac.vercel.app/",
-    id: 5,
-  },
+//   {
+//     title: "Covid19 - Tracker",
+//     description:
+//       "This app introduce me to learn RESTful API. How it works and be done. I use the public API for this app. This doesn't do alot of functionalities as compared to others but I gain more knowledge by building this app. This was an experimental app for me that measures my creativity.",
+//     image: "/assets/mockups/covid-tracker.png",
+//     tags: ["React", "Tailwind Css"],
+//     source: "no-entry",
+//     visit: "/pages/404.tsx",
+//     id: 9,
+//   },
+//   {
+//     title: "Redux - Cart",
+//     description:
+//       "This app became the summary of my studies in Redux. A state-management solution for react. I worked with the redux-core principles. Using the connect functions,  mapStateToProps and mapDispatchToProps subsequently to spread the state across the app without the need of hooks.",
+//     image: "/assets/mockups/redux-cart.png",
+//     tags: ["React", "MUI", "Redux"],
+//     // source: "no-entry",
+//     // visit: "/pages/404.tsx",
+//     source: "https://github.com/tanaliga100/redux-core/",
+//     visit: "https://redux-cart-delta.vercel.app/",
+//     id: 8,
+//   },
+//   {
+//     title: "Task-Lister App",
+//     description:
+//       "By building this App I learned many advanced React topics such as routing in depth but on top of that is I learned how to use React Hooks, which makes it easier to manage and much modern.",
+//     image: "/assets/mockups/task-lister.png",
+//     tags: ["React", "Hooks", "Bootstrap"],
+//     // source: "no-entry",
+//     // visit: "/pages/404.tsx",
+//     source: "https://github.com/tanaliga100/react-101/",
+//     visit: "https://react-task-tracker-rho.vercel.app/",
+//     id: 7,
+//   },
+//   {
+//     title: "EveryDay-Note",
+//     description:
+//       "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
+//     image: "/assets/mockups/note-taking-app.png",
+//     tags: ["Vanilla JS", "Vanilla Css"],
+//     // source: "no-entry",
+//     // visit: "/pages/404.tsx",
+//     source: "https://github.com/tanaliga100/note-taking-app",
+//     visit: "https://note-taking-app-orcin.vercel.app/index.html",
+//     id: 6,
+//   },
+//   {
+//     title: "Hangman Game",
+//     description:
+//       "This is a simple game app which let you guess the random word from an api. It counts every single stroke the user is guessing and gives a feedback how many attempt are left. Also whenever the user is guessing the correct letter will pop-up. This is an experimental app for me which measures my logical thinking.",
+//     image: "/assets/mockups/guess-the-word.png",
+//     tags: ["Vanilla JS", "Vanilla Css"],
+//     // source: "no-entry",
+//     // visit: "/pages/404.tsx",
+//     source: "https://github.com/tanaliga100/hangman/",
+//     visit: "https://hangman-lac.vercel.app/",
+//     id: 5,
+//   },
   {
     title: "Finance - Logger",
     description:
@@ -193,26 +193,26 @@ export const projects = [
     id: 3,
   },
 
-  {
-    title: "React - Authentication",
-    description:
-      "This app sends the access token to the local storage which act as a backend server and perform a fetching with each subsequent request every time the user creates a new account or login either. I used the RTK for managing the state",
-    image: "/assets/mockups/react-auth.png",
-    tags: ["React", "Css Modules", "React-Redux", "RTK"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/react-authentication",
-    visit: "https://react-authentication-ochre.vercel.app/",
-    id: 2,
-  },
-  {
-    title: "jordantanaliga100 | E-Portfolio",
-    description:
-      "This is an online representation of my work. What I have created, as well as my skills, and experiences.",
-    image: "/assets/mockups/portfolio-cp.png",
-    tags: ["React", "Tailwind", "NextJs", "Typescript"],
-    id: 1,
-  },
+//   {
+//     title: "React - Authentication",
+//     description:
+//       "This app sends the access token to the local storage which act as a backend server and perform a fetching with each subsequent request every time the user creates a new account or login either. I used the RTK for managing the state",
+//     image: "/assets/mockups/react-auth.png",
+//     tags: ["React", "Css Modules", "React-Redux", "RTK"],
+//     // source: "no-entry",
+//     // visit: "/pages/404.tsx",
+//     source: "https://github.com/tanaliga100/react-authentication",
+//     visit: "https://react-authentication-ochre.vercel.app/",
+//     id: 2,
+//   },
+//   {
+//     title: "jordantanaliga100 | E-Portfolio",
+//     description:
+//       "This is an online representation of my work. What I have created, as well as my skills, and experiences.",
+//     image: "/assets/mockups/portfolio-cp.png",
+//     tags: ["React", "Tailwind", "NextJs", "Typescript"],
+//     id: 1,
+//   },
 ];
 export const TimeLineData = [
   {
