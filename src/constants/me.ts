@@ -13,6 +13,19 @@ export const projects = [
     id: 17,
   },
   {
+    title: "blastAdmin",
+    description:
+      "blastAdmin; a full blown admin site application built with React.js/Typescript. A dashboard management software that is designed to monitor the health of a business, department or specific process by visually tracking, analyzing and displaying key performance indicators (KPI) metrics and key data points using different graphical options.",
+    // note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+    image: "/assets/mockups/react-admin.png",
+    tags: ["React", "Typescript", "MUI"],
+    // source: "no-entry",
+    // visit: "/pages/404.tsx",
+    source: "https://github.com/tanaliga100/react-ts-dashboard",
+    visit: "https://react-ts-admin-nine.vercel.app/",
+    id: 18,
+  },
+  {
     title: "Lazamo",
     description:
       "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
