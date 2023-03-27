@@ -28,14 +28,14 @@ export const projects = [
   {
     title: "Lazamo",
     description:
-      "Lazamo; a full fledge e-commerce app built with React.js and Firebase as a backend. Its an ordering app inspired from lazada.I used a Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch]. ",
+      "Lazamo; a full fledge e-commerce app built with React.js and Express as a backend with Typescript. Its an ordering app inspired from lazada.I used Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch] ",
     note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
-    image: "/assets/mockups/lazamo.png",
-    tags: ["Firebase", "React", "Node", "Tachyons"],
+    image: "/assets/mockups/store.png",
+    tags: ["Express", "React", "Node", "Typescript"],
     // source: "no-entry",
     // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/redux-core-with-hooks/",
-    visit: "/pages/404.tsx",
+    source: "https://github.com/tanaliga100/react-store/",
+    visit: "https://react-store-woad.vercel.app/",
     id: 4,
   },
   {
@@ -229,17 +229,22 @@ export const projects = [
 export const TimeLineData = [
   {
     id: 1,
-    year: 2016,
-    text: "I started my journey as an IT Student at STI College-Munoz",
+    year: 2013,
+    text: "In 2013, Jordan began his journey as a CCE student at STI College-Munoz. Im so excited to learn everything about computers and technology, and over the next two years, they worked hard to gain a solid foundation in the field.",
+  },
+  {
+    id: 2,
+    year: 2015,
+    text: "After completing a two-year course, Jordan decided to pursue a Bachelor of Science in Information Technology at the same school. The next few years were spent studying hard and learning all they could about technology and coding.  ",
   },
   {
     id: 2,
     year: 2018,
-    text: "The following year 2018 - 2020 , I started to learn coding by myself. Applied for an Online Courses. Ventured to JavaScript World and specialized React.js framework as my main stack. From then on I spent my leeway learning from an open source tutorials on the internet ",
+    text: "In 2018, Jordan decided to takes learning to the next level and started to learn coding by himself. He applied for online courses and ventured into the world of JavaScript. Jordan specialized in the React.js framework as a main stack and spent free time learning from open-source tutorials on the internet",
   },
   {
     id: 3,
     year: 2021,
-    text: "And then graduated from college on October 2021 and finally land my very first job as a Jr. React Developer. ",
+    text: "Finally, in October 2021, Jordan graduated from college with a Bachelor of Science in Information Technology...",
   },
 ];
