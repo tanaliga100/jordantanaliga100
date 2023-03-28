@@ -25,6 +25,7 @@ export const projects = [
     visit: "https://react-ts-admin-nine.vercel.app/",
     id: 18,
   },
+
   {
     title: "Lazamo",
     description:
@@ -32,12 +33,26 @@ export const projects = [
     note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
     image: "/assets/mockups/store.png",
     tags: ["Express", "React", "Node", "Typescript"],
-    // source: "no-entry",
+    source: "/pages/404.tsx",
     // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/react-store/",
+    // source: "https://github.com/tanaliga100/react-store/",
     visit: "https://react-store-woad.vercel.app/",
     id: 4,
   },
+  {
+    title: "socioLive",
+    description:
+      "socioLive; a simple social media app built with React.js & MUI for FrontEnd and Express as a backend with Typescript. This app is inspired from from facebook but not the whole functionality it serves. I used RTK as a state management libary for this project",
+    note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+    image: "/assets/mockups/socio.png",
+    tags: ["Express", "React", "MUI", "Typescript"],
+    // source: "no-entry",
+    // visit: "/pages/404.tsx",
+    source: "/pages/404.tsx",
+    visit: "https://socio-live.vercel.app/",
+    id: 4,
+  },
+
   {
     title: "Netflox",
     description:
