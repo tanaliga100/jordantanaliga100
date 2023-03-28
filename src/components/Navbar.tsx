@@ -145,7 +145,7 @@ const Navbar = (props: any) => {
               </div>
             </div>
             {/* List-Items */}
-            <div className="uppercase font-mono flex flex-col">
+            <div className="uppercase flex flex-col">
               <ul className="">
                 <Link href="/">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
@@ -178,7 +178,7 @@ const Navbar = (props: any) => {
                   </li>
                 </Link>
               </ul>
-              <div className="pt-10 font-mono items-center w-auto">
+              <div className="pt-10  items-center w-auto">
                 <p className="uppercase items-center w-full tracking-widest py-2 shadow-lg">
                   {" "}
                   Connect with Me
@@ -195,20 +195,18 @@ const Navbar = (props: any) => {
                   </div> */}
                   <div className="border-spacing-2">
                     <a
-                      
-                  target="_blank"
-                  href="skype:live:.cid.3928b274d9ebe539?chat"
-                  rel="noreferrer"
-                
+                      target="_blank"
+                      href="skype:live:.cid.3928b274d9ebe539?chat"
+                      rel="noreferrer"
                     >
                       <FaSkype size={30} />
                     </a>
                   </div>
                   <div className="border-spacing-2">
                     <a
-                     target="_blank"
-                  href="viber://chat?number=09690243354"
-                  rel="noreferrer"
+                      target="_blank"
+                      href="viber://chat?number=09690243354"
+                      rel="noreferrer"
                     >
                       <FaViber size={30} />
                     </a>

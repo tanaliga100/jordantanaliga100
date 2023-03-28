@@ -245,17 +245,17 @@ export const TimeLineData = [
   {
     id: 1,
     year: 2013,
-    text: "In 2013, Jordan began his journey as a CCE student at STI College-Munoz. Im so excited to learn everything about computers and technology, and over the next two years, they worked hard to gain a solid foundation in the field.",
+    text: "In 2013, Jordan began his journey as a CCE student at STI College-Munoz. He's so excited to learn everything about computers and technology, and over the next two years, he worked hard to gain a solid foundation in the field.",
   },
   {
     id: 2,
     year: 2015,
-    text: "After completing a two-year course, Jordan decided to pursue a Bachelor of Science in Information Technology at the same school. The next few years were spent studying hard and learning all they could about technology and coding.  ",
+    text: "After completing a two-year course, Jordan decided to pursue a Bachelor of Science in Information Technology at the same school. The next few years he spent studying hard and learning all he could about technology and coding.  ",
   },
   {
     id: 2,
     year: 2018,
-    text: "In 2018, Jordan decided to takes learning to the next level and started to learn coding by himself. He applied for online courses and ventured into the world of JavaScript. Jordan specialized in the React.js framework as a main stack and spent free time learning from open-source tutorials on the internet",
+    text: "In 2018, Jordan decided to takes learning to the next level and started to learn coding by himself. Applied for online courses and ventured into the world of JavaScript. Jordan specialized React.js framework as a main stack and spent free time learning from open-source tutorials on the internet",
   },
   {
     id: 3,
