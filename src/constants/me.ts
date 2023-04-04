@@ -206,19 +206,19 @@ export const projects = [
   //     visit: "https://hangman-lac.vercel.app/",
   //     id: 5,
   //   },
-  {
-    title: "Finance - Logger",
-    description:
-      "This app is built with pure Typescript in an Object-Oriented manner. I've never done that before. So as a refresher I built this simple finance logger app.",
-    note: "THIS PROJECT IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
-    image: "/assets/mockups/finance-logger.png",
-    tags: ["Typescript", "Webpack", "Tailwind", "JS"],
-    // source: "no-entry",
-    visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/finance-logger/",
-    // visit: "https://finance-logger-gamma.vercel.app/",
-    id: 3,
-  },
+  // {
+  //   title: "Finance - Logger",
+  //   description:
+  //     "This app is built with pure Typescript in an Object-Oriented manner. I've never done that before. So as a refresher I built this simple finance logger app.",
+  //   note: "THIS PROJECT IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+  //   image: "/assets/mockups/finance-logger.png",
+  //   tags: ["Typescript", "Webpack", "Tailwind", "JS"],
+  //   // source: "no-entry",
+  //   visit: "/pages/404.tsx",
+  //   source: "https://github.com/tanaliga100/finance-logger/",
+  //   // visit: "https://finance-logger-gamma.vercel.app/",
+  //   id: 3,
+  // },
 
   //   {
   //     title: "React - Authentication",
