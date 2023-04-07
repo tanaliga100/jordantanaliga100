@@ -1,19 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
 import {
-  FaFacebook,
-  FaFacebookSquare,
   FaGithub,
-  FaInstagram,
-  FaLinkedin,
   FaRegWindowClose,
   FaSkype,
   FaSmileWink,
   FaViber,
 } from "react-icons/fa";
-import { VscSmiley } from "react-icons/vsc";
 
 import { useRouter } from "next/router";
 import img from "/public/assets/img/piame-modified.png";
@@ -64,15 +59,15 @@ const Navbar = (props: any) => {
             : "fixed w-full h-20   tracking-widest "
         }
       >
-        <div className="flex justify-between items-center p-10 w-full h-full px-2 bg-black">
-          <Link href="/">
+        <div className="flex justify-between items-center p-10 w-full h-full px-2 bg-black/10">
+          <Link href="/" className="flex-grow">
             {/* <Image src={img} alt="logo" width="60" height="50" /> */}
             <h1 className="hover:cursor-pointer  text-amber/10 text-xs">
               jordantanaliga<span className="text-white">100</span>
             </h1>
           </Link>
           <ul
-            className="hidden md:flex gap-8 p-7"
+            className="hidden md:flex gap-8 p-7 flex-grow-2"
             style={{ color: `${linkColor}` }}
           >
             <Link href="/">
@@ -81,27 +76,27 @@ const Navbar = (props: any) => {
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
                 About
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/#techstack">
-              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
-                Tech Stack
+              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
+                Stack
               </li>
             </Link>
             <Link href="/#certificates">
-              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Certificates
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
                 Contact
               </li>
             </Link>

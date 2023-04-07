@@ -1,16 +1,15 @@
 import { NextPage } from "next";
 import Image from "next/image";
-import React from "react";
 import img1 from "/public/assets/certificates/javascript.jpg";
+import img3 from "/public/assets/certificates/node.jpg";
 import img2 from "/public/assets/certificates/react.jpg";
 import img4 from "/public/assets/certificates/typescript.jpg";
-import img3 from "/public/assets/certificates/ui-ux.jpg";
 
 const Certificates = (props: any) => {
   const data = [
     { img: img1, title: "JavaScript", description: "JavaScript Description" },
     { img: img2, title: "React", description: "React Description" },
-    { img: img3, title: "UI-UX", description: "UI-UX Description" },
+    { img: img3, title: "Node", description: "Node Description" },
     { img: img4, title: "TypeScript", description: "TypeScript Description" },
   ];
 
@@ -45,7 +44,7 @@ export const CertificateCard: NextPage<Props> = (props: Props) => {
           <div key={title}>
             <div
               className="relative grid items-center justify-center h-auto w-full
-                         p-5  rounded-xl group bg-primary bg-cover bg-center bg-no-repeat hover:border-b duration-700"
+                         p-5  rounded-xl group  bg-cover bg-center bg-no-repeat hover:border-b duration-700"
             >
               <Image
                 className="rounded-xl hover:translate-y-6 duration-1000 backdrop-blur-lg "
@@ -56,7 +55,7 @@ export const CertificateCard: NextPage<Props> = (props: Props) => {
                 priority
               />
               <div className="text-center">
-                <p className=" text-orange/30 pt-5 ">{title}</p>
+                <p className=" text-orange/30 pt-5 font-bold">{title}</p>
               </div>
             </div>
           </div>

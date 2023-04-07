@@ -52,10 +52,10 @@ export const TechStackCard = (props: Props) => {
       {/* Items  */}
       <div
         className="p-6 rounded-xl hover:scale-105 ease-in duration-500 w-full
-       bg-primary bg-cover bg-center bg-no-repeat"
+        bg-cover bg-center bg-no-repeat"
       >
-        <div className="grid md:grid-cols-2 gap-4 justify-center items-center ">
-          <div className="m-auto ">
+        <div className="grid justify-center items-center ">
+          <div className="m-auto">
             <Image
               src={props.img}
               alt="stack"
@@ -64,11 +64,9 @@ export const TechStackCard = (props: Props) => {
               priority
             />
           </div>
-          <div className="">
-            <h3 className="uppercase font-thin text-base text-orange/30">
-              {props.children}
-            </h3>
-          </div>
+          <h3 className="uppercase font-bold text-base text-orange/30 text-center">
+            {props.children}
+          </h3>
         </div>
       </div>
     </>

@@ -12,20 +12,19 @@ export const projects = [
     visit: "https://jobify-lsez.onrender.com/",
     id: 17,
   },
-  {
-    title: "blastAdmin",
-    description:
-      "blastAdmin; a full blown admin site application built with React.js/Typescript. A dashboard management software that is designed to monitor the health of a business, department or specific process by visually tracking, analyzing and displaying key performance indicators (KPI) metrics and key data points using different graphical options.",
-    // note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
-    image: "/assets/mockups/react-admin.png",
-    tags: ["React", "Typescript", "MUI"],
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/react-ts-dashboard",
-    visit: "https://react-ts-admin-nine.vercel.app/",
-    id: 18,
-  },
-
+  // {
+  //   title: "blastAdmin",
+  //   description:
+  //     "blastAdmin; a full blown admin site application built with React.js/Typescript. A dashboard management software that is designed to monitor the health of a business, department or specific process by visually tracking, analyzing and displaying key performance indicators (KPI) metrics and key data points using different graphical options.",
+  //   // note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+  //   image: "/assets/mockups/react-admin.png",
+  //   tags: ["React", "Typescript", "MUI"],
+  //   // source: "no-entry",
+  //   // visit: "/pages/404.tsx",
+  //   source: "https://github.com/tanaliga100/react-ts-dashboard",
+  //   visit: "https://react-ts-admin-nine.vercel.app/",
+  //   id: 18,
+  // },
   {
     title: "Lazamo",
     description:
@@ -50,22 +49,22 @@ export const projects = [
     // visit: "/pages/404.tsx",
     source: "/pages/404.tsx",
     visit: "https://socio-live.vercel.app/",
-    id: 4,
+    id: 5,
   },
 
-  {
-    title: "Netflox",
-    description:
-      "Netflox; a full fledge entertainment app built with Next.js and Firebase as a backend. Its basically a movie app inspired from netflix.",
-    image: "/assets/mockups/netflix.png",
-    tags: ["Firebase", "Next.js", "Typescript", "Tailwind"],
-    // source: "https://github.com/tanaliga100/redux-core-with-hooks",
-    // source: "no-entry",
-    // visit: "/pages/404.tsx",
-    source: "https://github.com/tanaliga100/netflox",
-    visit: "https://netflox-beryl.vercel.app/",
-    id: 16,
-  },
+  // {
+  //   title: "Netflox",
+  //   description:
+  //     "Netflox; a full fledge entertainment app built with Next.js and Firebase as a backend. Its basically a movie app inspired from netflix.",
+  //   image: "/assets/mockups/netflix.png",
+  //   tags: ["Firebase", "Next.js", "Typescript", "Tailwind"],
+  //   // source: "https://github.com/tanaliga100/redux-core-with-hooks",
+  //   // source: "no-entry",
+  //   // visit: "/pages/404.tsx",
+  //   source: "https://github.com/tanaliga100/netflox",
+  //   visit: "https://netflox-beryl.vercel.app/",
+  //   id: 16,
+  // },
   //   {
   //     title: "Food Order App",
   //     description:
@@ -243,12 +242,12 @@ export const projects = [
 ];
 export const TimeLineData = [
   {
-    id: 1,
+    id: 0,
     year: 2013,
     text: "In 2013, Jordan began his journey as a CCE student at STI College-Munoz. He's so excited to learn everything about computers and technology, and over the next two years, he worked hard to gain a solid foundation in the field.",
   },
   {
-    id: 2,
+    id: 1,
     year: 2015,
     text: "After completing a two-year course, Jordan decided to pursue a Bachelor of Science in Information Technology at the same school. The next few years he spent studying hard and learning all he could about technology and coding.  ",
   },
