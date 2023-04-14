@@ -146,32 +146,32 @@ export const ProjectDetails = (props: IProjects) => {
               <Image
                 src={project.image}
                 alt={project.title}
-                layout="responsive"
-                width={400}
-                height={210}
+                layout="fill"
+                width={380}
+                height={200}
                 objectFit="cover"
-                objectPosition="top"
+                objectPosition="top-center"
                 priority={true}
                 quality={90}
               />
-              <section className="p-2 flex flex-row justify-around  contrast-100 brightness-125 bg-amber-900 items-center font-thin">
-                {project.tags.map((tag) => {
-                  return (
-                    <span
-                      key={tag}
-                      className="gap-2 text-xs md:text-sm w-auto text-white/100 cursor-default divide-x"
-                    >
-                      {tag}
-                    </span>
-                  );
-                })}
-              </section>
             </div>
+            <section className="p-2 flex flex-row justify-around  contrast-100 brightness-125 bg-amber-900 items-center font-thin">
+              {project.tags.map((tag) => {
+                return (
+                  <span
+                    key={tag}
+                    className="text-xs font-extralight md:text-sm w-auto text-white/100 cursor-default divide-x"
+                  >
+                    {tag}
+                  </span>
+                );
+              })}
+            </section>
             <div className="p-2 ">
               <h1 className="text-md font-bold text-amber/10 md:pt-10 text-[15px] md:text-[25px] ">
                 {project.title}
               </h1>
-              <p className="font-thin text-white/95 md:pt-3">
+              <p className="font-thin text-white/100 md:pt-3">
                 {project.description}
               </p>
 
@@ -191,7 +191,7 @@ export const ProjectDetails = (props: IProjects) => {
                 <section className="flex justify-between items-center text-amber/10 ">
                   <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
                     <a rel="noopener noreferrer" href={project.visit}>
-                      Visit
+                      Inspect
                     </a>
                   </div>
                   <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
