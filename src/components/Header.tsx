@@ -6,7 +6,7 @@ const Header = (props: Props) => {
   return (
     <div>
       <Head>
-        <title>Jordan Tanaliga | Personal Portfolio</title>
+        <title>Jordan Tanaliga | FullStack Developer</title>
         <link
           rel="icon"
           type="image/png"
@@ -15,8 +15,8 @@ const Header = (props: Props) => {
         ></link>
         <meta
           name="description"
-          content="Jordan Pascual Tanaliga | Portfolio | A Front-End Web Developer |
-        I use React.js as my main stack in application development"
+          content="Jordan Pascual Tanaliga | Portfolio | Full Stack Web Developer |
+        I use React.js as my main stack in application development in combination with Node.js/Express Framework as backend"
         />
       </Head>
     </div>

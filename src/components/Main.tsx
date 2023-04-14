@@ -1,18 +1,5 @@
-import Image from "next/image";
-import React, { useState } from "react";
-import { AiFillMail, AiOutlineMenu } from "react-icons/ai";
-import {
-  FaFacebook,
-  FaFacebookSquare,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaRegWindowClose,
-  FaSkype,
-  FaSmileWink,
-  FaViber,
-} from "react-icons/fa";
-import phFlag from "../../public/assets/icon/ph-flag.png";
+import { AiFillMail } from "react-icons/ai";
+import { FaGithub, FaSkype, FaViber } from "react-icons/fa";
 type Props = {};
 
 const Main = (props: Props) => {
@@ -34,12 +21,13 @@ const Main = (props: Props) => {
               I'm Jordan
             </span>
             <h1 className=" text-sm  pt-4  tracking-widest">
-              A Front-End Web Developer
+              A Full Stack Web Developer
             </h1>
             <p className=" p-5 md:px-40 text-md md:text-2xl  tracking-widest contrast-0 text-white/90 ">
               ...based in the Philippines. I started to learn coding by myself.
               Applied for an Online Courses. Ventured to JavaScript world and
-              specialized React.js framework as my main stack
+              specialized React.js framework as my main stack along with
+              Node/Express as backend.
             </p>
           </span>
           <div className="hidden md:grid md:justify-center hover:cursor-pointer w-full h-auto  animate-pulse duration-50">

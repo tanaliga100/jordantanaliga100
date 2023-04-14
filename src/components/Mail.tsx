@@ -1,6 +1,3 @@
-import React from "react";
-import Link from "next/link";
-
 type Props = {
   label: string;
   href?: string;

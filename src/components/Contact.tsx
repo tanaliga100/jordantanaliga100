@@ -1,17 +1,6 @@
-import Image, { StaticImageData } from "next/image";
-import React from "react";
+import { StaticImageData } from "next/image";
 import { AiFillMail } from "react-icons/ai";
-import {
-  FaFacebook,
-  FaFacebookSquare,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaRegWindowClose,
-  FaSmileWink,
-} from "react-icons/fa";
 import Mail from "./Mail";
-import img from "/public/assets/img/me-modified.png";
 type Props = {
   img?: StaticImageData;
 };
@@ -40,7 +29,7 @@ const Contact = (props: Props) => {
               <div className="w-full text-xs md:text-xl">
                 <h2 className="">Jordan P. Tanaliga </h2>
                 <p className="font-thin tracking-widest  text-white/40 ">
-                  Front-End Developer
+                  Full Stack Web Developer
                 </p>
                 <p className="font-thin  text-white/40 ">
                   Lets create cool things together !
