@@ -191,7 +191,7 @@ export const ProjectDetails = (props: IProjects) => {
                 width={380}
                 height={200}
                 objectFit="cover"
-                objectPosition="top-center"
+                objectPosition="top"
                 priority={true}
                 quality={90}
               />
