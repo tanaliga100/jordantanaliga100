@@ -5,7 +5,9 @@ import Image from "next/image";
 // import img4 from "../../assets/img/piame.jpg";
 // import img5 from "../../assets/img/profile.jpg";
 // import img6 from "../../assets/img/me.jpg";
+import React from "react";
 import { AiFillExclamationCircle } from "react-icons/ai";
+import { FaRegUserCircle } from "react-icons/fa";
 import { projects } from "../constants/me";
 
 type Props = {};
@@ -134,8 +136,44 @@ interface IProjects {
 // };
 
 export const ProjectDetails = (props: IProjects) => {
+  const userAgent = typeof window !== "undefined" ? navigator.userAgent : "";
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(userAgent);
+
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (isMobile) {
+      e.preventDefault();
+      // alert("Sorry, this link cannot be opened on a mobile device.");
+      setIsOpen(true);
+    }
+  };
+
   return (
     <section className="grid md:grid-cols-2 md:p-10 gap-5 text-center ">
+      {isOpen && (
+        <div className="fixed top-0 left-0 w-full h-screen bg-gray-900 bg-opacity-50 z-50">
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg p-6 shadow-md">
+            <p className="text-md font-bold mb-4">
+              <FaRegUserCircle size={50} /> jordantanaliga100:
+            </p>
+            <small className="text-black/90 mb-4 font-normal">
+              I cannot allow you to open this link when using mobile
+              devices...Im sorry...
+            </small>
+            <button
+              className="bg-orange-900 text-white rounded mt-8 p-2 shadow-md"
+              onClick={toggleModal}
+            >
+              Ok
+            </button>
+          </div>
+        </div>
+      )}
       {props.projects.map((project) => {
         return (
           <div
@@ -190,7 +228,11 @@ export const ProjectDetails = (props: IProjects) => {
               ) : (
                 <section className="flex justify-between items-center text-amber/10 ">
                   <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
-                    <a rel="noopener noreferrer" href={project.visit}>
+                    <a
+                      rel="noopener noreferrer"
+                      href={project.visit}
+                      onClick={handleLinkClick}
+                    >
                       Inspect
                     </a>
                   </div>
