@@ -169,7 +169,7 @@ export const ProjectDetails = (props: IProjects) => {
               devices.
             </small>
             <button
-              className="bg-orange-900 text-white rounded mt-8 p-2 shadow-md"
+              className="bg-orange-900 text-white rounded mt-10 p-2 shadow-md"
               onClick={toggleModal}
             >
               Close
