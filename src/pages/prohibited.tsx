@@ -3,7 +3,7 @@ import React from "react";
 
 type Props = {};
 
-const Page404 = (props: Props) => {
+const Prohibited = (props: Props) => {
   const router = useRouter();
 
   React.useEffect(() => {
@@ -14,19 +14,12 @@ const Page404 = (props: Props) => {
 
   return (
     <div className="text-center pt-40  h-full w-full">
-      {router.asPath === "/prohibited" ? (
+      {router.asPath === "/prohibited" && (
         <div>
           <h1 className="text-2xl md:text-5xl mb-5">Notice !</h1>
           <p className="font-thin">
-            ....This page is prohibited by the author due to possible copyright
-            infringement....
-          </p>
-        </div>
-      ) : (
-        <div>
-          <h1 className="text-2xl md:text-5xl mb-5 ">Page Not Found</h1>
-          <p className="font-thin bg-backdrop-blur">
-            ....This page is under maintenance by the author....
+            ....The author has prohibited access to this page due to potential
+            copyright infringement....
           </p>
         </div>
       )}
@@ -41,4 +34,4 @@ const Page404 = (props: Props) => {
   );
 };
 
-export default Page404;
+export default Prohibited;
