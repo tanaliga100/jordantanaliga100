@@ -35,7 +35,7 @@ export const projects = [
     source: "/pages/404.tsx",
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/react-store/",
-    visit: "https://react-store-woad.vercel.app/",
+    visit: "https://lazamo.vercel.app/",
     id: 4,
   },
   // {
