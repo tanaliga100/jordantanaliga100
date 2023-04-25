@@ -7,7 +7,7 @@ import Image from "next/image";
 // import img6 from "../../assets/img/me.jpg";
 import React from "react";
 import { AiFillExclamationCircle } from "react-icons/ai";
-import { FaRegUserCircle } from "react-icons/fa";
+import me from "../../public/assets/img/profile-modified.png";
 import { projects } from "../constants/me";
 
 type Props = {};
@@ -160,13 +160,15 @@ export const ProjectDetails = (props: IProjects) => {
           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg p-6 shadow-md text-center">
             <div className="text-md font-bold mb-4 text-center ">
               <span className="flex justify-center text-center pb-3">
-                <FaRegUserCircle size={30} />
+                {/* <FaRegUserCircle size={30} /> */}
+                {/* <img src={me} alt="me" /> */}
+                <Image src={me} alt="profile" width={25} height={25} />
               </span>
-              <span>jordantanaliga100:</span>
+              <span className="font-normal">jordantanaliga100:</span>
             </div>
-            <small className="text-black/90 font-normal text-xs">
-              Im sorry...I cannot allow you to open this link when using mobile
-              devices
+            <small className="text-black/90 font-thin text-xs">
+              I'm sorry, but access to this link is not allowed on mobile
+              devices...
             </small>
             <button
               className="bg-orange-900 text-white rounded mt-10 p-2 shadow-md"
