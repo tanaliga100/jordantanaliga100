@@ -1,5 +1,18 @@
 export const projects = [
   {
+    title: "Lazamo",
+    description:
+      "Lazamo; a full fledge e-commerce app built with React.js and Express as a backend with Typescript. Its an ordering app inspired from lazada.I used RTK as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch] ",
+    note: "THIS IS UNDER MAINTERNANCE AS BACKEND WORK IS ONGOING...",
+    image: "/assets/mockups/store.png",
+    tags: ["Express", "React", "Node", "Typescript"],
+    source: "/pages/404.tsx",
+    // visit: "/pages/404.tsx",
+    // source: "https://github.com/tanaliga100/react-store/",
+    visit: "https://lazamo.vercel.app/",
+    id: 1,
+  },
+  {
     title: "Jobster",
     description:
       "Jobster; A MERN stack application that puts jobs into a job queue to execute. Manage and ensures that the job applications are declined, pending or interviewed in appropriate order. It can add, edit, remove according to the author of the job. Has a sorting algorithm and authentication mechanism",
@@ -10,34 +23,22 @@ export const projects = [
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/jobsterApp",
     visit: "https://jobster-9foc.onrender.com/landing",
-    id: 17,
+    id: 2,
   },
-  // {
-  //   title: "blastAdmin",
-  //   description:
-  //     "blastAdmin; a full blown admin site application built with React.js/Typescript. A dashboard management software that is designed to monitor the health of a business, department or specific process by visually tracking, analyzing and displaying key performance indicators (KPI) metrics and key data points using different graphical options.",
-  //   // note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
-  //   image: "/assets/mockups/react-admin.png",
-  //   tags: ["React", "Typescript", "MUI"],
-  //   // source: "no-entry",
-  //   // visit: "/pages/404.tsx",
-  //   source: "https://github.com/tanaliga100/react-ts-dashboard",
-  //   visit: "https://react-ts-admin-nine.vercel.app/",
-  //   id: 18,
-  // },
   {
-    title: "Lazamo",
+    title: "blastAdmin",
     description:
-      "Lazamo; a full fledge e-commerce app built with React.js and Express as a backend with Typescript. Its an ordering app inspired from lazada.I used Redux as a state management for this project with a combinations of react-redux hooks [useSelector & useDispatch] ",
-    note: "THIS IS UNDER MAINTERNANCE AS BACKEND WORK IS ONGOING...",
-    image: "/assets/mockups/store.png",
-    tags: ["Express", "React", "Node", "Typescript"],
-    source: "/pages/404.tsx",
+      "blastAdmin; a full blown admin site application built with React.js/Typescript. A dashboard management software that is designed to monitor the health of a business, department or specific process by visually tracking, analyzing and displaying key performance indicators (KPI) metrics and key data points using different graphical options.",
+    // note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+    image: "/assets/mockups/react-admin-light.png",
+    tags: ["React", "Typescript", "MUI"],
+    // source: "no-entry",
     // visit: "/pages/404.tsx",
-    // source: "https://github.com/tanaliga100/react-store/",
-    visit: "https://lazamo.vercel.app/",
-    id: 4,
+    source: "prohibited",
+    visit: "https://react-ts-admin-nine.vercel.app/",
+    id: 3,
   },
+
   // {
   //   title: "socioLive",
   //   description:
@@ -65,18 +66,18 @@ export const projects = [
   //   visit: "https://netflox-beryl.vercel.app/",
   //   id: 16,
   // },
-  {
-    title: "Food Order App",
-    description:
-      "Using React, Node.js, and Firebase as backend. I learn how to build a Full Stack  Application - from start to finish.Its an ordering app that allows users to takes an order depending on what they wanted.I used contextAPI as a state management for this project which helps to centralize the store/data with a combinations of react-hooks",
-    image: "/assets/mockups/react-meals.png",
-    tags: ["Firebase", "React", "Node", "CSS Modules"],
-    source: "prohibited",
-    // visit: "/pages/404.tsx",
-    // source: "https://github.com/tanaliga100/react-meals/",
-    visit: "https://react-meals-topaz.vercel.app/",
-    id: 15,
-  },
+  // {
+  //   title: "Food Order App",
+  //   description:
+  //     "Using React, Node.js, and Firebase as backend. I learn how to build a Full Stack  Application - from start to finish.Its an ordering app that allows users to takes an order depending on what they wanted.I used contextAPI as a state management for this project which helps to centralize the store/data with a combinations of react-hooks",
+  //   image: "/assets/mockups/react-meals.png",
+  //   tags: ["Firebase", "React", "Node", "CSS Modules"],
+  //   source: "prohibited",
+  //   // visit: "/pages/404.tsx",
+  //   // source: "https://github.com/tanaliga100/react-meals/",
+  //   visit: "https://react-meals-topaz.vercel.app/",
+  //   id: 15,
+  // },
   // {
   //   title: "D&D",
   //   description:
@@ -111,7 +112,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/react-quotes",
     visit: "https://react-quotes-blond.vercel.app/quotes",
-    id: 13,
+    id: 4,
   },
   // {
   //   title: "bookStorey",
@@ -145,7 +146,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/todo-app",
     visit: "https://todo-app-kohl-mu.vercel.app/",
-    id: 10,
+    id: 5,
   },
   //   {
   //     title: "Covid19 - Tracker",
