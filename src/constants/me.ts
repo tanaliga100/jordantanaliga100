@@ -25,33 +25,33 @@ export const projects = [
     visit: "https://jobster-9foc.onrender.com/landing",
     id: 2,
   },
+  //   {
+  //     title: "blastAdmin",
+  //     description:
+  //       "blastAdmin; a full blown admin site application built with React.js/Typescript. A dashboard management software that is designed to monitor the health of a business, department or specific process by visually tracking, analyzing and displaying key performance indicators (KPI) metrics and key data points using different graphical options.",
+  //     note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
+  //     image: "/assets/mockups/react-admin-light.png",
+  //     tags: ["React", "Typescript", "MUI"],
+  //     // source: "no-entry",
+  //     // visit: "/pages/404.tsx",
+  //     source: "/pages/404.tsx",
+  //     visit: "https://react-ts-admin-nine.vercel.app/",
+  //     id: 3,
+  //   },
+
   {
-    title: "blastAdmin",
+    title: "socioLive",
     description:
-      "blastAdmin; a full blown admin site application built with React.js/Typescript. A dashboard management software that is designed to monitor the health of a business, department or specific process by visually tracking, analyzing and displaying key performance indicators (KPI) metrics and key data points using different graphical options.",
+      "socioLive; a simple social media app built with React.js & MUI for FrontEnd and Express as a backend with Typescript. This app is inspired from from facebook but not the whole functionality it serves. I used RTK as a state management libary for this project",
     note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
-    image: "/assets/mockups/react-admin-light.png",
-    tags: ["React", "Typescript", "MUI"],
+    image: "/assets/mockups/socio.png",
+    tags: ["Express", "React", "MUI", "Typescript"],
     // source: "no-entry",
     // visit: "/pages/404.tsx",
     source: "/pages/404.tsx",
-    visit: "https://react-ts-admin-nine.vercel.app/",
-    id: 3,
+    visit: "https://socio-live.vercel.app/",
+    id: 5,
   },
-
-  // {
-  //   title: "socioLive",
-  //   description:
-  //     "socioLive; a simple social media app built with React.js & MUI for FrontEnd and Express as a backend with Typescript. This app is inspired from from facebook but not the whole functionality it serves. I used RTK as a state management libary for this project",
-  //   note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
-  //   image: "/assets/mockups/socio.png",
-  //   tags: ["Express", "React", "MUI", "Typescript"],
-  //   // source: "no-entry",
-  //   // visit: "/pages/404.tsx",
-  //   source: "/pages/404.tsx",
-  //   visit: "https://socio-live.vercel.app/",
-  //   id: 5,
-  // },
 
   // {
   //   title: "Netflox",
@@ -114,18 +114,18 @@ export const projects = [
     visit: "https://react-quotes-blond.vercel.app/quotes",
     id: 4,
   },
-  // {
-  //   title: "bookStorey",
-  //   description:
-  //     "A simulation of simple e-commerce site with firebase as a backend.  I learned a solid foundation of reduxjs/toolkit by building this app. I used a combinations of useSelector and useDispatch from the react-redux library. This is an experimental app for me and my first ever React project",
-  //   image: "/assets/mockups/rtk-cart.png",
-  //   tags: ["React", "Firebase", "MUI", "RTK"],
-  //   // source: "no-entry",
-  //   // visit: "/pages/404.tsx",
-  //   source: "https://github.com/tanaliga100/bookStorey",
-  //   visit: "https://book-storey.vercel.app/",
-  //   id: 12,
-  // },
+  //   {
+  //     title: "bookStorey",
+  //     description:
+  //       "A simulation of simple e-commerce site with firebase as a backend.  I learned a solid foundation of reduxjs/toolkit by building this app. I used a combinations of useSelector and useDispatch from the react-redux library. This is an experimental app for me and my first ever React project",
+  //     image: "/assets/mockups/rtk-cart.png",
+  //     tags: ["React", "Firebase", "MUI", "RTK"],
+  //     // source: "no-entry",
+  //     // visit: "/pages/404.tsx",
+  //     source: "https://github.com/tanaliga100/bookStorey",
+  //     visit: "https://book-storey.vercel.app/",
+  //     id: 12,
+  //   },
   //   {
   //     title: "Landing Page",
   //     description:
