@@ -12,13 +12,26 @@ export const projects = [
     visit: "https://lazamo.vercel.app/",
     id: 1,
   },
+   {
+    title: "Jobifyx",
+    description:
+      "Jobyfyx; A MERN stack application that puts jobs into a job queue to execute. Manage and ensures that the job applications are declined, pending or interviewed in appropriate order. It can add, edit, remove according to the author of the job. Has a sorting algorithm and authentication mechanism PLUS it has Role-Based Access Control",
+    note: "THIS IS UNDER MAINTERNANCE...",
+    image: "/assets/mockups/jobifyx.png",
+    tags: ["MongoDB", "Express", "React", "MUI", "Typescript"],
+    source: "prohibited",
+    visit: "/pages/404.tsx",
+    // source: "https://github.com/tanaliga100/jobsterApp",
+    // visit: "https://jobster-9foc.onrender.com/landing",
+    id: 100,
+  },
   {
     title: "Jobster",
     description:
       "Jobster; A MERN stack application that puts jobs into a job queue to execute. Manage and ensures that the job applications are declined, pending or interviewed in appropriate order. It can add, edit, remove according to the author of the job. Has a sorting algorithm and authentication mechanism",
     // note: "THIS IS UNDER MAINTERNANCE BECAUSE I'VE PLAN TO DO THIS AS FULL FLEDGE APPLICATION USING NODE.JS/EXPRESS AS BACKEND AND MONGODB FOR DATABASE...",
     image: "/assets/mockups/jobster-app.png",
-    tags: ["MongoDB", "Express", "React", "Css-in-JS"],
+    tags: ["MongoDB", "Express", "React", "Styled-Components"],
     source: "prohibited",
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/jobsterApp",
@@ -106,7 +119,7 @@ export const projects = [
     title: "Quotivate ",
     description:
       "This app lets you create a quotes with an author tag. Also you can put a comment under for whatever reason you might want to. I used firebase as a backend database which let data persist not just in the UI. Also I used the vite module bundler here for rapid instance of the projects.",
-    image: "/assets/mockups/great-quotes.png",
+    image: "/assets/mockups/quotivate.png",
     tags: ["React", "Css Modules", "Firebase", "Vite"],
     source: "prohibited",
     // visit: "/pages/404.tsx",
