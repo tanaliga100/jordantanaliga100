@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }: AppProps) {
    
     <div className="bg-center 
     bg-cover bg-gradient-to-tl from-slate-900 via-20% via-gray-900 via-80% to-black to-90% 
-    scroll-smooth
     w-full h-full">
       <Layout>
         <Component {...pageProps} />     

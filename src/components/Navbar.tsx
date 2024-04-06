@@ -16,7 +16,6 @@ type Props = {};
 
 const Navbar = (props: any) => {
   const [nav, setNav] = useState(false);
-  const [shadow, setShadow] = useState(false);
  const [navBg, setNavBg] = useState("bg-transparent");
 
   
@@ -25,11 +24,17 @@ const Navbar = (props: any) => {
       if (window.scrollY > 0) {
          setNavBg("bg-black");
       } else {
-          setNavBg("bg-transparent");
+          setNavBg("bg-inherit");
       }
     };
-   return () =>  window.addEventListener("scroll", handleShadow);
-  }, []);
+    
+    return () => {
+      window.addEventListener("scroll", handleShadow);
+    console.log('SCROLL_Y', window.scrollY);
+
+    }
+  
+    }, [navBg]);
 
   // toggler
   const handleToggleNav = () => {
@@ -39,7 +44,7 @@ const Navbar = (props: any) => {
     <main className="">
       <div
         className={
-             `fixed w-full h-20  z-[20]  tracking-widest ${navBg}  duration-500` }
+             `fixed w-full h-20  z-50  tracking-widest ${navBg} duration-500` }
       >
         <div className={`flex justify-between items-center  w-full h-full px-5 `}>
           <Link href="/" className="flex-grow">
