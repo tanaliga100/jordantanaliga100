@@ -43,11 +43,11 @@ export const CertificateCard: NextPage<Props> = (props: Props) => {
         return (
           <div key={title}>
             <div
-              className="relative grid items-center justify-center h-auto w-full
+              className="relative grid items-center justify-center h-auto w-full bg-black
                          p-5  rounded-xl group  bg-cover bg-center bg-no-repeat hover:border-b duration-700"
             >
               <Image
-                className="rounded-xl hover:translate-y-6 duration-1000 backdrop-blur-lg "
+                className="rounded-xl hover:translate-y-2 duration-1000 backdrop-blur-lg "
                 src={img}
                 alt="projects"
                 width={1000}

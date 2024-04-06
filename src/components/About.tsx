@@ -1,6 +1,4 @@
 import Image from "next/image";
-import React from "react";
-import { Typewriter } from "react-simple-typewriter";
 import { TimeLineData } from "../constants/me";
 import img from "/public/assets/img/profile-modified.png";
 
@@ -23,14 +21,14 @@ const About = (props: Props) => {
       className="w-full h-full pt-20 px-5 md:px-40  flex items-center  bg-cover bg-left-top  bg-fixed bg-no-repeat"
     >
       <div className="m-auto gap-1 items-center justify-between">
-        <div className=" text-center  ">
+        <div className=" text-center">
           <div className="brightness-75 text-center contrast-175 mb-8">
             <Image
               src={img}
               width={125}
               height={125}
-              alt="/"
-              className="contrast-125"
+              alt="MY_IMAGE"
+              className="contrast-150 m-auto"
             />
           </div>
           {timeLine}

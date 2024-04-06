@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
@@ -8,12 +9,22 @@ type Props = {
 };
 
 const Layout: React.FC<Props> = ({ children }) => {
+  const router = useRouter()
+  useEffect(() => { 
+    if (router.asPath === "/prohibited") {
+      setVisible(false)
+    }
+
+  }, [router])
+
+
   const [visible, setVisible] = useState<boolean>(true)
    
 
   function handleCloseModal() {
-    setVisible(false)
+      setVisible(false)
   }
+ 
   
  
 

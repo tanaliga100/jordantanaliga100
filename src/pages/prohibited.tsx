@@ -11,7 +11,7 @@ const Prohibited = (props: Props) => {
       router;
     };
   }, [router]);
-
+ 
   return (
     <div className="text-center pt-40  h-full w-full">
       {router.asPath === "/prohibited" && (

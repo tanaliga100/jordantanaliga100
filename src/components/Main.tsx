@@ -17,10 +17,10 @@ const Main = (props: Props) => {
             </p>
           </div>
           <span className="text-xl md:text-2xl w-4/5 md:w-full">
-            <span className="text-amber-800 font-bold py-28 text-3xl md:text-4xl md:font-extrabold ">
+            <span className="text-amber-800 font-bold py-28 text-5xl md:text-8xl md:font-extrabold ">
               I'm Jordan
             </span>
-            <h1 className=" text-sm  pt-4  tracking-widest">
+            <h1 className=" text-sm  pt-4 md:text-5xl tracking-widest">
               A Full Stack Web Developer
             </h1>
             <p className=" p-5 md:px-40 text-md md:text-2xl  tracking-widest contrast-0 text-white/90 ">
@@ -30,8 +30,8 @@ const Main = (props: Props) => {
               Node/Express as backend.
             </p>
           </span>
-          <div className="hidden md:grid md:justify-center hover:cursor-pointer w-full h-auto  animate-pulse duration-50">
-            <p className="uppercase items-center tracking-widest shadow-lg  pt-10">
+          <div className="hidden md:grid md:justify-center bg-gradient-to-lr from-slate/900 to-slate/800 hover:cursor-pointer w-[50dvw] border-none rounded-lg p-3 mx-auto h-auto  animate-pulse duration-50">
+            <p className="uppercase items-center tracking-widest shadow-lg  pt-10 text-xs font-bold ">
               Connect with Me
             </p>
             <div className="flex text-center w-auto py-5">

@@ -22,6 +22,7 @@ const Page404 = (props: Props) => {
             infringement....
           </p>
         </div>
+
       ) : (
         <div>
           <h1 className="text-2xl md:text-5xl mb-5 ">Page Not Found</h1>

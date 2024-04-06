@@ -5,6 +5,7 @@ import Image from "next/image";
 // import img4 from "../../assets/img/piame.jpg";
 // import img5 from "../../assets/img/profile.jpg";
 // import img6 from "../../assets/img/me.jpg";
+import Link from "next/link";
 import React from "react";
 import { AiFillExclamationCircle } from "react-icons/ai";
 import me from "../../public/assets/img/profile-modified.png";
@@ -166,6 +167,7 @@ export const ProjectDetails = (props: IProjects) => {
               </span>
               <span className="font-normal">jordantanaliga100:</span>
             </div>
+            <section className="grid grid-flow-row">
             <small className="text-black/90 font-thin text-xs">
               I'm sorry, but access to this link is not allowed on mobile
               devices...
@@ -173,9 +175,10 @@ export const ProjectDetails = (props: IProjects) => {
             <button
               className="bg-orange-900 text-white rounded mt-10 p-2 shadow-md"
               onClick={toggleModal}
-            >
+              >
               Close
             </button>
+              </section>
           </div>
         </div>
       )}
@@ -190,8 +193,8 @@ export const ProjectDetails = (props: IProjects) => {
                 src={project.image}
                 alt={project.title}
                 layout="fill"
-                width={380}
-                height={200}
+                // width={380}
+                // height={200}
                 objectFit="cover"
                 objectPosition="top"
                 priority={true}
@@ -232,19 +235,23 @@ export const ProjectDetails = (props: IProjects) => {
                 ""
               ) : (
                 <section className="flex justify-between items-center text-amber/10 ">
-                  <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
-                    <a
-                      rel="noopener noreferrer"
-                      href={project.visit}
+                    <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
+                   <Link
+                      href={String(project.visit)} 
                       onClick={handleLinkClick}
-                    >
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >
                       Inspect
-                    </a>
+                    </Link>
                   </div>
-                  <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
-                    <a rel="noopener noreferrer" href={project.source}>
+                    <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
+                    <Link rel="noopener noreferrer" 
+                    //  target="_blank"
+                    
+                        href={String(project.source)}>
                       Code
-                    </a>
+                    </Link>
                   </div>
                 </section>
               )}
