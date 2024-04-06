@@ -16,15 +16,14 @@ type Props = {};
 
 const Navbar = (props: any) => {
   const [nav, setNav] = useState(false);
- const [navBg, setNavBg] = useState("bg-transparent");
-
+  const [navBg, setNavBg] = useState("bg-transparent");
   
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY > 0) {
          setNavBg("bg-black");
       } else {
-          setNavBg("bg-inherit");
+          setNavBg("bg-transparent");
       }
     };
     
