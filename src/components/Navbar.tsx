@@ -17,14 +17,18 @@ type Props = {};
 const Navbar = (props: any) => {
   const [nav, setNav] = useState(false);
   const [navBg, setNavBg] = useState("bg-transparent");
+  const [shadow, setShadow] = useState("shadow-none")
   
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY > 0) {
-         setNavBg("bg-black");
+        setNavBg("bg-black");
+        setShadow("shadow-2xl")
       } else {
-          setNavBg("bg-transparent");
-      }
+        setNavBg("bg-transparent")
+        setShadow("shadow-2xl")
+
+      } 
     };
     
     return () => {
@@ -39,22 +43,29 @@ const Navbar = (props: any) => {
   const handleToggleNav = () => {
     setNav(!nav);
   };
+
   return (
     <main className="">
       <div
         className={
-             `fixed w-full h-20  z-50  tracking-widest ${navBg} duration-500` }
+             `fixed w-full h-20 z-50 tracking-widest 
+        ${shadow} ${navBg} duration-75
+             `}
       >
-        <div className={`flex justify-between items-center  w-full h-full px-5 `}>
+        <div className={`flex justify-between items-center  w-full h-full px-5 
+        
+        `}>
           <Link href="/" className="flex-grow">
             {/* <Image src={img} alt="logo" width="60" height="50" /> */}
             <h1 className="hover:cursor-pointer  text-amber/10 text-xs">
               jordantanaliga<span className="text-white">100</span>
             </h1>
           </Link>
+
           <ul
             className="hidden md:flex gap-8 p-7 flex-grow-2"
           >
+
             <Link href="/">
               <li className="ml-10 font-thin text-sm contrast-0 uppercase hover:border-b">
                 Home
