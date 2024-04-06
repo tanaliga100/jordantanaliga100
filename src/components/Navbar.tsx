@@ -49,7 +49,7 @@ const Navbar = (props: any) => {
       <div
         className={
              `fixed w-full h-20 z-50 tracking-widest 
-        ${shadow} ${navBg} duration-75
+             bg-black
              `}
       >
         <div className={`flex justify-between items-center  w-full h-full px-5 
