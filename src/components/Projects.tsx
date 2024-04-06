@@ -248,7 +248,6 @@ export const ProjectDetails = (props: IProjects) => {
                     <div className="font-normal text-white contrast-100 p-1 md:px-10 bg-amber-900 hover:bg-amber-700 hover:cursor-pointer mx-4 rounded-sm ">
                     <Link rel="noopener noreferrer" 
                     //  target="_blank"
-                    
                         href={String(project.source)}>
                       Code
                     </Link>

@@ -139,16 +139,28 @@ export const projects = [
   //     visit: "https://book-storey.vercel.app/",
   //     id: 12,
   //   },
-  //   {
-  //     title: "Landing Page",
-  //     description:
-  //       "This is a code-along project so nothing special. What I personally gain about building this app is how to use webpack from scratch. We all know, most of the technologies out there are already running through webpack. Most of all javascript libraries/frameworks to name a few. So in conclusion this experimental app helps me to understand what webpack is and how it works under the hood",
-  //     image: "/assets/mockups/landing-page.png",
-  //     tags: ["Tailwind", "VanillaJS", "Webpack"],
-  //     source: "https://github.com/tanaliga100/tailwind-landing-page",
-  //     visit: "https://tailwind-landing-page-kappa.vercel.app/",
-  //     id: 11,
-  //   },
+    {
+      title: "Landing Page",
+      description:
+        "This is a code-along project so nothing special. What I personally gain about building this app is how to use webpack from scratch. We all know, most of the technologies out there are already running through webpack. Most of all javascript libraries/frameworks to name a few. So in conclusion this experimental app helps me to understand what webpack is and how it works under the hood",
+      image: "/assets/mockups/landing-page.png",
+      tags: ["Tailwind", "VanillaJS", "Webpack"],
+      source: "https://github.com/tanaliga100/tailwind-landing-page",
+      visit: "https://tailwind-landing-page-kappa.vercel.app/",
+      id: 11,
+  },
+  {
+      title: "EveryDay-Note",
+      description:
+        "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
+      image: "/assets/mockups/note-taking-app.png",
+      tags: ["Vanilla JS", "Vanilla Css"],
+      source: "prohibited",
+      // visit: "/pages/404.tsx",
+      // source: "https://github.com/tanaliga100/note-taking-app",
+      visit: "https://note-taking-app-orcin.vercel.app/index.html",
+      id: 5,
+    },
   {
     title: "DoAny App",
     description:
@@ -156,10 +168,10 @@ export const projects = [
     image: "/assets/mockups/todo-app.png",
     tags: ["Vanilla JS", "Vanilla Css"],
     source: "prohibited",
-    visit: "404.tsx",
+    // visit: "404.tsx",
     // source: "https://github.com/tanaliga100/todo-app",
-    // visit: "https://todo-app-kohl-mu.vercel.app/",
-    id: 5,
+    visit: "https://todo-app-kohl-mu.vercel.app/",
+    id: 6,
   },
   //   {
   //     title: "Covid19 - Tracker",
@@ -195,18 +207,7 @@ export const projects = [
   //     visit: "https://react-task-tracker-rho.vercel.app/",
   //     id: 7,
   //   },
-  //   {
-  //     title: "EveryDay-Note",
-  //     description:
-  //       "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
-  //     image: "/assets/mockups/note-taking-app.png",
-  //     tags: ["Vanilla JS", "Vanilla Css"],
-  //     // source: "no-entry",
-  //     // visit: "/pages/404.tsx",
-  //     source: "https://github.com/tanaliga100/note-taking-app",
-  //     visit: "https://note-taking-app-orcin.vercel.app/index.html",
-  //     id: 6,
-  //   },
+   
   //   {
   //     title: "Hangman Game",
   //     description:
