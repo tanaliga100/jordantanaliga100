@@ -17,7 +17,7 @@ const Main = (props: Props) => {
             </p>
           </div>
           <span className="text-xl md:text-2xl w-4/5 md:w-full">
-            <span className="text-amber-800 font-bold py-28 text-5xl md:text-8xl md:font-extrabold ">
+            <span className="text-amber-800 font-bold  text-5xl md:text-8xl md:font-extrabold py-28">
               I'm Jordan
             </span>
             <h1 className=" text-sm  pt-4 md:text-5xl tracking-widest">

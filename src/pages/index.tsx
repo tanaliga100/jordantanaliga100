@@ -18,7 +18,7 @@ type Props = {
 const Home: NextPage<Props> = ({ children }) => {
   return (
     <React.Fragment>
-      <div>
+      <div className="md:pt-14 scroll-smooth">
         <Main />
         <About />
         <Projects />

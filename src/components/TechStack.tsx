@@ -33,7 +33,10 @@ const TechStack = (props: any) => {
   return (
     <div id="techstack" className="w-full md:h-full flex items-center  pt-20 ">
       <div className="mx-auto  ">
-        <h1 className="text-xl md:text-5xl mx-auto text-center  font-bold  tracking-widest uppercase ">
+        <h1 className="
+        mx-auto text-center  tracking-wider 
+        text-amber-800 font-bold  text-3xl md:text-6xl md:font-extrabold
+        ">
           Tech-Stack
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 px-10 pt-10 md:p-10 lg:grid-cols-4 gap-8">

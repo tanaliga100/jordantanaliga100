@@ -6,7 +6,7 @@ type Props = {};
 const About = (props: Props) => {
   const timeLine = TimeLineData.map((val: any) => {
     return (
-      <div className="" key={val.id}>
+      <div className="shadow-2xl py-5" key={val.id}>
         <p className="text-xs md:text-2xl font-bold">{val.year}</p>
         <p className="text-sm md:text-xl  py-4 text-white/50 tracking-widest">
           {val.text}
@@ -18,7 +18,9 @@ const About = (props: Props) => {
   return (
     <div
       id="about"
-      className="w-full h-full pt-20 px-5 md:px-40  flex items-center  bg-cover bg-left-top  bg-fixed bg-no-repeat"
+      className="w-full h-full pt-20 px-5 md:px-40  flex items-center  bg-cover bg-left-top  bg-fixed bg-no-repeat
+      
+      "
     >
       <div className="m-auto gap-1 items-center justify-between">
         <div className=" text-center">
@@ -28,7 +30,7 @@ const About = (props: Props) => {
               width={125}
               height={125}
               alt="MY_IMAGE"
-              className="contrast-150 m-auto"
+              className="contrast-150 m-auto "
             />
           </div>
           {timeLine}

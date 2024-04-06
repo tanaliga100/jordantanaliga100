@@ -17,7 +17,10 @@ const Projects = (props: Props) => {
   return (
     <div id="projects" className="w-full h-full pt-20 ">
       <div className="mx-auto px-2">
-        <h1 className="text-xl md:text-5xl  mx-auto text-center  font-bold tracking-widest uppercase ">
+        <h1 className="  
+        mx-auto text-center  tracking-wider 
+        text-amber-800 font-bold  text-3xl md:text-6xl md:font-extrabold
+        ">
           Projects
         </h1>
         <div className="text-sm tracking-widest py-10">
@@ -168,7 +171,7 @@ export const ProjectDetails = (props: IProjects) => {
               <span className="font-normal">jordantanaliga100:</span>
             </div>
             <section className="grid grid-flow-row">
-            <small className="text-black/90 font-thin text-xs">
+            <small className="text-black/90 font-normal text-xs">
               I'm sorry, but access to this link is not allowed on mobile
               devices...
             </small>

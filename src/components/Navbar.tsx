@@ -10,7 +10,6 @@ import {
   FaViber,
 } from "react-icons/fa";
 
-import { useRouter } from "next/router";
 import img from "/public/assets/img/piame-modified.png";
 
 type Props = {};
@@ -18,31 +17,18 @@ type Props = {};
 const Navbar = (props: any) => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("black");
-  const [linkColor, setLinkColor] = useState("white");
+ const [navBg, setNavBg] = useState("bg-transparent");
 
-  const router = useRouter();
-
-  useEffect(() => {
-    if (router.asPath === "/project-overview") {
-      //something code here
-      setNavBg("rgb(0 0 0 / 0.1");
-      setLinkColor("orange");
-    } else {
-      setNavBg("black");
-      setLinkColor("white");
-    }
-  }, [router]);
-
+  
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 0) {
-        setShadow(true);
+      if (window.scrollY > 0) {
+         setNavBg("bg-black");
       } else {
-        setShadow(false);
+          setNavBg("bg-transparent");
       }
     };
-    window.addEventListener("scroll", handleShadow);
+   return () =>  window.addEventListener("scroll", handleShadow);
   }, []);
 
   // toggler
@@ -50,16 +36,12 @@ const Navbar = (props: any) => {
     setNav(!nav);
   };
   return (
-    <>
+    <main className="">
       <div
-        style={{ backgroundColor: `${navBg}` }}
         className={
-          shadow
-            ? "fixed w-full h-20  z-[20]  tracking-widest"
-            : "fixed w-full h-20   tracking-widest "
-        }
+             `fixed w-full h-20  z-[20]  tracking-widest ${navBg}  duration-500` }
       >
-        <div className="flex justify-between items-center p-10 w-full h-full px-2 bg-black/10">
+        <div className={`flex justify-between items-center  w-full h-full px-5 `}>
           <Link href="/" className="flex-grow">
             {/* <Image src={img} alt="logo" width="60" height="50" /> */}
             <h1 className="hover:cursor-pointer  text-amber/10 text-xs">
@@ -68,35 +50,34 @@ const Navbar = (props: any) => {
           </Link>
           <ul
             className="hidden md:flex gap-8 p-7 flex-grow-2"
-            style={{ color: `${linkColor}` }}
           >
             <Link href="/">
-              <li className="ml-10 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-10 font-thin text-sm contrast-0 uppercase hover:border-b">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
                 About
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
-                Projects
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
+                Projects 
               </li>
             </Link>
             <Link href="/#techstack">
-              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
                 Stack
               </li>
             </Link>
             <Link href="/#certificates">
-              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
-                Certificates
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
+                Certs
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-2 font-bold text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
                 Contact
               </li>
             </Link>
@@ -105,7 +86,7 @@ const Navbar = (props: any) => {
             <AiOutlineMenu size={20} />
           </div>
         </div>
-        {/* Menu */}
+        {/* ON MOBILE */}
         <div
           className={
             nav
@@ -230,7 +211,7 @@ const Navbar = (props: any) => {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 };
 

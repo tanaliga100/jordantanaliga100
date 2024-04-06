@@ -29,7 +29,7 @@ const Layout: React.FC<Props> = ({ children }) => {
  
 
   return (
-    <main>
+    <main className="scroll-smooth">
       {visible && 
         <OnboardingModal closeModal={handleCloseModal}  />
       }

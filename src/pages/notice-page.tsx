@@ -34,7 +34,7 @@ const [agreed, setAgreed] = useState<boolean>(false)
               </svg>
             </div>
             <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
-              <h3 className="text-base font-semibold leading-6 text-gray-900" id="modal-title"> Non-Disclosure Agreement (NDA):</h3>
+              <h3 className="text-xl font-bold leading-6 text-gray-900 " id="modal-title"> Non-Disclosure Agreement (NDA):</h3>
               <div className="mt-2">
                  <h1>
      
