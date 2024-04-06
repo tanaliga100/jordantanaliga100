@@ -18,7 +18,7 @@ const [agreed, setAgreed] = useState<boolean>(false)
   }
 
   return (
-    <div className="relative  z-50" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div className="relative  " aria-labelledby="modal-title" role="dialog" aria-modal="true">
   
   <div className="fixed inset-0 bg-slate-900 bg-opacity-75 transition-opacity"></div>
 

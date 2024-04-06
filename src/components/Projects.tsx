@@ -160,7 +160,7 @@ export const ProjectDetails = (props: IProjects) => {
   return (
     <section className="grid md:grid-cols-2 md:p-8 gap-5 text-center ">
       {isOpen && (
-        <div className="fixed top-0 left-0 w-full h-screen bg-black/75 bg-opacity-50  text-center">
+        <div className="fixed top-0 left-0 w-full h-screen bg-black/75 bg-opacity-50 z-50 text-center">
           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg p-6 shadow-md text-center">
             <div className="text-md font-bold mb-4 text-center ">
               <span className="flex justify-center text-center pb-3">
@@ -171,7 +171,7 @@ export const ProjectDetails = (props: IProjects) => {
               <span className="font-normal">jordantanaliga100:</span>
             </div>
             <section className="grid grid-flow-row">
-            <small className="text-black/90 font-normal text-xs">
+            <small className="text-black/90 font-medium text-xs">
               I'm sorry, but access to this link is not allowed on mobile
               devices...
             </small>
