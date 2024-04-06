@@ -48,12 +48,12 @@ const Navbar = (props: any) => {
     <main className="">
       <div
         className={
-             `fixed w-full h-20 z-50 tracking-widest 
-             bg-black
+             `fixed w-full h-20 z-50 tracking-widest
+shadow-2xl
+ bg-gradient-to-l from-slate-900 via-100%   via-100% to-black to-100% 
              `}
       >
         <div className={`flex justify-between items-center  w-full h-full px-5 
-        
         `}>
           <Link href="/" className="flex-grow">
             {/* <Image src={img} alt="logo" width="60" height="50" /> */}
@@ -67,32 +67,32 @@ const Navbar = (props: any) => {
           >
 
             <Link href="/">
-              <li className="ml-10 font-thin text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-10 font-thin text-sm contrast-0 uppercase hover:border-b ">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b ">
                 About
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b ">
                 Projects 
               </li>
             </Link>
             <Link href="/#techstack">
-              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b ">
                 Stack
               </li>
             </Link>
             <Link href="/#certificates">
-              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b ">
                 Certs
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b">
+              <li className="ml-2 font-thin text-sm contrast-0 uppercase hover:border-b ">
                 Contact
               </li>
             </Link>

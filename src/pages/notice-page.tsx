@@ -66,5 +66,3 @@ const [agreed, setAgreed] = useState<boolean>(false)
 </div>
   )
 }
-
-
