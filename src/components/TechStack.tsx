@@ -19,14 +19,11 @@ import img18 from "/public/assets/techstack/postgre.png";
 import img20 from "/public/assets/techstack/postman.png";
 import img21 from "/public/assets/techstack/python.png";
 import img10 from "/public/assets/techstack/react.png";
+import img25 from "/public/assets/techstack/redux.png";
 import img24 from "/public/assets/techstack/sqlite.png";
 import img22 from "/public/assets/techstack/styled-components.png";
 import img4 from "/public/assets/techstack/tailwind.png";
 import img11 from "/public/assets/techstack/typescript.png";
-import img25 from "/public/assets/techstack/vscode.png";
-
-
-
 
 
 const TechStack = (props: any) => {
@@ -63,7 +60,7 @@ const TechStack = (props: any) => {
           <TechStackCard img={img21}>PYTHON</TechStackCard>
           <TechStackCard img={img22}>STYLED-COMPONENTS</TechStackCard>
           <TechStackCard img={img23}>Express</TechStackCard>
-          <TechStackCard img={img25}>VS_CODE</TechStackCard>
+          <TechStackCard img={img25}>REDUX</TechStackCard>
 
 
 

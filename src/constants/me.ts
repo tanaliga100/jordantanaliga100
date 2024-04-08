@@ -277,3 +277,85 @@ export const TimeLineData = [
     text: "Finally, in October 2021, Jordan graduated from college with a Bachelor of Science in Information Technology...",
   },
 ];
+
+export const EducationTimeline = [
+
+  {
+    id: 0,
+    title: "Secondary Education",
+    school: "Stella Maris School, Lubang",
+    year: '2009-2013',
+    journey: "",
+  },
+  {
+    id: 1,
+    title: "Higher Education",
+    school: "STI-College Munoz-EDSA",
+    course: 'Consumer and Computer Electronics Program',
+    year: '2013-2015',
+    journey: "",
+    internship: {
+      company: "Audio Solutions",
+      testimonials: ""
+    }
+  },
+  {
+    id: 2,
+    title: "Higher Education",
+    school: "STI-College Munoz-EDSA",
+    course: 'Bachelor of Science in Information Technology',
+    year: '2016-2021',
+    journey: "",
+    internship: {
+      company: "Citiglobal Realstate Company",
+      testimonials: ""
+    }
+  }
+]
+
+export const Services = [
+  {
+    id: 1,
+    title: "Web Design",
+    tools: [
+      {
+        id: 1,
+        img: "",
+        name: ""
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: "Front-End Development",
+    tools: [
+      {
+        id: 1,
+        img: "",
+        name: ""
+      }
+    ]
+  },
+   {
+    id: 3,
+    title: "API Development",
+    tools: [
+      {
+        id: 1,
+        img: "",
+        name: ""
+      }
+    ]
+  },
+  {
+    id: 4,
+    title: "Database Modeling",
+    tools: [
+      {
+        id: 1,
+        img: "",
+        name: ""
+      }
+    ]
+  }
+]

@@ -21,9 +21,11 @@ const Home: NextPage<Props> = ({ children }) => {
       <div className="md:pt-14">
         <Main />
         <About />
+        {/* <Education/> */}
         <Projects />
         <TechStack />
         <Certificates />
+        {/* <Services/> */}
         <Contact />
         <TopUp />
       </div>
