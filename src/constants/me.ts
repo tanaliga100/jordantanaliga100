@@ -279,24 +279,16 @@ export const TimeLineData = [
 ];
 
 export const EducationTimeline = [
-
-  {
-    id: 0,
-    title: "Secondary Education",
-    school: "Stella Maris School, Lubang",
-    year: '2009-2013',
-    journey: "",
-  },
   {
     id: 1,
     title: "Higher Education",
     school: "STI-College Munoz-EDSA",
     course: 'Consumer and Computer Electronics Program',
     year: '2013-2015',
-    journey: "",
+    journey: "My journey in higher education at STI-College Munoz-EDSA was an enriching and transformative experience. From the moment I stepped onto campus, I was immersed in a dynamic learning environment that fostered both academic growth and personal development. The Consumer and Computer Electronics Program provided me with a comprehensive understanding of electronics and computer technology, covering topics ranging from circuit design to hardware implementations.",
     internship: {
       company: "Audio Solutions",
-      testimonials: ""
+      testimonials: "During my internship at Audio Solutions, I had the opportunity to apply the theoretical knowledge gained from my coursework in a real-world setting. Under the guidance of experienced professionals, I worked on various projects involving audio equipment troubleshooting, repair, and installation. This hands-on experience not only honed my technical skills but also taught me the importance of teamwork, communication, and problem-solving in a professional environment. I am grateful for the valuable lessons learned and the mentorship received during my time at Audio Solutions."
     }
   },
   {
@@ -305,10 +297,10 @@ export const EducationTimeline = [
     school: "STI-College Munoz-EDSA",
     course: 'Bachelor of Science in Information Technology',
     year: '2016-2021',
-    journey: "",
+    journey: "Embarking on my Bachelor of Science in Information Technology at STI-College Munoz-EDSA marked a pivotal moment in my academic and professional journey. Throughout the program, I delved into the multifaceted world of IT, immersing myself in subjects such as programming, database management, network administration, and cybersecurity. The rigorous coursework and hands-on projects challenged me to think critically, solve complex problems, and adapt to the rapidly evolving landscape of technology.",
     internship: {
-      company: "Citiglobal Realstate Company",
-      testimonials: ""
+      company: "Citiglobal Company",
+      testimonials: "My internship experience at Citiglobal Company provided invaluable insights into the practical applications of information technology in a corporate setting. Working alongside seasoned IT professionals, I contributed to various projects involving system development, software implementation, and IT infrastructure management. This experience not only enhanced my technical skills but also exposed me to the importance of innovation, collaboration, and strategic thinking in driving business success through technology. I am grateful for the opportunity to apply classroom knowledge to real-world challenges and for the mentorship received during my internship at Citiglobal Company."
     }
   }
 ]
@@ -317,45 +309,109 @@ export const Services = [
   {
     id: 1,
     title: "Web Design",
+    text: "I offer professional web design services tailored to your needs. Whether you need a stunning landing page or a full-fledged website, I ensure a user-friendly and visually appealing design.",
     tools: [
       {
         id: 1,
-        img: "",
-        name: ""
+        img: "web_design_tool_image.jpg",
+        name: "Adobe XD"
+      },
+      {
+        id: 2,
+        img: "web_design_tool_image.jpg",
+        name: "Sketch"
+      },
+      {
+        id: 3,
+        img: "web_design_tool_image.jpg",
+        name: "Figma"
       }
     ]
   },
   {
     id: 2,
     title: "Front-End Development",
+    text: "I specialize in front-end development, bringing your designs to life with clean, responsive, and interactive interfaces. From HTML and CSS to JavaScript frameworks like React and Vue.js, I ensure seamless user experiences across devices.",
     tools: [
       {
         id: 1,
-        img: "",
-        name: ""
-      }
+        img: "frontend_dev_tool_image.jpg",
+        name: "HTML"
+      },
+      {
+        id: 2,
+        img: "frontend_dev_tool_image.jpg",
+        name: "CSS"
+      },
+      {
+        id: 3,
+        img: "frontend_dev_tool_image.jpg",
+        name: "JavaScript"
+      },
+      {
+        id: 4,
+        img: "frontend_dev_tool_image.jpg",
+        name: "React"
+      },
+      {
+        id: 5,
+        img: "frontend_dev_tool_image.jpg",
+        name: "TypeScript"
+      },
     ]
   },
-   {
+  {
     id: 3,
     title: "API Development",
+    text: "I specialize in developing robust and scalable APIs to power your web applications and mobile apps. Using technologies like Node.js and Express.js, I create secure and efficient APIs that enable seamless communication between client and server.",
     tools: [
       {
         id: 1,
-        img: "",
-        name: ""
-      }
+        img: "api_dev_tool_image.jpg",
+        name: "Node.js"
+      },
+      {
+        id: 2,
+        img: "api_dev_tool_image.jpg",
+        name: "Express.js"
+      },
+      {
+        id: 3,
+        img: "api_dev_tool_image.jpg",
+        name: "Swagger"
+      },
+      {
+        id: 4,
+        img: "api_dev_tool_image.jpg",
+        name: "Postman"
+      },
+        {
+        id: 5,
+        img: "frontend_dev_tool_image.jpg",
+        name: "TypeScript"
+      },
     ]
   },
   {
     id: 4,
     title: "Database Modeling",
+    text: "I specialize in designing scalable and efficient NoSQL database architectures tailored to your application needs. From document-oriented databases like MongoDB to key-value stores like Redis, I ensure optimal data modeling for high-performance and flexible data storage.",
     tools: [
       {
-        id: 1,
-        img: "",
-        name: ""
+          id: 1,
+        img: "nosql_database_tool_image.jpg",
+        name: "MongoDB"
+      },
+      {
+        id: 2,
+        img: "nosql_database_tool_image.jpg",
+        name: "Redis"
+      },
+      {
+        id: 4,
+        img: "database_modeling_tool_image.jpg",
+        name: "Lucidchart"
       }
     ]
   }
-]
+];
