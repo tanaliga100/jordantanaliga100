@@ -7,9 +7,10 @@ import About from "../components/About";
 import Certificates from "../components/Certificates";
 import Contact from "../components/Contact";
 import Main from "../components/Main";
-import Projects from "../components/Projects";
 import TechStack from "../components/TechStack";
 // NEXT IMPORTS
+import Education from "../components/Education";
+import Services from "../components/Services";
 import TopUp from "../components/TopUp";
 
 type Props = {
@@ -22,10 +23,11 @@ const Home: NextPage<Props> = ({ children }) => {
         <Main />
         <About />
         {/* <Education/> */}
-        <Projects />
+        {/* <Projects /> */}
         <TechStack />
+        <Education />
         <Certificates />
-        {/* <Services/> */}
+        <Services />
         <Contact />
         <TopUp />
       </div>

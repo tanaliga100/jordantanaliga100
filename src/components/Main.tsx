@@ -9,7 +9,7 @@ const Main = (props: Props) => {
       className="w-full h-[80vh] md:h-full text-center items-center md:mb-12
         bg-no-repeat  contrast-100 bg-fixed"
     >
-      <div className=" w-full h-screen m-auto  flex justify-center items-center md:pt-32">
+      <div className=" w-full h-screen m-auto  flex justify-center items-center pt-20 md:pt-32">
         <div className="text-center items-center w-full  contrast-100 ">
           <div className=" hover:border-b-gray-800">
             <p className="uppercase text-2xl  text-center grayscale tracking-widest  pt-6 md:pb-10">
@@ -21,7 +21,7 @@ const Main = (props: Props) => {
               I'm Jordan
             </span>
             <h1 className=" text-sm  pt-4 md:text-5xl tracking-widest">
-              A Full Stack Web Developer
+              A Full Stack Web Developer w/ 3+ years of experience.
             </h1>
             <p className=" p-5 md:px-40 text-md md:text-2xl  tracking-widest contrast-0 text-white/90 ">
               ...based in the Philippines. I started to learn coding by myself.

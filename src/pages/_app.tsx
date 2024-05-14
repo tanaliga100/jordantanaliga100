@@ -6,12 +6,13 @@ import Layout from "../Layout/Layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-   
-    <div className="bg-center 
+    <div
+      className="bg-center 
     bg-cover bg-gradient-to-tl from-slate-900 via-20% via-gray-900 via-80% to-black to-90% 
-    w-full h-full">
+    w-full h-full"
+    >
       <Layout>
-        <Component {...pageProps} />     
+        <Component {...pageProps} />
       </Layout>
     </div>
   );

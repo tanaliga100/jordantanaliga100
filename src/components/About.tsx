@@ -4,21 +4,21 @@ import img from "/public/assets/img/profile-modified.png";
 
 type Props = {};
 const About = (props: Props) => {
-  const timeLine = TimeLineData.map((val: any) => {
-    return (
-      <div className="shadow-lg py-5" key={val.id}>
-        <p className="text-xs md:text-2xl font-bold">{val.year}</p>
-        <p className="text-sm md:text-xl  py-4 text-white/50 tracking-widest">
-          {val.text}
-        </p>
-      </div>
-    );
-  });
+  // const timeLine = TimeLineData.map((val: any) => {
+  //   return (
+  //     <div className="shadow-lg py-5" key={val.id}>
+  //       <p className="text-xs md:text-2xl font-bold">{val.year}</p>
+  //       <p className="text-sm md:text-xl  py-4 text-white/50 tracking-widest">
+  //         {val.text}
+  //       </p>
+  //     </div>
+  //   );
+  // });
 
   return (
     <div
       id="about"
-      className="w-full h-full pt-20 px-5 md:px-40  flex items-center  bg-cover bg-left-top  bg-fixed bg-no-repeat
+      className="w-full h-full pt-28 px-5 md:px-40  flex items-center  bg-cover bg-left-top  bg-fixed bg-no-repeat
       
       "
     >
@@ -33,7 +33,8 @@ const About = (props: Props) => {
               className="contrast-150 m-auto "
             />
           </div>
-          {timeLine}
+          {/* {timeLine} */}
+          <Timeline />
           {/* {TimeLineData?.map((val: any) => {
             return (
               <div className="font-thin" key={val.text}>
@@ -51,3 +52,20 @@ const About = (props: Props) => {
 };
 
 export default About;
+
+export const Timeline = () => {
+  const timeLine = TimeLineData.map((val: any) => {
+    return (
+      <div className="shadow-lg py-5" key={val.id}>
+        <p className="text-xs md:text-2xl font-bold uppercase tracking-widest">
+          {val.year}
+        </p>
+        <p className="text-sm md:text-xl  py-4 text-white/50 tracking-widest">
+          {val.text}
+        </p>
+      </div>
+    );
+  });
+
+  return <>{timeLine}</>;
+};

@@ -9,30 +9,22 @@ type Props = {
 };
 
 const Layout: React.FC<Props> = ({ children }) => {
-  const router = useRouter()
-  useEffect(() => { 
+  const router = useRouter();
+  useEffect(() => {
     if (router.asPath === "/prohibited") {
-      setVisible(false)
+      setVisible(false);
     }
+  }, [router]);
 
-  }, [router])
-
-
-  const [visible, setVisible] = useState<boolean>(true)
-   
+  const [visible, setVisible] = useState<boolean>(true);
 
   function handleCloseModal() {
-      setVisible(false)
+    setVisible(false);
   }
- 
-  
- 
 
   return (
     <main className="">
-      {visible && 
-        <OnboardingModal closeModal={handleCloseModal}  />
-      }
+      {visible && <OnboardingModal closeModal={handleCloseModal} />}
       <Navbar />
       <Header />
       {children}

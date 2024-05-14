@@ -6,11 +6,11 @@ export const projects = [
     note: "THIS IS UNDER MAINTERNANCE AS BACKEND WORK IS ONGOING...",
     image: "/assets/mockups/store.png",
     tags: ["Express", "React", "Node", "Typescript"],
-      source: "prohibited",
+    source: "prohibited",
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/react-store/",
     visit: "https://lazamo.vercel.app/",
-    id: 1,
+    id: 1
   },
   {
     title: "Jobifyx",
@@ -23,7 +23,7 @@ export const projects = [
     visit: "/404.tsx",
     // source: "https://github.com/tanaliga100/jobsterApp",
     // visit: "https://jobster-9foc.onrender.com/landing",
-    id: 100,
+    id: 100
   },
   {
     title: "Jobster",
@@ -36,7 +36,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/jobsterApp",
     visit: "https://jobster-9foc.onrender.com/landing",
-    id: 2,
+    id: 2
   },
   //   {
   //     title: "blastAdmin",
@@ -61,9 +61,9 @@ export const projects = [
     tags: ["Express", "React", "MUI", "Typescript"],
     // source: "no-entry",
     // visit: "/pages/404.tsx",
-     source: "prohibited",
+    source: "prohibited",
     visit: "https://socio-live.vercel.app/",
-    id: 5,
+    id: 5
   },
 
   // {
@@ -125,7 +125,7 @@ export const projects = [
     // visit: "/pages/404.tsx",
     // source: "https://github.com/tanaliga100/react-quotes",
     visit: "https://react-quotes-blond.vercel.app/quotes",
-    id: 4,
+    id: 4
   },
   //   {
   //     title: "bookStorey",
@@ -139,28 +139,28 @@ export const projects = [
   //     visit: "https://book-storey.vercel.app/",
   //     id: 12,
   //   },
-    {
-      title: "Landing Page",
-      description:
-        "This is a code-along project so nothing special. What I personally gain about building this app is how to use webpack from scratch. We all know, most of the technologies out there are already running through webpack. Most of all javascript libraries/frameworks to name a few. So in conclusion this experimental app helps me to understand what webpack is and how it works under the hood",
-      image: "/assets/mockups/landing-page.png",
-      tags: ["Tailwind", "VanillaJS", "Webpack"],
-      source: "https://github.com/tanaliga100/tailwind-landing-page",
-      visit: "https://tailwind-landing-page-kappa.vercel.app/",
-      id: 11,
+  {
+    title: "Landing Page",
+    description:
+      "This is a code-along project so nothing special. What I personally gain about building this app is how to use webpack from scratch. We all know, most of the technologies out there are already running through webpack. Most of all javascript libraries/frameworks to name a few. So in conclusion this experimental app helps me to understand what webpack is and how it works under the hood",
+    image: "/assets/mockups/landing-page.png",
+    tags: ["Tailwind", "VanillaJS", "Webpack"],
+    source: "https://github.com/tanaliga100/tailwind-landing-page",
+    visit: "https://tailwind-landing-page-kappa.vercel.app/",
+    id: 11
   },
   {
-      title: "EveryDay-Note",
-      description:
-        "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
-      image: "/assets/mockups/note-taking-app.png",
-      tags: ["Vanilla JS", "Vanilla Css"],
-      source: "prohibited",
-      // visit: "/pages/404.tsx",
-      // source: "https://github.com/tanaliga100/note-taking-app",
-      visit: "https://note-taking-app-orcin.vercel.app/index.html",
-      id: 200,
-    },
+    title: "EveryDay-Note",
+    description:
+      "This app is a bit similar to a todo app I've built. So nothing special. What I've personally learn about building this app is code refactoring or code splitting.",
+    image: "/assets/mockups/note-taking-app.png",
+    tags: ["Vanilla JS", "Vanilla Css"],
+    source: "prohibited",
+    // visit: "/pages/404.tsx",
+    // source: "https://github.com/tanaliga100/note-taking-app",
+    visit: "https://note-taking-app-orcin.vercel.app/index.html",
+    id: 200
+  },
   {
     title: "DoAny App",
     description:
@@ -171,8 +171,8 @@ export const projects = [
     // visit: "404.tsx",
     // source: "https://github.com/tanaliga100/todo-app",
     visit: "https://todo-app-kohl-mu.vercel.app/",
-    id: 6,
-  },
+    id: 6
+  }
   //   {
   //     title: "Covid19 - Tracker",
   //     description:
@@ -207,7 +207,7 @@ export const projects = [
   //     visit: "https://react-task-tracker-rho.vercel.app/",
   //     id: 7,
   //   },
-   
+
   //   {
   //     title: "Hangman Game",
   //     description:
@@ -259,23 +259,28 @@ export const TimeLineData = [
   {
     id: 0,
     year: 2013,
-    text: "In 2013, Jordan began his journey as a CCE student at STI College-Munoz. He's so excited to learn everything about computers and technology, and over the next two years, he worked hard to gain a solid foundation in the field.",
+    text: "In 2013, Jordan began his journey as a CCE student at STI College-Munoz. He's so excited to learn everything about computers and technology, and over the next two years, he worked hard to gain a solid foundation in the field."
   },
   {
     id: 1,
     year: 2015,
-    text: "After completing a two-year course, Jordan decided to pursue a Bachelor of Science in Information Technology at the same school. The next few years he spent studying hard and learning all he could about technology and coding.  ",
+    text: "After completing a two-year course, Jordan decided to pursue a Bachelor of Science in Information Technology at the same school. The next few years he spent studying hard and learning all he could about technology and coding.  "
   },
   {
     id: 2,
     year: 2018,
-    text: "In 2018, Jordan decided to takes learning to the next level and started to learn coding by himself. Applied for online courses and ventured into the world of JavaScript. Jordan specialized React.js framework as a main stack and spent free time learning from open-source tutorials on the internet",
+    text: "In 2018, Jordan decided to takes learning to the next level and started to learn coding by himself. Applied for online courses and ventured into the world of JavaScript. Jordan specialized React.js framework as a main stack and spent free time learning from open-source tutorials on the internet"
   },
   {
     id: 3,
     year: 2021,
-    text: "Finally, in October 2021, Jordan graduated from college with a Bachelor of Science in Information Technology...",
+    text: "Finally, in October 2021, Jordan graduated from college with a Bachelor of Science in Information Technology and finally land my first job"
   },
+  {
+    id: 4,
+    year: "present",
+    text: "Has a full-time job and at the same time exploring and making a side-job through the leads of my collegues way back in college that is also passionately loves programming"
+  }
 ];
 
 export const EducationTimeline = [
@@ -283,27 +288,31 @@ export const EducationTimeline = [
     id: 1,
     title: "Higher Education",
     school: "STI-College Munoz-EDSA",
-    course: 'Consumer and Computer Electronics Program',
-    year: '2013-2015',
-    journey: "My journey in higher education at STI-College Munoz-EDSA was an enriching and transformative experience. From the moment I stepped onto campus, I was immersed in a dynamic learning environment that fostered both academic growth and personal development. The Consumer and Computer Electronics Program provided me with a comprehensive understanding of electronics and computer technology, covering topics ranging from circuit design to hardware implementations.",
+    course: "Consumer and Computer Electronics Program",
+    year: "2013-2015",
+    journey:
+      "My journey in higher education at STI-College Munoz-EDSA was an enriching and transformative experience. From the moment I stepped onto campus, I was immersed in a dynamic learning environment that fostered both academic growth and personal development. The Consumer and Computer Electronics Program provided me with a comprehensive understanding of electronics and computer technology, covering topics ranging from circuit design to hardware implementations.",
     internship: {
       company: "Audio Solutions",
-      testimonials: "During my internship at Audio Solutions, I had the opportunity to apply the theoretical knowledge gained from my coursework in a real-world setting. Under the guidance of experienced professionals, I worked on various projects involving audio equipment troubleshooting, repair, and installation. This hands-on experience not only honed my technical skills but also taught me the importance of teamwork, communication, and problem-solving in a professional environment. I am grateful for the valuable lessons learned and the mentorship received during my time at Audio Solutions."
+      testimonials:
+        "During my internship at Audio Solutions, I had the opportunity to apply the theoretical knowledge gained from my coursework in a real-world setting. Under the guidance of experienced professionals, I worked on various projects involving audio equipment troubleshooting, repair, and installation. This hands-on experience not only honed my technical skills but also taught me the importance of teamwork, communication, and problem-solving in a professional environment. I am grateful for the valuable lessons learned and the mentorship received during my time at Audio Solutions."
     }
   },
   {
     id: 2,
     title: "Higher Education",
     school: "STI-College Munoz-EDSA",
-    course: 'Bachelor of Science in Information Technology',
-    year: '2016-2021',
-    journey: "Embarking on my Bachelor of Science in Information Technology at STI-College Munoz-EDSA marked a pivotal moment in my academic and professional journey. Throughout the program, I delved into the multifaceted world of IT, immersing myself in subjects such as programming, database management, network administration, and cybersecurity. The rigorous coursework and hands-on projects challenged me to think critically, solve complex problems, and adapt to the rapidly evolving landscape of technology.",
+    course: "Bachelor of Science in Information Technology",
+    year: "2016-2021",
+    journey:
+      "Embarking on my Bachelor of Science in Information Technology at STI-College Munoz-EDSA marked a pivotal moment in my academic and professional journey. Throughout the program, I delved into the multifaceted world of IT, immersing myself in subjects such as programming, database management, network administration, and cybersecurity. The rigorous coursework and hands-on projects challenged me to think critically, solve complex problems, and adapt to the rapidly evolving landscape of technology.",
     internship: {
       company: "Citiglobal Company",
-      testimonials: "My internship experience at Citiglobal Company provided invaluable insights into the practical applications of information technology in a corporate setting. Working alongside seasoned IT professionals, I contributed to various projects involving system development, software implementation, and IT infrastructure management. This experience not only enhanced my technical skills but also exposed me to the importance of innovation, collaboration, and strategic thinking in driving business success through technology. I am grateful for the opportunity to apply classroom knowledge to real-world challenges and for the mentorship received during my internship at Citiglobal Company."
+      testimonials:
+        "My internship experience at Citiglobal Company provided invaluable insights into the practical applications of information technology in a corporate setting. Working alongside seasoned IT professionals, I contributed to various projects involving system development, software implementation, and IT infrastructure management. This experience not only enhanced my technical skills but also exposed me to the importance of innovation, collaboration, and strategic thinking in driving business success through technology. I am grateful for the opportunity to apply classroom knowledge to real-world challenges and for the mentorship received during my internship at Citiglobal Company."
     }
   }
-]
+];
 
 export const Services = [
   {
@@ -357,7 +366,7 @@ export const Services = [
         id: 5,
         img: "frontend_dev_tool_image.jpg",
         name: "TypeScript"
-      },
+      }
     ]
   },
   {
@@ -385,11 +394,16 @@ export const Services = [
         img: "api_dev_tool_image.jpg",
         name: "Postman"
       },
-        {
+      {
         id: 5,
         img: "frontend_dev_tool_image.jpg",
         name: "TypeScript"
       },
+      {
+        id: 6,
+        img: "frontend_dev_tool_image.jpg",
+        name: "NestJS"
+      }
     ]
   },
   {
@@ -398,19 +412,24 @@ export const Services = [
     text: "I specialize in designing scalable and efficient NoSQL database architectures tailored to your application needs. From document-oriented databases like MongoDB to key-value stores like Redis, I ensure optimal data modeling for high-performance and flexible data storage.",
     tools: [
       {
-          id: 1,
+        id: 1,
         img: "nosql_database_tool_image.jpg",
-        name: "MongoDB"
+        name: "Mongoose"
       },
       {
         id: 2,
         img: "nosql_database_tool_image.jpg",
-        name: "Redis"
+        name: "TypeORM"
       },
       {
         id: 4,
         img: "database_modeling_tool_image.jpg",
         name: "Lucidchart"
+      },
+      {
+        id: 5,
+        img: "nosql_database_tool_image.jpg",
+        name: "Prisma"
       }
     ]
   }
